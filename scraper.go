@@ -80,7 +80,14 @@ func getFigureData(figURL string) {
 			case "Role":
 				fig.Role = strings.ToUpper(strings.TrimSpace(stat[1]))
 			case "Released In":
-				fig.Release = strings.ToUpper(strings.TrimSpace(stat[1]))
+				releaseRaw := strings.ToUpper(strings.TrimSpace(stat[1]))
+				var releases []string
+				if strings.Contains(releaseRaw, ",") {
+					releases = strings.Split(releaseRaw, ", ")
+				} else {
+					releases = append(releases, releaseRaw)
+				}
+				fig.Release = releases
 				//case "Accessories"
 				//case "Additional Heads"
 			}
@@ -93,11 +100,16 @@ func getFigureData(figURL string) {
 
 //Resolve issues with data
 func zhuzh(s string) string {
-	//TODO: Need to remove or encode slashes "/"
+	var newStr string
+	//TODO: Need to remove or encode slashes "/", specifically for "N/A"
 	//TODO: Need to remove or change question marks "?" - Change to unknown?
 	//TODO: Releases are a mess. Commas separate when a figure was released more than once.
 	//TODO: Releases "Soul Spiller." Period before comment about other release
+	if strings.Contains(s, "Soul Spiller") {
+		newStr = "SOUL SPILLER"
+	}
 	//TODO: Same with "Wasteland"
+	return newStr
 }
 func main() {
 	getChecklist(CHECKLIST)
