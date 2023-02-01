@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>LegionsDex - online Mythic Legions database</title>
+  <link rel="stylesheet" href="/static/legionsdex.css" />
+  <script src="https://kit.fontawesome.com/dded2534a3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="menu">
+      <a class="active" href="/"><i class="fa-solid fa-dragon fa-flip-horizontal"></i> LegionsDex</a>
+      <div class="submenu">
+        <a href="/race/" class="submenu-item"><i class="fa-solid fa-user-group"></i> <span
+            class="submenu-title">RACE</span></a>
+      </div>
+      <div class="submenu">
+        <a href="/role/" class="submenu-item"><i class="fa-solid fa-crown"></i> <span
+            class="submenu-title">ROLE</span></a>
+      </div>
+      <div class="submenu">
+        <a href="/faction/" class="submenu-item"><i class="fa-solid fa-tent"></i> <span
+            class="submenu-title">FACTION</span></a>
+      </div>
+      <div class="submenu">
+        <a href="/release/" class="submenu-item"><i class="fa-solid fa-truck-arrow-right"></i> <span
+            class="submenu-title">RELEASE</span></a>
+      </div>
+      <!-- <div class="search-container">
+        <form action="/search" method="GET">
+          <input type="text" placeholder="Search..." name="search" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>-->
+    </div>
+  </header>
+  <main>
+    <div class="page-content">
+      <div class="page-content-title">
+        <div class="card">
+          <h4 class="card-title">TOTAL {{ .Type }}S: {{ .Total}}</h4>
+          <ul class="data-list">
+            {{range $key, $value := .SortedList}}
+            <li><a href="/{{ $.Type }}/{{ $value }}">{{ $value }}</a> <span class="badge">{{ index $.List $value
+                }}</span></li>
+            {{end}}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer">
+      <p><i class="fa-solid fa-dragon fa-flip-horizontal"></i> LegionsDex is a checklist/database for exploring the Mythic Legions
+        created by <a href="https://sourcehorsemen.com/">Four Horsemen Studios</a>.</p>
+      <p>Data has been scraped from the official source website, and this tool is meant for a fun way to explore the
+        realm of Mythoss.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

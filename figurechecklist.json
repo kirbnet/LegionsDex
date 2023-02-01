@@ -1,0 +1,1884 @@
+{
+    "figures": [
+        {
+            "name": "Adamonn",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "HUMAN",
+            "role": "CHAMPION",
+            "released": ["COLISEUM"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/adamonn"
+        },
+        {
+            "name": "Aethon",
+            "faction": "LEGION OF ARETHYR",
+            "race": "HORSE",
+            "role": "SMOLDERING STEED",
+            "released": ["ARETHYR"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/Aethon"
+        },
+        {
+            "name": "Alder",
+            "faction": "XYLONA'S FLOCK",
+            "race": "MOOSE",
+            "role": "STEED",
+            "released": ["ILLYTHIA"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/alder"
+        },
+        {
+            "name": "Aphareus",
+            "faction": "XYLONA'S FLOCK",
+            "race": "CENTAUR",
+            "role": "STABLE LORD",
+            "released": ["ILLYTHIA"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/aphareus"
+        },
+        {
+            "name": "Aracagorr",
+            "faction": "CONVOCATION OF BASSYLIA",
+            "race": "DRAGOSYR",
+            "role": "PALADIN",
+            "released": ["POXXUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/aracagorr"
+        },
+        {
+            "name": "Archaeopterix",
+            "faction": "ORDER OF EATHYRON",
+            "race": "AVIAN",
+            "role": "WARRIOR",
+            "released": ["EATHYRON'S DOZEN"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/archaeopterix"
+        },
+        {
+            "name": "Arethyr",
+            "faction": "LEGION OF ARETHYR",
+            "race": "UNKNOWN",
+            "role": "GOD",
+            "released": ["ARETHYR"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/arethyr-figure"
+        },
+        {
+            "name": "Argemedes",
+            "faction": "LEGION OF ARETHYR",
+            "race": "CYCLOPS",
+            "role": "CHIEF OVERSEER",
+            "released": ["WASTELAND"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/argemedes"
+        },
+        {
+            "name": "Arrizak",
+            "faction": "CIRCLE OF POXXUS",
+            "race": "HUMAN",
+            "role": "SORCERER",
+            "released": ["POXXUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/arrizak"
+        },
+        {
+            "name": "Artemyss Silverchord",
+            "faction": "XYLONA'S FLOCK",
+            "race": "FAERIE ELF",
+            "role": "WARRIOR QUEEN",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/artemyss-silverchord"
+        },
+        {
+            "name": "Artemyss Silverchord 2",
+            "faction": "XYLONA'S FLOCK",
+            "race": "FAERIE ELF",
+            "role": "PRINCESS",
+            "released": ["ILLYTHIA"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/artemyss-silverchord-2"
+        },
+        {
+            "name": "Asterionn",
+            "faction": "XYLONA'S FLOCK",
+            "race": "MINOTAUR",
+            "role": "PROTECTOR",
+            "released": ["MYTHIC LEGIONS 1.0","ALL STARS 1"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/asterionn"
+        },
+        {
+            "name": "Attila Leossyr",
+            "faction": "ARMY OF LEODYSSEUS",
+            "race": "HUMAN",
+            "role": "WARRIOR",
+            "released": ["MYTHIC LEGIONS 1.0","ALL STARS 2"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/attila-leossyr"
+        },
+        {
+            "name": "Attila Leossyr 2",
+            "faction": "ARMY OF LEODYSSEUS",
+            "race": "HUMAN",
+            "role": "WARRIOR",
+            "released": ["MYTHIC LEGIONS TACTICS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/attila-leossyr-2"
+        },
+        {
+            "name": "Attlus the Conqueror",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "HUMAN",
+            "role": "BARBARIAN KING",
+            "released": ["MYTHIC LEGIONS 1.0","ALL STARS 2"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/attlus"
+        },
+        {
+            "name": "Azahazzar",
+            "faction": "CIRCLE OF POXXUS",
+            "race": "DEMON",
+            "role": "KING",
+            "released": ["POXXUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/azahazzar"
+        },
+        {
+            "name": "Azhar",
+            "faction": "CIRCLE OF POXXUS",
+            "race": "DEMON",
+            "role": "SORCERER",
+            "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 5+"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/azhar"
+        },
+        {
+            "name": "Azza Spiritbender",
+            "faction": "CONVOCATION OF BASSYLIA",
+            "race": "UNKNOWN",
+            "role": "NECROMANCER",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/azza-spiritbender"
+        },
+        {
+            "name": "B’alam",
+            "faction": "CONVOCATION OF BASSYLIA",
+            "race": "JAGUALLIAN",
+            "role": "MAGE",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/balam"
+        },
+        {
+            "name": "Balius",
+            "faction": "ARMY OF LEODYSSEUS",
+            "race": "HORSE",
+            "role": "STEED",
+            "released": ["ARETHYR"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/balius"
+        },
+        {
+            "name": "Barbarian",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "HUMAN",
+            "role": "WARRIOR",
+            "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 1"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/barbarian"
+        },
+        {
+            "name": "Barbarian Warrior",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "HUMAN / HALF-ORC",
+            "role": "WARRIOR",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/barbarian-warrior"
+        },
+        {
+            "name": "Baron Volligar",
+            "faction": "ILLYTHIA'S BROOD",
+            "race": "VAMPIRE",
+            "role": "WARLORD",
+            "released": ["COVENANT OF SHADOWS", "ALL STARS 3"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/baron-volligar"
+        },
+        {
+            "name": "Baron Volligar 2",
+            "faction": "ILLYTHIA'S BROOD",
+            "race": "VAMPIRE",
+            "role": "WARLORD",
+            "released": ["ILLYTHIA"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/baron-volligar-2"
+        },
+        {
+            "name": "Belphegorr",
+            "faction": "LEGION OF ARETHYR",
+            "race": "DEMON",
+            "role": "DARK PRINCE",
+            "released": ["ARETHYR"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/belphegorr"
+        },
+        {
+            "name": "Belualyth",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "GHOUL",
+            "role": "BEASTMASTER",
+            "released": ["NECRONOMINUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/belualyth"
+        },
+        {
+            "name": "Bishop",
+            "faction": "ORDER OF EATHYRON",
+            "race": "HORSE",
+            "role": "STEED",
+            "released": ["NECRONOMINUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/bishop"
+        },
+        {
+            "name": "Black Knight",
+            "faction": "LEGION OF ARETHYR",
+            "race": "HUMAN",
+            "role": "GUARD",
+            "released": ["COLISEUM", "LEGION BUILDER REINFORCEMENTS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/black-knight"
+        },
+        {
+            "name": "Boarrior",
+            "faction": "LEGION OF ARETHYR",
+            "race": "BOARRIOR",
+            "role": "SOLDIER",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/boarrior"
+        },
+        {
+            "name": "Bog Goblin",
+            "faction": "LEGION OF ARETHYR",
+            "race": "GREATER GOBLIN",
+            "role": "ASSASSIN",
+            "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 2"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/bog-goblin"
+        },
+        {
+            "name": "Bolthor the Tower",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "HALF-GIANT",
+            "role": "HERO",
+            "released": ["SIEGE AT BJORNGAR"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/bolthor-the-tower"
+        },
+        {
+            "name": "Boreus",
+            "faction": "XYLONA'S FLOCK",
+            "race": "HORSE",
+            "role": "STEED",
+            "released": ["ALL STARS 5+"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/boreus"
+        },
+        {
+            "name": "Bothar Shadowhorn",
+            "faction": "LEGION OF ARETHYR",
+            "race": "DWARF",
+            "role": "FIGHTER",
+            "released": ["MYTHIC LEGIONS 1.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/bothar-shadowhorn"
+        },
+        {
+            "name": "Bromdenn Ironjaw",
+            "faction": "LEGION OF ARETHYR",
+            "race": "DWARF",
+            "role": "KING",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/king-bromdenn-ironjaw"
+        },
+        {
+            "name": "Brontus",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "TROLL",
+            "role": "FORMER GLADIATOR",
+            "released": ["COLISEUM"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/brontus"
+        },
+        {
+            "name": "Brontus 2",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "TROLL",
+            "role": "FORMER GLADIATOR",
+            "released": ["ALL STARS TROLLS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/brontus-2"
+        },
+        {
+            "name": "Bronze Dwarf",
+            "faction": "XYLONA'S FLOCK",
+            "race": "DWARF",
+            "role": "SOLDIER",
+            "released": ["MYTHIC LEGIONS 1.0", "LEGION BUILDER REINFORCEMENTS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/bronze-dwarf"
+        },
+        {
+            "name": "Brother Mandibulus",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "SKELETON",
+            "role": "WARLORD",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/brother-mandibulus"
+        },
+        {
+            "name": "Bryophytus",
+            "faction": "XYLONA'S FLOCK",
+            "race": "LICHEN ORC",
+            "role": "PROTECTOR",
+            "released": ["ALL-STARS 4"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/bryophytus"
+        },
+        {
+            "name": "Bubotros",
+            "faction": "ORDER OF EATHYRON",
+            "race": "AVIAN",
+            "role": "WARRIOR",
+            "released": ["EATHYRON'S DOZEN"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/bubotros"
+        },
+        {
+            "name": "Cador",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "HUMAN",
+            "role": "BARBARIAN KNIGHT",
+            "released": ["COVENANT OF SHADOWS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/cador"
+        },
+        {
+            "name": "Calavius",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "HUMAN",
+            "role": "GLADIATOR",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/calavius"
+        },
+        {
+            "name": "Carpathias",
+            "faction": "ILLYTHIA'S BROOD",
+            "race": "VAMPIRE",
+            "role": "SWORDSMAN",
+            "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 2"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/carpathias"
+        },
+        {
+            "name": "Cassia",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "HUMAN",
+            "role": "WARRIOR",
+            "released": ["WASTELAND"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/cassia"
+        },
+        {
+            "name": "Cavern Dwarf",
+            "faction": "LEGION OF ARETHYR",
+            "race": "DWARF",
+            "role": "SOLDIER",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/cavern-dwarf"
+        },
+        {
+            "name": "Clavian",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "SKELETON",
+            "role": "RAIDER",
+            "released": ["MYTHIC LEGIONS 1.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/clavian"
+        },
+        {
+            "name": "Coliseum Orc",
+            "faction": "LEGION OF ARETHYR",
+            "race": "ORC",
+            "role": "GLADIATOR",
+            "released": ["COLISEUM"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/coliseum-orc"
+        },
+        {
+            "name": "Colonel Domesticus",
+            "faction": "ORDER OF EATHYRON",
+            "race": "AVIAN",
+            "role": "WARRIOR",
+            "released": ["EATHYRON'S DOZEN"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/colonel-domesticus"
+        },
+        {
+            "name": "Conabus",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "UNDEAD HORSE",
+            "role": "STEED",
+            "released": ["NECRONOMINUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/conabus"
+        },
+        {
+            "name": "Cowarros",
+            "faction": "ARMY OF LEODYSSEUS",
+            "race": "JAGUALLIAN",
+            "role": "WARRIOR",
+            "released": ["SOUL SPILLER"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/cowarros"
+        },
+        {
+            "name": "Cyanicus",
+            "faction": "ORDER OF EATHYRON",
+            "race": "AVIAN",
+            "role": "WARRIOR",
+            "released": ["EATHYRON'S DOZEN"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/cyanicus"
+        },
+        {
+            "name": "Dark Forces Weapons",
+            "faction": "NA",
+            "race": "NA",
+            "role": "WEAPONS",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dark-forces-weapons"
+        },
+        {
+            "name": "Decebalus",
+            "faction": "ILLYTHIA'S BROOD",
+            "race": "VOGYRR",
+            "role": "BODYGUARD",
+            "released": ["ILLYTHIA"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/decebalus"
+        },
+        {
+            "name": "Delphina of Eathyross",
+            "faction": "ORDER OF EATHYRON",
+            "race": "HUMAN",
+            "role": "TEMPLAR KNIGHT",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/delphina-of-eathyross"
+        },
+        {
+            "name": "Deltigar the Destroyer",
+            "faction": "ARMY OF LEODYSSEUS",
+            "race": "HUMAN",
+            "role": "DEFENDER",
+            "released": ["ALL STARS 2.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/deltigar-the-destroyer"
+        },
+        {
+            "name": "Deluxe Barbarian LB",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "HUMAN",
+            "role": "WARRIOR",
+            "released": ["DELUXE LEGION BUILDERS 1"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-barb-lb"
+        },
+        {
+            "name": "Deluxe Dark Templar LB",
+            "faction": "SONS OF THE RED STAR",
+            "race": "VARIOUS",
+            "role": "SOLDIER",
+            "released": ["DELUXE LEGION BUILDERS 1"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-dark-templar-lb"
+        },
+        {
+            "name": "Deluxe Dwarf LB",
+            "faction": "ARMY OF LEODYSSEUS",
+            "race": "DWARF",
+            "role": "SOLDIER",
+            "released": ["DELUXE LEGION BUILDERS 1"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-dwarf-lb"
+        },
+        {
+            "name": "Deluxe Female Elf Builder",
+            "faction": "XYLONA'S FLOCK",
+            "race": "ELF",
+            "role": "TBD",
+            "released": ["MYTHIC LEGIONS TACTICS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/deluxe-female-elf-builder"
+        },
+        {
+            "name": "Deluxe Female Orc Builder",
+            "faction": "LEGION OF ARETHYR",
+            "race": "ORC",
+            "role": "TBD",
+            "released": ["MYTHIC LEGIONS TACTICS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/deluxe-female-orc-builder"
+        },
+        {
+            "name": "Deluxe Gladiator LB",
+            "faction": "ARMY OF LEODYSSEUS",
+            "race": "HUMAN",
+            "role": "GLADIATOR",
+            "released": ["DELUXE LEGION BUILDERS 1"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-glad-lb"
+        },
+        {
+            "name": "Deluxe Goblin LB",
+            "faction": "LEGION OF ARETHYR",
+            "race": "GOBLIN",
+            "role": "SOLDIER",
+            "released": ["DELUXE LEGION BUILDERS 1"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-gob-lb"
+        },
+        {
+            "name": "Deluxe Male Elf Builder",
+            "faction": "XYLONA'S FLOCK",
+            "race": "ELF",
+            "role": "TBD",
+            "released": ["MYTHIC LEGIONS TACTICS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/deluxe-male-elf-builder"
+        },
+        {
+            "name": "Deluxe Male Orc Builder",
+            "faction": "LEGION OF ARETHYR",
+            "race": "ORC",
+            "role": "TBD",
+            "released": ["MYTHIC LEGIONS TACTICS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/deluxe-male-orc-builder"
+        },
+        {
+            "name": "Deluxe Skeleton LB",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "SKELETON",
+            "role": "SOLDIER",
+            "released": ["DELUXE LEGION BUILDERS 1"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-skull-lb"
+        },
+        {
+            "name": "Demon Wings",
+            "faction": "NA",
+            "race": "NA",
+            "role": "NA",
+            "released": ["ARETHYR"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/demon-wings"
+        },
+        {
+            "name": "Dorina Onoris",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "HUMAN",
+            "role": "FOLK HERO",
+            "released": ["ALL STARS 3"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dorina-onoris"
+        },
+        {
+            "name": "Drayleeon",
+            "faction": "ORDER OF EATHYRON",
+            "race": "AVIAN",
+            "role": "WARRIOR",
+            "released": ["EATHYRON'S DOZEN"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/drayleeon"
+        },
+        {
+            "name": "Duban",
+            "faction": "XYLONA'S FLOCK",
+            "race": "HUMAN",
+            "role": "RANGER",
+            "released": ["ALL STARS 5+"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/duban"
+        },
+        {
+            "name": "Dwarf Weapons",
+            "faction": "NA",
+            "race": "NA",
+            "role": "WEAPONS",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dwarf-weapons"
+        },
+        {
+            "name": "Eagalus",
+            "faction": "NONE",
+            "race": "AVIAN",
+            "role": "PATRIOT",
+            "released": ["ALL STARS 2.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/eagalus"
+        },
+        {
+            "name": "Eathyron",
+            "faction": "ORDER OF EATHYRON",
+            "race": "EAGLE",
+            "role": "BATTLE GOD",
+            "released": ["EATHYRON'S DOZEN"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/eathyron"
+        },
+        {
+            "name": "Elf",
+            "faction": "XYLONA'S FLOCK",
+            "race": "ELF / WHISPERLING",
+            "role": "SOLDIER",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/elf"
+        },
+        {
+            "name": "Elf Ranger",
+            "faction": "XYLONA'S FLOCK",
+            "race": "ELF",
+            "role": "RANGER",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/elf-ranger"
+        },
+        {
+            "name": "Elf Weapons",
+            "faction": "NA",
+            "race": "NA",
+            "role": "WEAPONS",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/elf-weapons"
+        },
+        {
+            "name": "Equaddron",
+            "faction": "UNKNOWN",
+            "race": "UNKNOWN",
+            "role": "UNKNOWN",
+            "released": ["FOUR HORSEMEN 20TH ANNIVERSARY BUNDLE"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/equaddron"
+        },
+        {
+            "name": "Evil Weapons",
+            "faction": "NA",
+            "race": "NA",
+            "role": "WEAPONS",
+            "released": ["MYTHIC LEGIONS 1.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/evil-weapons"
+        },
+        {
+            "name": "Faunus",
+            "faction": "XYLONA'S FLOCK",
+            "race": "FOREST ELEMENTAL",
+            "role": "COMMANDER",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/faunus"
+        },
+        {
+            "name": "Faustia",
+            "faction": "ARMY OF LEODYSSEUS",
+            "race": "HUMAN",
+            "role": "CLERIC",
+            "released": ["SIEGE AT BJORNGAR"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/faustia"
+        },
+        {
+            "name": "Forest Troll",
+            "faction": "LEGION OF ARETHYR",
+            "race": "TROLL",
+            "role": "MONSTER",
+            "released": ["MYTHIC LEGION 1.5"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/forest-troll"
+        },
+        {
+            "name": "Forest Troll 2",
+            "faction": "LEGION OF ARETHYR",
+            "race": "TROLL",
+            "role": "MONSTER",
+            "released": ["ALL-STARS 4"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/forest-troll-2"
+        },
+        {
+            "name": "Freyja of Deadhall",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "VALKYRIE",
+            "role": "WARRIOR",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/freyja-of-deadhall"
+        },
+        {
+            "name": "Fury Clan Orc",
+            "faction": "LEGION OF ARETHYR",
+            "race": "ORC",
+            "role": "ASSASSIN",
+            "released": ["SOUL SPILLER"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/fury-clan-orc"
+        },
+        {
+            "name": "Gadriel",
+            "faction": "ORDER OF EATHYRON",
+            "race": "ANGEL",
+            "role": "WARRIOR",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gadriel"
+        },
+        {
+            "name": "Goblin",
+            "faction": "LEGION OF ARETHYR",
+            "race": "GOBLIN",
+            "role": "SOLDIER",
+            "released": ["ADVENT OF DECAY", "LEGION BUILDER REINFORCEMENTS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/goblin"
+        },
+        {
+            "name": "Gold Knight",
+            "faction": "ORDER OF EARTHYRON",
+            "race": "HUMAN",
+            "role": "KNIGHT",
+            "released": ["MYTHIC LEGIONS 1.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gold-knight"
+        },
+        {
+            "name": "Gold Skeleton",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "SKELETON",
+            "role": "SOLDIER",
+            "released": ["MYTHIC LEGIONS 1.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gold-skeleton"
+        },
+        {
+            "name": "Gonxx",
+            "faction": "LEGION OF ARETHYR",
+            "race": "GOBLIN",
+            "role": "COMMANDER",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gonxx"
+        },
+        {
+            "name": "Gorgo Aetherblade",
+            "faction": "LEGION OF ARETHYR",
+            "race": "UNKNOWN",
+            "role": "WARMONGER",
+            "released": ["MYTHIC LEGIONS 1.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gorgo-aetherblade"
+        },
+        {
+            "name": "Gorgo Aetherblade 2",
+            "faction": "LEGION OF ARETHYR",
+            "race": "UNKNOWN",
+            "role": "WARMONGER",
+            "released": ["MYTHIC LEGIONS TACTICS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gorgo-aetherblade-2"
+        },
+        {
+            "name": "Gorthokk",
+            "faction": "LEGION OF ARETHYR",
+            "race": "SHADOW ORC",
+            "role": "STRATEGIST",
+            "released": ["COVENANT OF SHADOWS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gorthokk"
+        },
+        {
+            "name": "Gryshaa the Slytherer",
+            "faction": "SONS OF THE RED STAR",
+            "race": "UNKNOWN",
+            "role": "ASSASSIN",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gryshaa-the-slytherer"
+        },
+        {
+            "name": "Gwendolynne Heavensbrand",
+            "faction": "ORDER OF EATHYRON",
+            "race": "HUMAN",
+            "role": "PALADIN",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gwendolynne-heavensbrand"
+        },
+        {
+            "name": "Hadriana",
+            "faction": "ARMY OF LEODYSSEUS",
+            "race": "HUMAN",
+            "role": "LEADER OF RED SHIELD",
+            "released": ["ARETHYR"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/hadriana"
+        },
+        {
+            "name": "Hagnon",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "GHOST",
+            "role": "FIGHTER",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/hagnon"
+        },
+        {
+            "name": "Half-Giant LB",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "HALF-GIANT",
+            "role": "WARRIOR",
+            "released": ["DELUXE LEGION BUILDERS 1"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-half-giant"
+        },
+        {
+            "name": "Halmyr Goldentooth",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "DWARF",
+            "role": "WARRIOR, FORMER GLADIATOR",
+            "released": ["COLISEUM"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/halmyr-goldentooth"
+        },
+        {
+            "name": "Hands and Feet",
+            "faction": "NA",
+            "race": "ORC AND HUMAN",
+            "role": "NA",
+            "released": ["ARETHYR"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/hands-and-feet"
+        },
+        {
+            "name": "Hands and Feet 2",
+            "faction": "NA",
+            "race": "NA",
+            "role": "NA",
+            "released": ["ILLYTHIA"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/leather-hands-and-feet"
+        },
+        {
+            "name": "Hands Pack",
+            "faction": "NA",
+            "race": "NA",
+            "role": "HANDS",
+            "released": ["POXXUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/hands-pack"
+        },
+        {
+            "name": "Heads Pack 1",
+            "faction": "VARIOUS",
+            "race": "VARIOUS",
+            "role": "VARIOUS",
+            "released": ["ALL STARS TROLLS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/heads-pack-1"
+        },
+        {
+            "name": "Helphyre Goblin",
+            "faction": "LEGION OF ARETHYR",
+            "race": "GOBLIN",
+            "role": "SOLDIER",
+            "released": ["ARETHYR"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/helphyre-goblin"
+        },
+        {
+            "name": "Heroic Weapons",
+            "faction": "NA",
+            "race": "NA",
+            "role": "WEAPONS",
+            "released": ["MYTHIC LEGIONS 1.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/heroic-weapons"
+        },
+        {
+            "name": "Herra Serpenspire",
+            "faction": "CONVOCATION OF BASSYLIA",
+            "race": "HUMAN",
+            "role": "SORCERESS",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/herra-serpenspire"
+        },
+        {
+            "name": "Ice Troll",
+            "faction": "NONE",
+            "race": "TROLL",
+            "role": "MONSTER",
+            "released": ["SOUL SPILLER"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/ice-troll"
+        },
+        {
+            "name": "Ice Troll 2",
+            "faction": "NONE",
+            "race": "TROLL",
+            "role": "MONSTER",
+            "released": ["ALL STARS TROLLS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/ice-troll-2"
+        },
+        {
+            "name": "Ilgarr",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "SKELETON",
+            "role": "VIKING",
+            "released": ["MYTHIC LEGIONS 1.5", "ALL STARS 5+"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/ilgarr"
+        },
+        {
+            "name": "Illythia",
+            "faction": "ILLYTHIA'S BROOD",
+            "race": "VAMPIRE",
+            "role": "GODDESS",
+            "released": ["ILLYTHIA"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/illythia"
+        },
+        {
+            "name": "Iron Knight",
+            "faction": "ARMY OF LEODYSSEUS",
+            "race": "HUMAN",
+            "role": "KNIGHT",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/iron-knight"
+        },
+        {
+            "name": "Jjuno the Crusher",
+            "faction": "LEGION OF ARETHYR",
+            "race": "HUMAN",
+            "role": "BARBARIAN",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/jjuno-the-crusher"
+        },
+        {
+            "name": "Jorund Runeshaper",
+            "faction": "CONVOCATION OF BASSYLIA",
+            "race": "DWARF",
+            "role": "MAGE",
+            "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 2"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/jorund-runeshaper"
+        },
+        {
+            "name": "Kalizirr",
+            "faction": "CIRCLE OF POXXUS",
+            "race": "DJINN",
+            "role": "AEROMANCER",
+            "released": ["POXXUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/kalizirr"
+        },
+        {
+            "name": "Keltuss",
+            "faction": "SONS OF THE RED STAR",
+            "race": "SKELETON",
+            "role": "MAGE",
+            "released": ["COLISEUM"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/keltuss"
+        },
+        {
+            "name": "King No’glin",
+            "faction": "LEGION OF ARETHYR",
+            "race": "GOBLIN",
+            "role": "KING",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/king-noglin"
+        },
+        {
+            "name": "Kkurzog",
+            "faction": "LEGION OF ARETHYR",
+            "race": "OGRE",
+            "role": "INTERPRETER AND GENERAL",
+            "released": ["SIEGE AT BJORNGAR"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/kkurzog"
+        },
+        {
+            "name": "Knight",
+            "faction": "ORDER OF EATHYRON",
+            "race": "HUMAN",
+            "role": "KNIGHT",
+            "released": ["COVENANT OF SHADOWS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/knight"
+        },
+        {
+            "name": "Knight Builder",
+            "faction": "ARMY OF LEODYSSEUS",
+            "race": "HUMAN",
+            "role": "KNIGHT",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/knight-builder2"
+        },
+        {
+            "name": "Knight Weapons",
+            "faction": "NA",
+            "race": "NA",
+            "role": "WEAPONS",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/knight-weapons"
+        },
+        {
+            "name": "Knights of Eathyron Hands Pack",
+            "faction": "NA",
+            "race": "NA",
+            "role": "HANDS",
+            "released": ["NECRONOMINUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/knights-of-eathyron-hands-pack"
+        },
+        {
+            "name": "Knights of Eathyron Weapons Pack",
+            "faction": "ORDER OF EATHYRON",
+            "race": "NA",
+            "role": "WEAPONS",
+            "released": ["NECRONOMINUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/knights-of-eathyron-weapons-pack"
+        },
+        {
+            "name": "Knubnik",
+            "faction": "LEGION OF ARETHYR",
+            "race": "GOBLIN",
+            "role": "ASSASSIN",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/knubnik"
+        },
+        {
+            "name": "Kronnaw",
+            "faction": "LEGION OF ARETHYR",
+            "race": "UNKNOWN",
+            "role": "DESTROYER",
+            "released": ["WASTELAND"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/kronnaw"
+        },
+        {
+            "name": "Krotos",
+            "faction": "XYLONA'S FLOCK",
+            "race": "SATYR",
+            "role": "HEALER",
+            "released": ["ILLYTHIA"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/krotos"
+        },
+        {
+            "name": "Lady Avarona",
+            "faction": "LEGION OF ARETHYR",
+            "race": "HUMAN",
+            "role": "EVIL KNIGHT",
+            "released": ["ALL STARS 5+"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/lady-avarona"
+        },
+        {
+            "name": "Lord Aydon",
+            "faction": "XYLONA'S FLOCK",
+            "race": "WOOD ELF",
+            "role": "ADVISOR",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/lord-aydon"
+        },
+        {
+            "name": "Lord Bardric",
+            "faction": "XYLONA'S FLOCK",
+            "race": "ELF",
+            "role": "LORD",
+            "released": ["ILLYTHIA"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/lord-bardric"
+        },
+        {
+            "name": "Lord Bushotee the Alpha",
+            "faction": "LEGION OF ARETHYR",
+            "race": "MAN",
+            "role": "LORD AND COMMANDER OF THE FURIOUS FOUR",
+            "released": ["LEGIONSCON 2022"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/lord-bushotee-the-alpha"
+        },
+        {
+            "name": "Lord Draguul",
+            "faction": "ILLYTHIA'S BROOD",
+            "race": "VAMPIRE",
+            "role": "WAR HERO",
+            "released": ["ALL STARS 3"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/lord-draguul"
+        },
+        {
+            "name": "Lord Veteris",
+            "faction": "SONS OF THE RED STAR",
+            "race": "HUMAN",
+            "role": "MERCENARY",
+            "released": ["SOUL SPILLER"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/lord-veteris"
+        },
+        {
+            "name": "Lucretia",
+            "faction": "ILLYTHIA'S BROOD",
+            "race": "VAMPIRE",
+            "role": "WARLORD",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/lucretia"
+        },
+        {
+            "name": "Magic Effects - Evil",
+            "faction": "NA",
+            "race": "NA",
+            "role": "MAGIC!",
+            "released": ["POXXUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/magic-effects-evil"
+        },
+        {
+            "name": "Magic Effects - Heroic",
+            "faction": "NA",
+            "race": "NA",
+            "role": "MAGIC!",
+            "released": ["POXXUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/magic-effects-heroic"
+        },
+        {
+            "name": "Magnus",
+            "faction": "ARMY OF LEODYSSEUS",
+            "race": "HUMAN",
+            "role": "ADVISOR",
+            "released": ["ARETHYR"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/magnus"
+        },
+        {
+            "name": "Malachi Cinderhorn",
+            "faction": "CIRCLE OF POXXUS",
+            "race": "SHADOW ELF",
+            "role": "KING",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/malachi-cinderhorn"
+        },
+        {
+            "name": "Malephar",
+            "faction": "LEGION OF ARETHYR",
+            "race": "LESSER DEMON",
+            "role": "COMMANDER",
+            "released": ["ARETHYR"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/malephar"
+        },
+        {
+            "name": "Mallatard the Duck",
+            "faction": "ORDER OF EATHYRON",
+            "race": "AVIAN",
+            "role": "WARRIOR",
+            "released": ["EATHYRON'S DOZEN"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/mallatard-the-duck"
+        },
+        {
+            "name": "Malleus",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "SKELETON",
+            "role": "EMISSARY OF NECRONOMINUS",
+            "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 3"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/malleus"
+        },
+        {
+            "name": "Malynna",
+            "faction": "CIRCLE OF POXXUS",
+            "race": "UUBYR",
+            "role": "TEMPTRESS",
+            "released": ["SOUL SPILLER"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/malynna"
+        },
+        {
+            "name": "Maxillius the Harvester",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "UNKNOWN",
+            "role": "HERALD",
+            "released": ["NECRONOMINUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/maxillius-the-harvester"
+        },
+        {
+            "name": "Mephitor",
+            "faction": "SONS OF THE RED STAR",
+            "race": "SWALE GOBLIN",
+            "role": "SPY",
+            "released": ["ALL-STARS 4"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/mephitor"
+        },
+        {
+            "name": "Morgolyth",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "SKELETON",
+            "role": "HIGH PRIESTESS",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/morgolyth"
+        },
+        {
+            "name": "Myria Goldenbranch",
+            "faction": "XYLONA'S FLOCK",
+            "race": "WHISPERLING",
+            "role": "DEFENDER",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/myria-goldenbranch"
+        },
+        {
+            "name": "Necronominus",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "SKELETON",
+            "role": "GOD",
+            "released": ["NECRONOMINUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/necronominus"
+        },
+        {
+            "name": "Ogre",
+            "faction": "LEGION OF ARETHYR",
+            "race": "OGRE",
+            "role": "SOLDIER",
+            "released": ["SIEGE AT BJORNGAR"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/ogre"
+        },
+        {
+            "name": "Ogre-Scale Accessory Pack",
+            "faction": "NA",
+            "race": "NA",
+            "role": "ACCESSORIES",
+            "released": ["DELUXE LEGION BUILDERS 1"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/lb-1-8"
+        },
+        {
+            "name": "Okeaetos",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "ARAKKIGHAST",
+            "role": "ASSASSIN",
+            "released": ["ALL STARS 5+"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/okeaetos"
+        },
+        {
+            "name": "Orc",
+            "faction": "LEGION OF ARETHYR",
+            "race": "ORC",
+            "role": "SOLDIER",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/orc"
+        },
+        {
+            "name": "Orc Legion Builder",
+            "faction": "LEGION OF ARETHYR",
+            "race": "ORC",
+            "role": "SOLDIER",
+            "released": ["MYTHIC LEGIONS 1.0", "LEGION BUILDER REINFORCEMENTS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/orc-legion-builder"
+        },
+        {
+            "name": "Orn Steelhide",
+            "faction": "XYLONA'S FLOCK",
+            "race": "DWARF",
+            "role": "SOLDIER",
+            "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 1"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/orn-steelhide"
+        },
+        {
+            "name": "Osperus",
+            "faction": "ORDER OF EATHYRON",
+            "race": "AVIAN",
+            "role": "WARRIOR",
+            "released": ["EATHYRON'S DOZEN"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/osperus"
+        },
+        {
+            "name": "Otho",
+            "faction": "ARMY OF LEODYSSEUS",
+            "race": "HUMAN",
+            "role": "WARRIOR",
+            "released": ["MYTHIC LEGIONS 1.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/otho"
+        },
+        {
+            "name": "Pelecus",
+            "faction": "ORDER OF EATHYRON",
+            "race": "AVIAN",
+            "role": "WARRIOR",
+            "released": ["EATHYRON'S DOZEN"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/pelecus"
+        },
+        {
+            "name": "Pelvicus",
+            "faction": "LEGION OF ARETHYR",
+            "race": "SKELETON",
+            "role": "UNKNOWN",
+            "released": ["LEGIONSCON 2022"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/pelvicus"
+        },
+        {
+            "name": "Peteorionn",
+            "faction": "LEGION OF ARETHYR",
+            "race": "MINOTAUR",
+            "role": "ENFORCER",
+            "released": ["LEGIONSCON 2022"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/peteorionn"
+        },
+        {
+            "name": "Phlogeus",
+            "faction": "CIRCLE OF POXXUS",
+            "race": "HORSE",
+            "role": "STEED",
+            "released": ["POXXUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/phlogeus"
+        },
+        {
+            "name": "Phobus",
+            "faction": "ILLYTHIA'S BROOD",
+            "race": "HORSE",
+            "role": "STEED",
+            "released": ["ILLYTHIA"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/phobus"
+        },
+        {
+            "name": "Phoenicus",
+            "faction": "ORDER OF EATHYRON",
+            "race": "AVIAN",
+            "role": "WARRIOR",
+            "released": ["EATHYRON'S DOZEN"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/phoenicus"
+        },
+        {
+            "name": "Pixxus",
+            "faction": "SONS OF THE RED STAR",
+            "race": "SKELETON",
+            "role": "SOLDIER",
+            "released": ["MYTHIC LEGIONS 1.5", "ALL STARS 2"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/pixxus"
+        },
+        {
+            "name": "Poxxus",
+            "faction": "CIRCLE OF POXXUS",
+            "race": "LICH",
+            "role": "GOD",
+            "released": ["POXXUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/poxxus"
+        },
+        {
+            "name": "Purrrplor",
+            "faction": "LEGION OF ARETHYR",
+            "race": "JAGUALLIAN",
+            "role": "SWORDSMAN",
+            "released": ["WASTELAND"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/purrrplor"
+        },
+        {
+            "name": "Queen Urkzaa",
+            "faction": "LEGION OF ARETHYR",
+            "race": "ORC",
+            "role": "QUEEN",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/queen-urkzaa"
+        },
+        {
+            "name": "Ragna Stormforger",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "DWARF",
+            "role": "SOLDIER",
+            "released": ["SOUL SPILLER"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/ragna-stormforger"
+        },
+        {
+            "name": "Rahmulus",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "HUMAN",
+            "role": "WARRIOR, FORMER GLADIATOR",
+            "released": ["COLISEUM", "ALL STARS 5+"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/rahmulus"
+        },
+        {
+            "name": "Ravaena",
+            "faction": "CONVOCATION OF BASSYLIA",
+            "race": "HUMAN",
+            "role": "RELIC HUNTER",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/ravaena"
+        },
+        {
+            "name": "Raygorr",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "HUMAN",
+            "role": "WARRIOR, FORMER GLADIATOR",
+            "released": ["COLISEUM"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/raygorr"
+        },
+        {
+            "name": "Red Shield Soldier",
+            "faction": "ARMY OF LEODYSSEUS",
+            "race": "HUMAN",
+            "role": "SOLDIER",
+            "released": ["ARETHYR"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/red-shield-soldier"
+        },
+        {
+            "name": "Samir Scrollwarder",
+            "faction": "CONVOCATION OF BASSYLIA",
+            "race": "HUMAN",
+            "role": "WIZARD",
+            "released": ["POXXUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/samir-scrollwarder"
+        },
+        {
+            "name": "Scaphoid",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "POISON SKELETON",
+            "role": "MAGIC USER",
+            "released": ["COVENANT OF SHADOWS", "ALL-STARS 4"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/scaphoid"
+        },
+        {
+            "name": "Scarletross",
+            "faction": "ORDER OF EATHYRON",
+            "race": "AVIAN",
+            "role": "WARRIOR",
+            "released": ["EATHYRON'S DOZEN"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/scarletross"
+        },
+        {
+            "name": "Shadow Elf",
+            "faction": "CIRCLE OF POXXUS",
+            "race": "SHADOW ELF",
+            "role": "WARRIOR",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/shadow-elf"
+        },
+        {
+            "name": "Shadow Elf Ranger",
+            "faction": "CIRCLE OF POXXUS",
+            "race": "SHADOW ELF",
+            "role": "RANGER",
+            "released": ["SOUL SPILLER"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/shadow-elf-ranger"
+        },
+        {
+            "name": "Shadow Equaddron",
+            "faction": "UNKNOWN",
+            "race": "UNKNOWN",
+            "role": "UNKNOWN",
+            "released": ["RELEASED AS A SINGLE FIGURE"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/shadow-equaddron"
+        },
+        {
+            "name": "Silver Dwarf",
+            "faction": "XYLONA'S FLOCK",
+            "race": "DWARF",
+            "role": "SOLDIER",
+            "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 2"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/silver-dwarf"
+        },
+        {
+            "name": "Silver Knight",
+            "faction": "ORDER OF EATHYRON",
+            "race": "HUMAN",
+            "role": "KNIGHT",
+            "released": ["MYTHIC LEGIONS 1.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/silver-knight-legion-builder"
+        },
+        {
+            "name": "Silverhorn Sentry",
+            "faction": "XYLONA'S FLOCK",
+            "race": "FAUN",
+            "role": "GUARD",
+            "released": ["COVENANT OF SHADOWS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/silverhorn-sentry"
+        },
+        {
+            "name": "Sir Adalric",
+            "faction": "ORDER OF EATHYRON",
+            "race": "HUMAN",
+            "role": "CHAMPION",
+            "released": ["NECRONOMINUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-adalric"
+        },
+        {
+            "name": "Sir Elijah",
+            "faction": "ORDER OF EATHYRON",
+            "race": "HUMAN",
+            "role": "MESSENGER",
+            "released": ["NECRONOMINUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-elijah"
+        },
+        {
+            "name": "Sir Galeron",
+            "faction": "ORDER OF EATHYRON",
+            "race": "HUMAN",
+            "role": "WARRIOR",
+            "released": ["MYTHIC LEGIONS 1.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-galeron"
+        },
+        {
+            "name": "Sir Gideon Heavensbrand",
+            "faction": "ORDER OF EATHYRON",
+            "race": "HUMAN",
+            "role": "CRUSADER",
+            "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 1"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gideon"
+        },
+        {
+            "name": "Sir Gideon Heavensbrand 2",
+            "faction": "ORDER OF EATHYRON",
+            "race": "HUMAN",
+            "role": "CRUSADER",
+            "released": ["NECRONOMINUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-gideon-heavensbrand-2"
+        },
+        {
+            "name": "Sir Girard",
+            "faction": "SONS OF THE RED STAR",
+            "race": "CHANGELING",
+            "role": "COMMANDER OF THE DARK TEMPLARS",
+            "released": ["LEGIONSCON 2021"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-girard"
+        },
+        {
+            "name": "Sir Godfrey",
+            "faction": "ORDER OF EATHYRON",
+            "race": "HUMAN",
+            "role": "TEMPLAR KNIGHT",
+            "released": ["MYTHIC LEGIONS 1.5"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-godfrey"
+        },
+        {
+            "name": "Sir Ignatius",
+            "faction": "ORDER OF EATHYRON",
+            "race": "HUMAN",
+            "role": "KNIGHT",
+            "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 1"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-ignatius"
+        },
+        {
+            "name": "Sir Owain",
+            "faction": "ORDER OF EATHYRON",
+            "race": "HUMAN",
+            "role": "KNIGHT",
+            "released": ["MYTHIC LEGIONS 1.0", "ALL-STARS 4"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-owain"
+        },
+        {
+            "name": "Sir Ucczajk",
+            "faction": "ORDER OF EATHYRON",
+            "race": "OGRE",
+            "role": "PALADIN",
+            "released": ["NECRONOMINUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-ucczajk"
+        },
+        {
+            "name": "Sir Valgard",
+            "faction": "ORDER OF EATHYRON",
+            "race": "DWARF",
+            "role": "KNIGHT",
+            "released": ["MYTHIC LEGIONS 1.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-valgard"
+        },
+        {
+            "name": "Skapular the Cryptbreaker",
+            "faction": "SONS OF THE RED STAR",
+            "race": "SKELETON",
+            "role": "MERCENARY",
+            "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 1"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/skapular"
+        },
+        {
+            "name": "Skeleton",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "SKELETON",
+            "role": "SOLDIER",
+            "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 2", "LEGION BUILDER REINFORCEMENTS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/skeleton"
+        },
+        {
+            "name": "Skeleton Soldier",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "SKELETON",
+            "role": "SOLDIER",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/skeleton-soldier"
+        },
+        {
+            "name": "Skeletons Hands \u0026 Feet Pack",
+            "faction": "NA",
+            "race": "NA",
+            "role": "NA",
+            "released": ["NECRONOMINUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/skeletons-hands-feet-pack"
+        },
+        {
+            "name": "Snagg",
+            "faction": "LEGION OF ARETHYR",
+            "race": "GOBLIN",
+            "role": "THIEF",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/snagg"
+        },
+        {
+            "name": "Steel Knight",
+            "faction": "ORDER OF EATHYRON",
+            "race": "HUMAN",
+            "role": "KNIGHT",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/steel-knight"
+        },
+        {
+            "name": "Stone Troll",
+            "faction": "LEGION OF ARETHYR",
+            "race": "TROLL",
+            "role": "MONSTER",
+            "released": ["MYTHIC LEGION 1.5"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/stone-troll"
+        },
+        {
+            "name": "Stone Troll 2",
+            "faction": "LEGION OF ARETHYR",
+            "race": "TROLL",
+            "role": "MONSTER",
+            "released": ["ALL STARS 3"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/stone-troll-2"
+        },
+        {
+            "name": "Swigg",
+            "faction": "LEGION OF ARETHYR",
+            "race": "GOBLIN",
+            "role": "ALCHEMIST",
+            "released": ["ALL STARS 5+"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/swigg"
+        },
+        {
+            "name": "Templar Knight",
+            "faction": "ORDER OF EATHYRON",
+            "race": "HUMAN",
+            "role": "TEMPLAR KNIGHT",
+            "released": ["COVENANT OF SHADOWS", "ALL STARS 2"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/templar-knight"
+        },
+        {
+            "name": "Thallyn Frostbow",
+            "faction": "XYLONA'S FLOCK",
+            "race": "FROST ELF",
+            "role": "BOW CASTER",
+            "released": ["SOUL SPILLER"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/thallyn-frostbow"
+        },
+        {
+            "name": "Tharnog",
+            "faction": "CONVOCATION OF BASSYLIA",
+            "race": "ORC",
+            "role": "SHAMAN",
+            "released": ["POXXUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/tharnog"
+        },
+        {
+            "name": "The Turpiculi",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "TURPICULUS",
+            "role": "MONSTER",
+            "released": ["NECRONOMINUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/the-turpiculi"
+        },
+        {
+            "name": "The Unknown One",
+            "faction": "UNKNOWN",
+            "race": "UNKNOWN",
+            "role": "UNKNOWN",
+            "released": ["LEGIONSCON 2022"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/adhaeth-the-unknown-one"
+        },
+        {
+            "name": "Thistlethorn",
+            "faction": "XYLONA'S FLOCK",
+            "race": "WOODLAND GOBLIN (FUZZMUNK)",
+            "role": "RELIC KEEPER",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/thistlethorn"
+        },
+        {
+            "name": "Thord Ironjaw",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "DWARF",
+            "role": "FIGHTER",
+            "released": ["MYTHIC LEGIONS 1.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/thord-ironjaw"
+        },
+        {
+            "name": "Thraice Wraithhailer",
+            "faction": "CIRCLE OF POXXUS",
+            "race": "UMANGEIST",
+            "role": "SUMMONER",
+            "released": ["POXXUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/thraice-wraithhailer"
+        },
+        {
+            "name": "Thumpp",
+            "faction": "LEGION OF ARETHYR",
+            "race": "GOBLIN",
+            "role": "COMMANDER",
+            "released": ["WASTELAND"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/thumpp"
+        },
+        {
+            "name": "Thwikk",
+            "faction": "LEGION OF ARETHYR",
+            "race": "GOBLIN",
+            "role": "ARCHER",
+            "released": ["SIEGE AT BJORNGAR"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/thwikk"
+        },
+        {
+            "name": "Tibius",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "SKELETON",
+            "role": "WARRIOR",
+            "released": ["MYTHIC LEGIONS 1.0", "ALL-STAR 4"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/tibius"
+        },
+        {
+            "name": "Torgun Redfin",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "DWARF",
+            "role": "WARRIOR",
+            "released": ["WASTELAND"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/torgun-redfin"
+        },
+        {
+            "name": "Torrion",
+            "faction": "CIRCLE OF POXXUS",
+            "race": "MINOTAUR",
+            "role": "MAGE",
+            "released": ["COVENANT OF SHADOWS", "ALL STARS 3"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/torrion"
+        },
+        {
+            "name": "Toucarr",
+            "faction": "ORDER OF EATHYRON",
+            "race": "AVIAN",
+            "role": "WARRIOR",
+            "released": ["EATHYRON'S DOZEN"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/toucarr"
+        },
+        {
+            "name": "Trumpetus",
+            "faction": "ORDER OF EATHYRON",
+            "race": "AVIAN",
+            "role": "WARRIOR",
+            "released": ["EATHYRON'S DOZEN"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/trumpetus"
+        },
+        {
+            "name": "Undead Builder Pack",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "VARIOUS",
+            "role": "SOLDIERS",
+            "released": ["NECRONOMINUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/undead-builder-pack"
+        },
+        {
+            "name": "Unkann",
+            "faction": "LEGION OF ARETHYR",
+            "race": "ORC",
+            "role": "WEAPON MASTER",
+            "released": ["MYTHIC LEGIONS 1.5"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/unkann"
+        },
+        {
+            "name": "Urkku",
+            "faction": "LEGION OF ARETHYR",
+            "race": "ORC",
+            "role": "BRUTE",
+            "released": ["MYTHIC LEGIONS 1.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/urkku"
+        },
+        {
+            "name": "Urzokk",
+            "faction": "LEGION OF ARETHYR",
+            "race": "ORC",
+            "role": "GENERAL",
+            "released": ["MYTHIC LEGIONS 1.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/urzokk"
+        },
+        {
+            "name": "Uuwitt",
+            "faction": "LEGION OF ARETHYR",
+            "race": "ORC",
+            "role": "HERBOLOGIST",
+            "released": ["LEGIONSCON 2022"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/uuwitt"
+        },
+        {
+            "name": "Vallak",
+            "faction": "ILLYTHIA'S BROOD",
+            "race": "VAMPIRE",
+            "role": "FALCONER",
+            "released": ["ILLYTHIA"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vallak"
+        },
+        {
+            "name": "Vampire",
+            "faction": "ILLYTHIA'S BROOD",
+            "race": "VAMPIRE",
+            "role": "SOLDIER",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vampire"
+        },
+        {
+            "name": "Vampire Knight",
+            "faction": "ILLYTHIA'S BROOD",
+            "race": "VAMPIRE",
+            "role": "KNIGHT",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vampire-knight"
+        },
+        {
+            "name": "Vampire Weapons",
+            "faction": "NA",
+            "race": "NA",
+            "role": "WEAPONS",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vampire-weapons"
+        },
+        {
+            "name": "Vampire Wings",
+            "faction": "NA",
+            "race": "NA",
+            "role": "NA",
+            "released": ["ILLYTHIA"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vampire-wings"
+        },
+        {
+            "name": "Vargg",
+            "faction": "ILLYTHIA'S BROOD",
+            "race": "VARGG",
+            "role": "HUNTER",
+            "released": ["ILLYTHIA"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vargg"
+        },
+        {
+            "name": "Vitus",
+            "faction": "ARMY OF LEODYSSEUS",
+            "race": "HUMAN",
+            "role": "SOLDIER",
+            "released": ["MYTHIC LEGIONS 1.0", "ALL-STARS 4"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vitus"
+        },
+        {
+            "name": "Vorgus Vermillius",
+            "faction": "ILLYTHIA'S BROOD",
+            "race": "NOT APPLICABLE",
+            "role": "ENCHANTED ARMOR",
+            "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 2"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vorgus-vermillius"
+        },
+        {
+            "name": "Vorthogg",
+            "faction": "LEGION OF ARETHYR",
+            "race": "ORC",
+            "role": "WARLORD / TRAINER",
+            "released": ["ARETHYR"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vorthogg"
+        },
+        {
+            "name": "Weapons Pack",
+            "faction": "NA",
+            "race": "NA",
+            "role": "WEAPONS",
+            "released": ["POXXUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/weapons-pack"
+        },
+        {
+            "name": "Weapons Pack 1",
+            "faction": "NA",
+            "race": "NA",
+            "role": "WEAPONS",
+            "released": ["MYTHIC LEGIONS 1.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/weapons-pack-1"
+        },
+        {
+            "name": "Weapons Pack 2",
+            "faction": "NA",
+            "race": "NA",
+            "role": "WEAPONS",
+            "released": ["MYTHIC LEGIONS 1.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/weapons-pack-2"
+        },
+        {
+            "name": "Weapons Pack 3",
+            "faction": "NA",
+            "race": "NA",
+            "role": "WEAPONS",
+            "released": ["MYTHIC LEGIONS 1.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/weapons-pack-3"
+        },
+        {
+            "name": "Weapons Pack 4",
+            "faction": "NA",
+            "race": "NA",
+            "role": "WEAPONS",
+            "released": ["MYTHIC LEGIONS 1.0"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/weapons-pack-4"
+        },
+        {
+            "name": "Xarria",
+            "faction": "CIRCLE OF POXXUS",
+            "race": "DEMON",
+            "role": "SPELLCASTER",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/xarria"
+        },
+        {
+            "name": "Xylernian Guard",
+            "faction": "XYLONA'S FLOCK",
+            "race": "VARIOUS",
+            "role": "GUARDIANS",
+            "released": ["ALL STARS 5+"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/xylernian-guard"
+        },
+        {
+            "name": "Xylona",
+            "faction": "XYLONA'S FLOCK",
+            "race": "ELDER FROST DEER",
+            "role": "GOD",
+            "released": ["ADVENT OF DECAY"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/xylona"
+        },
+        {
+            "name": "Zazhar",
+            "faction": "CIRCLE OF POXXUS",
+            "race": "DEMON",
+            "role": "SORCERER",
+            "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 3"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/zazhar"
+        },
+        {
+            "name": "Zende Amaanthyr",
+            "faction": "CONVOCATION OF BASSYLIA",
+            "race": "HUMAN",
+            "role": "SPELLCASTER",
+            "released": ["POXXUS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/zende-amaanthyr"
+        },
+        {
+            "name": "Zenithon",
+            "faction": "XYLONA'S FLOCK",
+            "race": "ORAPHIM",
+            "role": "MESSENGER",
+            "released": ["ALL STARS 5+"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/zenithon"
+        }
+    ]
+}
