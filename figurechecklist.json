@@ -171,7 +171,7 @@
         {
             "name": "Barbarian Warrior",
             "faction": "HOUSE OF THE NOBLE BEAR",
-            "race": "HUMAN / HALF-ORC",
+            "race": "HUMAN - HALF-ORC",
             "role": "WARRIOR",
             "released": ["ADVENT OF DECAY"],
             "url": "https://sourcehorsemen.com/mythic-legions/entry/barbarian-warrior"
@@ -437,7 +437,7 @@
             "faction": "ARMY OF LEODYSSEUS",
             "race": "HUMAN",
             "role": "DEFENDER",
-            "released": ["ALL STARS 2.0"],
+            "released": ["ALL STARS 2"],
             "url": "https://sourcehorsemen.com/mythic-legions/entry/deltigar-the-destroyer"
         },
         {
@@ -565,7 +565,7 @@
             "faction": "NONE",
             "race": "AVIAN",
             "role": "PATRIOT",
-            "released": ["ALL STARS 2.0"],
+            "released": ["ALL STARS 2"],
             "url": "https://sourcehorsemen.com/mythic-legions/entry/eagalus"
         },
         {
@@ -579,7 +579,7 @@
         {
             "name": "Elf",
             "faction": "XYLONA'S FLOCK",
-            "race": "ELF / WHISPERLING",
+            "race": "ELF - WHISPERLING",
             "role": "SOLDIER",
             "released": ["ADVENT OF DECAY"],
             "url": "https://sourcehorsemen.com/mythic-legions/entry/elf"
@@ -637,7 +637,7 @@
             "faction": "LEGION OF ARETHYR",
             "race": "TROLL",
             "role": "MONSTER",
-            "released": ["MYTHIC LEGION 1.5"],
+            "released": ["MYTHIC LEGIONS 1.5"],
             "url": "https://sourcehorsemen.com/mythic-legions/entry/forest-troll"
         },
         {
@@ -682,7 +682,7 @@
         },
         {
             "name": "Gold Knight",
-            "faction": "ORDER OF EARTHYRON",
+            "faction": "ORDER OF EATHYRON",
             "race": "HUMAN",
             "role": "KNIGHT",
             "released": ["MYTHIC LEGIONS 1.0"],
@@ -1541,7 +1541,7 @@
             "faction": "LEGION OF ARETHYR",
             "race": "TROLL",
             "role": "MONSTER",
-            "released": ["MYTHIC LEGION 1.5"],
+            "released": ["MYTHIC LEGIONS 1.5"],
             "url": "https://sourcehorsemen.com/mythic-legions/entry/stone-troll"
         },
         {
@@ -1645,7 +1645,7 @@
             "faction": "CONGREGATION OF NECRONOMINUS",
             "race": "SKELETON",
             "role": "WARRIOR",
-            "released": ["MYTHIC LEGIONS 1.0", "ALL-STAR 4"],
+            "released": ["MYTHIC LEGIONS 1.0", "ALL-STARS 4"],
             "url": "https://sourcehorsemen.com/mythic-legions/entry/tibius"
         },
         {
@@ -1788,7 +1788,7 @@
             "name": "Vorthogg",
             "faction": "LEGION OF ARETHYR",
             "race": "ORC",
-            "role": "WARLORD / TRAINER",
+            "role": "WARLORD - TRAINER",
             "released": ["ARETHYR"],
             "url": "https://sourcehorsemen.com/mythic-legions/entry/vorthogg"
         },

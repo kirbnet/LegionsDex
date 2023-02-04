@@ -41,11 +41,21 @@ type Figure struct {
 	Url     string   `json:"url"`
 }
 type HomePageData struct {
-	RaceTotal    int
-	RoleTotal    int
-	FactionTotal int
-	ReleaseTotal int
-	FigureTotal  int
+	RaceTotal     int
+	RoleTotal     int
+	FactionTotal  int
+	ReleaseTotal  int
+	FigureTotal   int
+	LightTotal    int
+	DarkTotal     int
+	SplinterTotal int
+	GoblinTotal   int
+	OrcTotal      int
+	ElfTotal      int
+	UndeadTotal   int
+	DwarfTotal    int
+	VampireTotal  int
+	AnthroTotal   int
 }
 type ListPageData struct {
 	Type       string
@@ -85,6 +95,57 @@ func sortChecklist(lst Checklist) Checklist {
 	return sortedChecklist
 }
 
+func main() {
+	loadDatabase()
+	raceData(checklist)
+	factionData(checklist)
+	roleData(checklist)
+	releaseData(checklist)
+
+	//Page Server
+	//If there is a preconfigured port
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
+	//Mux Http Handler
+	router := mux.NewRouter()
+	//Request handlers
+	router.HandleFunc("/", homeHandler)
+	router.HandleFunc("/race/", raceDirHandler)
+	router.HandleFunc("/race/{race}", raceHandler)
+	router.HandleFunc("/faction/", factionDirHandler)
+	router.HandleFunc("/faction/{faction}", factionHandler)
+	router.HandleFunc("/role/", roleDirHandler)
+	router.HandleFunc("/role/{role}", roleHandler)
+	router.HandleFunc("/release/", releaseDirHandler)
+	router.HandleFunc("/release/{release}", releaseHandler)
+
+	//Handling Combinations of Requests, stopping at only 2 deep
+	router.HandleFunc("/race/{race}/faction/{faction}", drilldownHandler)
+	router.HandleFunc("/race/{race}/release/{release}", drilldownHandler)
+	router.HandleFunc("/race/{race}/role/{role}", drilldownHandler)
+
+	router.HandleFunc("/release/{release}/faction/{faction}", drilldownHandler)
+	router.HandleFunc("/release/{release}/race/{race}", drilldownHandler)
+	router.HandleFunc("/release/{release}/role/{role}", drilldownHandler)
+
+	router.HandleFunc("/role/{role}/faction/{faction}", drilldownHandler)
+	router.HandleFunc("/role/{role}/release/{release}", drilldownHandler)
+	router.HandleFunc("/role/{role}/race/{race}", drilldownHandler)
+
+	router.HandleFunc("/faction/{faction}/race/{race}", drilldownHandler)
+	router.HandleFunc("/faction/{faction}/release/{release}", drilldownHandler)
+	router.HandleFunc("/faction/{faction}/role/{role}", drilldownHandler)
+
+	//Define Static Resources
+	fs := http.FileServer(http.Dir("./static"))
+	router.PathPrefix("/static").Handler(http.StripPrefix("/static/", fs))
+	//Start Port Listener/Web Server
+	http.ListenAndServe(":"+port, router)
+}
+
+//SECTION: FUNCTIONS BY RACE
 //raceData is a map of the Races with a Count of total instances
 func raceData(lst Checklist) map[string]int {
 	races := make(map[string]int)
@@ -110,6 +171,8 @@ func checklistByRace(lst Checklist, race string) Checklist {
 	}
 	return sortChecklist(raceMembers)
 }
+
+//SECTION: FUNCTIONS BY FACTION
 func factionData(lst Checklist) map[string]int {
 	factions := make(map[string]int)
 	for i := range lst.Figures {
@@ -188,65 +251,27 @@ func checklistByRelease(lst Checklist, release string) Checklist {
 	return sortChecklist(releaseMembers)
 }
 
-func main() {
-	loadDatabase()
-	raceData(checklist)
-	factionData(checklist)
-	roleData(checklist)
-	releaseData(checklist)
-
-	//Page Server
-	//If there is a preconfigured port
-	port := os.Getenv("PORT")
-	if port == "" {
-		port = "8080"
-	}
-	//Mux Http Handler
-	router := mux.NewRouter()
-	//Request handlers
-	router.HandleFunc("/", homeHandler)
-	router.HandleFunc("/race/", raceDirHandler)
-	router.HandleFunc("/race/{race}", raceHandler)
-	router.HandleFunc("/faction/", factionDirHandler)
-	router.HandleFunc("/faction/{faction}", factionHandler)
-	router.HandleFunc("/role/", roleDirHandler)
-	router.HandleFunc("/role/{role}", roleHandler)
-	router.HandleFunc("/release/", releaseDirHandler)
-	router.HandleFunc("/release/{release}", releaseHandler)
-
-	//Handling Combinations of Requests, stopping at only 2 deep
-	router.HandleFunc("/race/{race}/faction/{faction}", drilldownHandler)
-	router.HandleFunc("/race/{race}/release/{release}", drilldownHandler)
-	router.HandleFunc("/race/{race}/role/{role}", drilldownHandler)
-
-	router.HandleFunc("/release/{release}/faction/{faction}", drilldownHandler)
-	router.HandleFunc("/release/{release}/race/{race}", drilldownHandler)
-	router.HandleFunc("/release/{release}/role/{role}", drilldownHandler)
-
-	router.HandleFunc("/role/{role}/faction/{faction}", drilldownHandler)
-	router.HandleFunc("/role/{role}/release/{release}", drilldownHandler)
-	router.HandleFunc("/role/{role}/race/{race}", drilldownHandler)
-
-	router.HandleFunc("/faction/{faction}/race/{race}", drilldownHandler)
-	router.HandleFunc("/faction/{faction}/release/{release}", drilldownHandler)
-	router.HandleFunc("/faction/{faction}/role/{role}", drilldownHandler)
-
-	//Define Static Resources
-	fs := http.FileServer(http.Dir("./static"))
-	router.PathPrefix("/static").Handler(http.StripPrefix("/static/", fs))
-	//Start Port Listener/Web Server
-	http.ListenAndServe(":"+port, router)
-}
-
 //PAGE HANDLER FUNCTIONS
 //Main page and default handler.
-//TODO: DISPLAY A DASHBOARD OR SOMETHING. AGGREGATE STATS!
 func homeHandler(w http.ResponseWriter, r *http.Request) {
-	//pagedata := &PageData{plunderlings, plunderclasses, plunderfolks, plundercolors, plunderwaves, plundertags}
 	releasesOf := releaseData(checklist)
 	factionsOf := factionData(checklist)
 	racesOf := raceData(checklist)
 	rolesOf := roleData(checklist)
+	//FACTION FUN
+
+	lightSide := forcesOfLight(checklist)
+	darkSide := forcesOfDarkness(checklist)
+	splinterSide := forcesOfSplinter(checklist)
+	//RACE FUN
+
+	allGoblins := groupSearch(checklist, "race", []string{"GOBLIN", "GREATER GOBLIN", "SWALE GOBLIN", "WOODLAND GOBLIN (FUZZMUNK)"})
+	allOrcs := groupSearch(checklist, "race", []string{"ORC", "HUMAN - HALF-ORC", "LICHEN ORC", "ORAPHIM", "ORC AND HUMAN", "SHADOW ORC", "UUBYR"})
+	allElves := groupSearch(checklist, "race", []string{"ELF", "SHADOW ELF", "FAERIE ELF", "ELF - WHISPERLING", "FROST ELF", "WHISPERLING", "WOOD ELF"})
+	allDwarves := groupSearch(checklist, "race", []string{"DWARF"})
+	allVampires := groupSearch(checklist, "race", []string{"VAMPIRE", "UUBYR", "VARGG", "VOGYRR"})
+	allSkeletons := groupSearch(checklist, "race", []string{"SKELETON", "ARAKKIGHAST", "GHOST", "GHOUL", "LICH", "POISON SKELETON", "TURPICULUS", "UMANGEIST", "UNDEAD HORSE"})
+	allAnthros := groupSearch(checklist, "race", []string{"AVIAN", "BOARRIOR", "CENTAUR", "DRAGOSYR", "EAGLE", "FAUN", "ELDER FROST DEER", "JAGUALLIAN", "MINOTAUR", "MOOSE", "SATYR", "SWALE GOBLIN", "WOODLAND GOBLIN (FUZZMUNK)"})
 
 	var pagedata HomePageData
 	pagedata.FactionTotal = len(factionsOf)
@@ -254,12 +279,23 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 	pagedata.RaceTotal = len(racesOf)
 	pagedata.RoleTotal = len(rolesOf)
 	pagedata.ReleaseTotal = len(releasesOf)
+	pagedata.LightTotal = len(lightSide.Figures)
+	pagedata.DarkTotal = len(darkSide.Figures)
+	pagedata.SplinterTotal = len(splinterSide.Figures)
+	pagedata.GoblinTotal = len(allGoblins.Figures)
+	pagedata.OrcTotal = len(allOrcs.Figures)
+	pagedata.ElfTotal = len(allElves.Figures)
+	pagedata.AnthroTotal = len(allAnthros.Figures)
+	pagedata.DwarfTotal = len(allDwarves.Figures)
+	pagedata.VampireTotal = len(allVampires.Figures)
+	pagedata.UndeadTotal = len(allSkeletons.Figures)
 
 	if err := hometpl.Execute(w, pagedata); err != nil {
 		fmt.Println(err)
 	}
 }
 
+//SECTION: FUNCTIONS BY RACE
 func raceDirHandler(w http.ResponseWriter, r *http.Request) {
 	//Get races from data
 	races := raceData(checklist)
@@ -268,23 +304,6 @@ func raceDirHandler(w http.ResponseWriter, r *http.Request) {
 	//valueSortedRaces := SortMapByValue(races)
 	valuekeySortedRaces := SortMapByValueThenKey(races)
 
-	//Terminal display for testing
-	/*
-		fmt.Println("TOTAL RACES: " + strconv.Itoa(len(races)))
-		fmt.Println("---- SORTED BY RACE ----")
-		for _, race := range sortedRaces {
-			fmt.Println(race + " " + strconv.Itoa(races[race]))
-		}
-		fmt.Println("---- SORTED BY VALUE ----")
-		for _, race := range valueSortedRaces {
-			fmt.Println(race + " " + strconv.Itoa(races[race]))
-		}
-		fmt.Println("---- SORTED BY VALUE AND NAME ----")
-		for _, race := range valuekeySortedRaces {
-			fmt.Println(race + " " + strconv.Itoa(races[race]))
-		}
-	*/
-	//TODO: Get the other lists (role, faction, expansion) based on this race... new func that is able to be queried
 	pagedata := &ListPageData{"race", strconv.Itoa(len(races)), races, valuekeySortedRaces}
 	if err := tpl.Execute(w, pagedata); err != nil {
 		fmt.Println(err)
@@ -297,7 +316,6 @@ func raceHandler(w http.ResponseWriter, r *http.Request) {
 	//Get races from data
 	chk := checklistByRace(checklist, race)
 
-	//TODO: Get other data sets
 	rolesOfRace := roleData(chk)
 	//valuekeySortedRolesOfRace := SortMapByValueThenKey(rolesOfRace)
 	factionsOfRace := factionData(chk)
@@ -323,6 +341,7 @@ func raceHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+//SECTION: FUNCTIONS BY FACTION
 func factionDirHandler(w http.ResponseWriter, r *http.Request) {
 	//Get factions from data
 	factions := factionData(checklist)
@@ -341,7 +360,6 @@ func factionHandler(w http.ResponseWriter, r *http.Request) {
 	//Get factions from data
 	chk := checklistByFaction(checklist, faction)
 
-	//TODO: Get other data sets
 	rolesOfFaction := roleData(chk)
 	//valuekeySortedRolesOfRace := SortMapByValueThenKey(rolesOfRace)
 	racesOfFaction := raceData(chk)
@@ -365,6 +383,35 @@ func factionHandler(w http.ResponseWriter, r *http.Request) {
 	if err := detailtpl.Execute(w, pagedata); err != nil {
 		fmt.Println(err)
 	}
+}
+
+func forcesOfLight(chk Checklist) Checklist {
+	//define factions
+	lightFactions := []string{"ARMY OF LEODYSSEUS", "ORDER OF EATHYRON", "CONVOCATION OF BASSYLIA", "XYLONA'S FLOCK"}
+	return factionGroup(chk, lightFactions)
+}
+func forcesOfDarkness(chk Checklist) Checklist {
+	//define factions
+	darkFactions := []string{"LEGION OF ARETHYR", "CONGREGATION OF NECRONOMINUS", "ILLYTHIA'S BROOD", "CIRCLE OF POXXUS"}
+	return factionGroup(chk, darkFactions)
+}
+func forcesOfSplinter(chk Checklist) Checklist {
+	//define factions
+	splinterFactions := []string{"SONS OF THE RED STAR", "HOUSE OF THE NOBLE BEAR"}
+	return factionGroup(chk, splinterFactions)
+}
+func factionGroup(chk Checklist, facs []string) Checklist {
+	var factionMembers Checklist
+	//iterate through list of figures, and copy those that match
+	for _, figure := range chk.Figures {
+		//iterate through members of group
+		for _, faction := range facs {
+			if figure.Faction == faction {
+				factionMembers.AddItem(figure)
+			}
+		}
+	}
+	return sortChecklist(factionMembers)
 }
 func roleDirHandler(w http.ResponseWriter, r *http.Request) {
 	//Get roles from data
@@ -450,6 +497,8 @@ func releaseHandler(w http.ResponseWriter, r *http.Request) {
 		fmt.Println(err)
 	}
 }
+
+//DRILLDOWN: Searching by 2 parameters
 func drilldownHandler(w http.ResponseWriter, r *http.Request) {
 	var remainingStats []string
 	//parse request data
@@ -529,6 +578,37 @@ func drilldownHandler(w http.ResponseWriter, r *http.Request) {
 	if err := drilldowntpl.Execute(w, pagedata); err != nil {
 		fmt.Println(err)
 	}
+}
+
+//
+func groupSearch(chk Checklist, searchType string, matches []string) Checklist {
+	var newMembers Checklist
+	//iterate through list of figures, and copy those that match
+	for _, figure := range chk.Figures {
+		//iterate through members of group
+		for _, q := range matches {
+			switch searchType {
+			case "faction":
+				if figure.Faction == q {
+					newMembers.AddItem(figure)
+				}
+			case "race":
+				if figure.Race == q {
+					newMembers.AddItem(figure)
+				}
+			case "role":
+				if figure.Role == q {
+					newMembers.AddItem(figure)
+				}
+				/* case "release":
+				if figure.Release == q {
+					newMembers.AddItem(figure)
+				}*/
+			}
+		}
+
+	}
+	return sortChecklist(newMembers)
 }
 
 //GENERIC SUPPORT FUNCTIONS

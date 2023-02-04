@@ -40,13 +40,28 @@
   </header>
   <main>
     <div class="page-content">
-      <div class="page-content-title">
+      <div class="page-content-column">
         <div class="card">
           <h4 class="card-title">TOTAL {{ .Type }}S: {{ .Total}}</h4>
           <ul class="data-list">
             {{range $key, $value := .SortedList}}
-            <li><a href="/{{ $.Type }}/{{ $value }}">{{ $value }}</a> <span class="badge">{{ index $.List $value
+            {{ if gt (index $.List $value)  1}}
+              <li><a href="/{{ $.Type }}/{{ $value }}">{{ $value }}</a> <span class="badge">{{ index $.List $value
                 }}</span></li>
+                {{end}}
+            {{end}}
+          </ul>
+        </div>
+      </div>
+      <div class="page-content-column">
+        <div class="card">
+          <h4 class="card-title">MINOR {{ .Type }}S</h4>
+          <ul class="data-list">
+            {{range $key, $value := .SortedList}}
+            {{ if eq (index $.List $value)  1}}
+              <li><a href="/{{ $.Type }}/{{ $value }}">{{ $value }}</a> <span class="badge">{{ index $.List $value
+                }}</span></li>
+                {{end}}
             {{end}}
           </ul>
         </div>

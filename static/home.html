@@ -34,7 +34,7 @@
   </header>
   <main>
     <div class="page-content">
-      <div class="page-content-title">
+      <div class="page-content-column">
         <div class="card">
           <h4 class="card-title">TOTALS</h4>
           <ul class="data-list">
@@ -43,6 +43,30 @@
             <li><a href="/faction/">Factions: {{ .FactionTotal }}</a></li>
             <li><a href="/release/">Releases: {{ .ReleaseTotal }}</a></li>
             <li>Figures: {{ .FigureTotal }}</li>
+          </ul>
+        </div>
+      </div>
+      <div class="page-content-column">
+        <div class="card">
+          <h4 class="card-title">WAR FOR MYTHOSS</h4>
+          <ul class="data-list">
+            <li>Forces of Light: {{ .LightTotal }} figures</li>
+            <li>Forces of Darkness: {{ .DarkTotal }} figures</li>
+            <li>Splinter Factions: {{ .SplinterTotal }} figures</li>
+          </ul>
+        </div>
+      </div>
+      <div class="page-content-column">
+        <div class="card">
+          <h4 class="card-title">Combined Races:</h4>
+          <ul class="data-list">
+            <li>Anthropomorphs: {{ .AnthroTotal }} figures</li>
+            <li>Dwarves: {{ .DwarfTotal }} figures</li>
+            <li>Elves: {{ .ElfTotal }} figures</li>
+            <li>Goblins: {{ .GoblinTotal }} figures</li>
+            <li>Orcs: {{ .OrcTotal }} figures</li>
+            <li>Undead: {{ .UndeadTotal }} figures</li>
+            <li>Vampires: {{ .VampireTotal }} figures</li>
           </ul>
         </div>
       </div>
