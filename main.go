@@ -18,20 +18,35 @@ import (
 //Define Global Variables
 var checklist Checklist
 
+//Misc Globals
+var lightFactions []string = []string{"ARMY OF LEODYSSEUS", "ORDER OF EATHYRON", "CONVOCATION OF BASSYLIA", "XYLONA'S FLOCK"}
+var darkFactions []string = []string{"LEGION OF ARETHYR", "CONGREGATION OF NECRONOMINUS", "ILLYTHIA'S BROOD", "CIRCLE OF POXXUS"}
+var splinterFactions []string = []string{"SONS OF THE RED STAR", "HOUSE OF THE NOBLE BEAR"}
+var goblinRaces []string = []string{"GOBLIN", "GREATER GOBLIN", "SWALE GOBLIN", "WOODLAND GOBLIN (FUZZMUNK)"}
+var orcRaces []string = []string{"ORC", "HUMAN - HALF-ORC", "LICHEN ORC", "ORAPHIM", "ORC AND HUMAN", "SHADOW ORC", "UUBYR"}
+var elfRaces []string = []string{"ELF", "SHADOW ELF", "FAERIE ELF", "ELF - WHISPERLING", "FROST ELF", "WHISPERLING", "WOOD ELF"}
+var dwarfRaces []string = []string{"DWARF"}
+var vampireRaces []string = []string{"VAMPIRE", "UUBYR", "VARGG", "VOGYRR"}
+var undeadRaces []string = []string{"SKELETON", "ARAKKIGHAST", "GHOST", "GHOUL", "LICH", "POISON SKELETON", "TURPICULUS", "UMANGEIST", "UNDEAD HORSE"}
+var anthroRaces []string = []string{"AVIAN", "BOARRIOR", "CENTAUR", "DRAGOSYR", "EAGLE", "FAUN", "ELDER FROST DEER", "JAGUALLIAN", "MINOTAUR", "MOOSE", "SATYR", "SWALE GOBLIN", "WOODLAND GOBLIN (FUZZMUNK)"}
+
 //Templates
 var tpl = template.Must(template.ParseFiles("static/index.html"))
 var hometpl = template.Must(template.ParseFiles("static/home.html"))
 var detailtpl = template.Must(template.ParseFiles("static/detail.html"))
 var drilldowntpl = template.Must(template.ParseFiles("static/drilldown.html"))
 
+//Struct just to hold figures
 type Checklist struct {
 	Figures []Figure `json:"figures"`
 }
 
+//Add a Figure to the Checklist
 func (checklist *Checklist) AddItem(figure Figure) {
 	checklist.Figures = append(checklist.Figures, figure)
 }
 
+//Figure Data
 type Figure struct {
 	Name    string   `json:"name"`
 	Faction string   `json:"faction"`
@@ -40,6 +55,8 @@ type Figure struct {
 	Release []string `json:"released"`
 	Url     string   `json:"url"`
 }
+
+//Data for the Home Page
 type HomePageData struct {
 	RaceTotal     int
 	RoleTotal     int
@@ -57,12 +74,16 @@ type HomePageData struct {
 	VampireTotal  int
 	AnthroTotal   int
 }
+
+//Generic data for a main page list
 type ListPageData struct {
 	Type       string
 	Total      string
 	List       map[string]int
 	SortedList []string
 }
+
+//Data for a single search term, Lists1-3 should correspond to other data types
 type DetailPageData struct {
 	Title      string
 	Type       string
@@ -77,6 +98,7 @@ type DetailPageData struct {
 	List3      map[string]int
 }
 
+//Parse JSON data in Figures and Checklist
 func loadDatabase() {
 	db, err := ioutil.ReadFile("figurechecklist.json")
 	if err != nil {
@@ -87,6 +109,8 @@ func loadDatabase() {
 		log.Fatal(err)
 	}
 }
+
+//Sort a Checklist by Figure names
 func sortChecklist(lst Checklist) Checklist {
 	sortedChecklist := lst
 	sort.Slice(sortedChecklist.Figures, func(i, j int) bool {
@@ -114,8 +138,10 @@ func main() {
 	router.HandleFunc("/", homeHandler)
 	router.HandleFunc("/race/", raceDirHandler)
 	router.HandleFunc("/race/{race}", raceHandler)
+	router.HandleFunc("/races/{races}", racesHandler)
 	router.HandleFunc("/faction/", factionDirHandler)
 	router.HandleFunc("/faction/{faction}", factionHandler)
+	router.HandleFunc("/factions/{factions}", factionsHandler)
 	router.HandleFunc("/role/", roleDirHandler)
 	router.HandleFunc("/role/{role}", roleHandler)
 	router.HandleFunc("/release/", releaseDirHandler)
@@ -173,6 +199,7 @@ func checklistByRace(lst Checklist, race string) Checklist {
 }
 
 //SECTION: FUNCTIONS BY FACTION
+//Gets the Factions with Count from a Checklist
 func factionData(lst Checklist) map[string]int {
 	factions := make(map[string]int)
 	for i := range lst.Figures {
@@ -197,6 +224,8 @@ func checklistByFaction(lst Checklist, faction string) Checklist {
 	}
 	return sortChecklist(factionMembers)
 }
+
+//Gets the Roles with count from a Checklist
 func roleData(lst Checklist) map[string]int {
 	roles := make(map[string]int)
 	for i := range lst.Figures {
@@ -221,6 +250,8 @@ func checklistByRole(lst Checklist, role string) Checklist {
 	}
 	return sortChecklist(roleMembers)
 }
+
+//Gets the Releases and Count from a Checklist
 func releaseData(lst Checklist) map[string]int {
 	releases := make(map[string]int)
 	for i := range lst.Figures {
@@ -259,19 +290,17 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 	racesOf := raceData(checklist)
 	rolesOf := roleData(checklist)
 	//FACTION FUN
-
-	lightSide := forcesOfLight(checklist)
-	darkSide := forcesOfDarkness(checklist)
-	splinterSide := forcesOfSplinter(checklist)
+	lightSide := groupSearch(checklist, "faction", lightFactions)
+	darkSide := groupSearch(checklist, "faction", darkFactions)
+	splinterSide := groupSearch(checklist, "faction", splinterFactions)
 	//RACE FUN
-
-	allGoblins := groupSearch(checklist, "race", []string{"GOBLIN", "GREATER GOBLIN", "SWALE GOBLIN", "WOODLAND GOBLIN (FUZZMUNK)"})
-	allOrcs := groupSearch(checklist, "race", []string{"ORC", "HUMAN - HALF-ORC", "LICHEN ORC", "ORAPHIM", "ORC AND HUMAN", "SHADOW ORC", "UUBYR"})
-	allElves := groupSearch(checklist, "race", []string{"ELF", "SHADOW ELF", "FAERIE ELF", "ELF - WHISPERLING", "FROST ELF", "WHISPERLING", "WOOD ELF"})
-	allDwarves := groupSearch(checklist, "race", []string{"DWARF"})
-	allVampires := groupSearch(checklist, "race", []string{"VAMPIRE", "UUBYR", "VARGG", "VOGYRR"})
-	allSkeletons := groupSearch(checklist, "race", []string{"SKELETON", "ARAKKIGHAST", "GHOST", "GHOUL", "LICH", "POISON SKELETON", "TURPICULUS", "UMANGEIST", "UNDEAD HORSE"})
-	allAnthros := groupSearch(checklist, "race", []string{"AVIAN", "BOARRIOR", "CENTAUR", "DRAGOSYR", "EAGLE", "FAUN", "ELDER FROST DEER", "JAGUALLIAN", "MINOTAUR", "MOOSE", "SATYR", "SWALE GOBLIN", "WOODLAND GOBLIN (FUZZMUNK)"})
+	allGoblins := groupSearch(checklist, "race", goblinRaces)
+	allOrcs := groupSearch(checklist, "race", orcRaces)
+	allElves := groupSearch(checklist, "race", elfRaces)
+	allDwarves := groupSearch(checklist, "race", dwarfRaces)
+	allVampires := groupSearch(checklist, "race", vampireRaces)
+	allSkeletons := groupSearch(checklist, "race", undeadRaces)
+	allAnthros := groupSearch(checklist, "race", anthroRaces)
 
 	var pagedata HomePageData
 	pagedata.FactionTotal = len(factionsOf)
@@ -296,6 +325,7 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 //SECTION: FUNCTIONS BY RACE
+//Page listing directory of Races
 func raceDirHandler(w http.ResponseWriter, r *http.Request) {
 	//Get races from data
 	races := raceData(checklist)
@@ -309,6 +339,8 @@ func raceDirHandler(w http.ResponseWriter, r *http.Request) {
 		fmt.Println(err)
 	}
 }
+
+//Page listing figures and other data of a specified Race
 func raceHandler(w http.ResponseWriter, r *http.Request) {
 	//parse request data
 	reqvars := mux.Vars(r)
@@ -341,7 +373,58 @@ func raceHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+//Page displaying information about figures from several pre-specified Races
+func racesHandler(w http.ResponseWriter, r *http.Request) {
+	//parse request data
+	reqvars := mux.Vars(r)
+	races := reqvars["races"]
+	//Get races from data
+	var group []string
+	switch races {
+	case "goblin":
+		group = goblinRaces
+	case "elf":
+		group = elfRaces
+	case "dwarf":
+		group = dwarfRaces
+	case "vampire":
+		group = vampireRaces
+	case "undead":
+		group = undeadRaces
+	case "anthro":
+		group = anthroRaces
+	case "orc":
+		group = orcRaces
+	}
+	chk := groupSearch(checklist, "race", group)
+
+	rolesOfRace := roleData(chk)
+	//valuekeySortedRolesOfRace := SortMapByValueThenKey(rolesOfRace)
+	factionsOfRace := factionData(chk)
+	//valuekeySortedFactionsOfRace := SortMapByValueThenKey(factionsOfRace)
+	releasesOfRace := releaseData(chk)
+	//valuekeySortedReleasesOfRace := SortMapByValueThenKey(releasesOfRace)
+
+	var pagedata DetailPageData
+	pagedata.Title = strings.ToTitle(races) + " Race: " + strings.Join(group, ", ")
+	pagedata.Type = "race"
+	pagedata.Query = strings.Join(group, ", ")
+	pagedata.Total = strconv.Itoa(len(chk.Figures))
+	pagedata.Checklist = chk
+	pagedata.List1Title = "role"
+	pagedata.List1 = rolesOfRace
+	pagedata.List2Title = "faction"
+	pagedata.List2 = factionsOfRace
+	pagedata.List3Title = "release"
+	pagedata.List3 = releasesOfRace
+
+	if err := drilldowntpl.Execute(w, pagedata); err != nil {
+		fmt.Println(err)
+	}
+}
+
 //SECTION: FUNCTIONS BY FACTION
+//Page listing Factions
 func factionDirHandler(w http.ResponseWriter, r *http.Request) {
 	//Get factions from data
 	factions := factionData(checklist)
@@ -353,6 +436,8 @@ func factionDirHandler(w http.ResponseWriter, r *http.Request) {
 		fmt.Println(err)
 	}
 }
+
+//Page displaying data for Figures of a Faction
 func factionHandler(w http.ResponseWriter, r *http.Request) {
 	//parse request data
 	reqvars := mux.Vars(r)
@@ -385,34 +470,50 @@ func factionHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func forcesOfLight(chk Checklist) Checklist {
-	//define factions
-	lightFactions := []string{"ARMY OF LEODYSSEUS", "ORDER OF EATHYRON", "CONVOCATION OF BASSYLIA", "XYLONA'S FLOCK"}
-	return factionGroup(chk, lightFactions)
-}
-func forcesOfDarkness(chk Checklist) Checklist {
-	//define factions
-	darkFactions := []string{"LEGION OF ARETHYR", "CONGREGATION OF NECRONOMINUS", "ILLYTHIA'S BROOD", "CIRCLE OF POXXUS"}
-	return factionGroup(chk, darkFactions)
-}
-func forcesOfSplinter(chk Checklist) Checklist {
-	//define factions
-	splinterFactions := []string{"SONS OF THE RED STAR", "HOUSE OF THE NOBLE BEAR"}
-	return factionGroup(chk, splinterFactions)
-}
-func factionGroup(chk Checklist, facs []string) Checklist {
-	var factionMembers Checklist
-	//iterate through list of figures, and copy those that match
-	for _, figure := range chk.Figures {
-		//iterate through members of group
-		for _, faction := range facs {
-			if figure.Faction == faction {
-				factionMembers.AddItem(figure)
-			}
-		}
+//Page displaying information of several pre-specified Factions
+func factionsHandler(w http.ResponseWriter, r *http.Request) {
+	//parse request data
+	reqvars := mux.Vars(r)
+	factions := reqvars["factions"]
+	//Get factions from data
+	var group []string
+	switch factions {
+	case "light":
+		group = lightFactions
+	case "dark":
+		group = darkFactions
+	case "splinter":
+		group = splinterFactions
 	}
-	return sortChecklist(factionMembers)
+	chk := groupSearch(checklist, "faction", group)
+	//chk := checklistByFaction(checklist, faction)
+
+	rolesOfFaction := roleData(chk)
+	//valuekeySortedRolesOfRace := SortMapByValueThenKey(rolesOfRace)
+	racesOfFaction := raceData(chk)
+	//valuekeySortedFactionsOfRace := SortMapByValueThenKey(factionsOfRace)
+	releasesOfFaction := releaseData(chk)
+	//valuekeySortedReleasesOfRace := SortMapByValueThenKey(releasesOfRace)
+
+	var pagedata DetailPageData
+	pagedata.Title = strings.ToTitle(factions) + " Factions: " + strings.Join(group, ", ")
+	pagedata.Type = "faction"
+	pagedata.Query = strings.Join(group, ", ")
+	pagedata.Total = strconv.Itoa(len(chk.Figures))
+	pagedata.Checklist = chk
+	pagedata.List1Title = "role"
+	pagedata.List1 = rolesOfFaction
+	pagedata.List2Title = "race"
+	pagedata.List2 = racesOfFaction
+	pagedata.List3Title = "release"
+	pagedata.List3 = releasesOfFaction
+
+	if err := drilldowntpl.Execute(w, pagedata); err != nil {
+		fmt.Println(err)
+	}
 }
+
+//Page listing all Roles
 func roleDirHandler(w http.ResponseWriter, r *http.Request) {
 	//Get roles from data
 	roles := roleData(checklist)
@@ -424,6 +525,8 @@ func roleDirHandler(w http.ResponseWriter, r *http.Request) {
 		fmt.Println(err)
 	}
 }
+
+//Page showing information about figure of a given Role
 func roleHandler(w http.ResponseWriter, r *http.Request) {
 	//parse request data
 	reqvars := mux.Vars(r)
@@ -431,7 +534,6 @@ func roleHandler(w http.ResponseWriter, r *http.Request) {
 	//Get factions from data
 	chk := checklistByRole(checklist, role)
 
-	//TODO: Get other data sets
 	factionsOfRole := factionData(chk)
 	//valuekeySortedRolesOfRace := SortMapByValueThenKey(rolesOfRace)
 	racesOfRole := raceData(chk)
@@ -455,6 +557,8 @@ func roleHandler(w http.ResponseWriter, r *http.Request) {
 		fmt.Println(err)
 	}
 }
+
+//Page listing all Releases
 func releaseDirHandler(w http.ResponseWriter, r *http.Request) {
 	//Get releases from data
 	releases := releaseData(checklist)
@@ -466,6 +570,8 @@ func releaseDirHandler(w http.ResponseWriter, r *http.Request) {
 		fmt.Println(err)
 	}
 }
+
+//Page showing Figure data for a Release
 func releaseHandler(w http.ResponseWriter, r *http.Request) {
 	//parse request data
 	reqvars := mux.Vars(r)
@@ -580,7 +686,7 @@ func drilldownHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-//
+//Generic Checklist Search for a group of something
 func groupSearch(chk Checklist, searchType string, matches []string) Checklist {
 	var newMembers Checklist
 	//iterate through list of figures, and copy those that match
@@ -612,6 +718,7 @@ func groupSearch(chk Checklist, searchType string, matches []string) Checklist {
 }
 
 //GENERIC SUPPORT FUNCTIONS
+//Sorting by keys, returning the ordered slice
 func SortMapByKeys(m map[string]int) []string {
 	//First, make a slice of just the keys, which can be sorted
 	keys := make([]string, 0, len(m))
@@ -627,6 +734,7 @@ func SortMapByKeys(m map[string]int) []string {
 	return keys
 }
 
+//Sorting by value, returning an ordered slice
 func SortMapByValue(m map[string]int) []string {
 	//First, make a slice of just the keys, which can be sorted
 	keys := make([]string, 0, len(m))
@@ -642,6 +750,7 @@ func SortMapByValue(m map[string]int) []string {
 	return keys
 }
 
+//Sorts a map by the value, then key, returning an ordered slice
 func SortMapByValueThenKey(m map[string]int) []string {
 	//First, make a slice of just the keys, which can be sorted
 	keys := make([]string, 0, len(m))
