@@ -7,7 +7,7 @@
     --primary-light: #aab03c;
     --primary-dark: #104911;
     --accent: #f9a620;
-    --neutral: #ffd38c;
+    --neutral: #ffffff;
 }
 
 html,
@@ -21,6 +21,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--neutral);
+    background-image: url("canvas.jpg");
+    /* Full height */
+    height: 100vh;
+    width: 100vw;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     flex-direction: column;
@@ -35,17 +42,21 @@ main,
 footer {
     flex-shrink: 0;
 }
+
 .page-content-title {
     width: 100%;
     text-align: center;
-    color: var(--primary-color)
+    color: var(--primary-dark);
+    text-transform: uppercase;
 }
+
 .page-content {
     width: 100%;
     margin: auto;
     display: flex;
     flex-direction: row;
 }
+
 .page-content-column {
     width: 25%;
     text-align: center;
@@ -59,6 +70,7 @@ footer {
 /* Top Menu */
 .menu {
     background-color: var(--primary-light);
+    opacity: 75%;
     width: 100%;
     padding: 0px;
 }
@@ -80,7 +92,11 @@ footer {
 
 .menu a.active {
     background-color: var(--accent);
-    color: var(--primary-color);
+    color: var(--primary-dark);
+}
+
+.menu a.active:hover {
+    color: var(--accent);
 }
 
 
@@ -112,6 +128,7 @@ footer {
     width: 100%;
     text-align: center;
     background-color: var(--primary-dark);
+    opacity: 75%;
     color: var(--neutral);
     margin: 0;
     padding: 0;
@@ -124,12 +141,17 @@ footer {
 
 /* PAGE LEVEL STYLING */
 .card {
-    box-shadow: 0 10px 20px var(--primary-dark);
+    box-shadow: 0 10px 20px rgb(59, 44, 6);
     transition: 0.3s;
     background-color: var(--primary-color);
+    background-image: url("card.jpg");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: var(--primary-dark);
     padding: 10px 30px;
-    width: fit-content;
+    width: 90%;
     min-width: 250px;
     margin: 20px;
     text-align: left;
@@ -151,6 +173,10 @@ footer {
 .card a {
     color: var(--primary-dark);
     text-decoration: none;
+}
+
+.card a:hover {
+    color: var(--neutral);
 }
 
 ul.data-list {
@@ -205,7 +231,7 @@ ul.data-list .badge {
         display: flex;
         flex-direction: column;
     }
-    
+
     .page-content-column {
         width: 90%;
         text-align: center;
