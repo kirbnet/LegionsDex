@@ -151,8 +151,8 @@ footer {
     background-size: cover;
     color: var(--primary-dark);
     padding: 10px 30px;
-    width: 90%;
-    min-width: 250px;
+    width: 85%;
+    min-width: 225px;
     margin: 20px;
     text-align: left;
     border-radius: 15px;
