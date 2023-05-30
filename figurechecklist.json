@@ -6,7 +6,8 @@
             "race": "HUMAN",
             "role": "CHAMPION",
             "released": ["COLISEUM"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/adamonn"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/adamonn",
+            "scale": "1.0"
         },
         {
             "name": "Aethon",
@@ -14,7 +15,8 @@
             "race": "HORSE",
             "role": "SMOLDERING STEED",
             "released": ["ARETHYR"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/Aethon"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/Aethon",
+            "scale":"STEED"
         },
         {
             "name": "Alder",
@@ -22,7 +24,8 @@
             "race": "MOOSE",
             "role": "STEED",
             "released": ["ILLYTHIA"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/alder"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/alder",
+            "scale":"STEED"
         },
         {
             "name": "Aphareus",
@@ -30,7 +33,8 @@
             "race": "CENTAUR",
             "role": "STABLE LORD",
             "released": ["ILLYTHIA"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/aphareus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/aphareus",
+            "scale":"BRUTE"
         },
         {
             "name": "Aracagorr",
@@ -38,7 +42,8 @@
             "race": "DRAGOSYR",
             "role": "PALADIN",
             "released": ["POXXUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/aracagorr"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/aracagorr",
+            "scale":"BRUTE"
         },
         {
             "name": "Archaeopterix",
@@ -46,7 +51,8 @@
             "race": "AVIAN",
             "role": "WARRIOR",
             "released": ["EATHYRON'S DOZEN"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/archaeopterix"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/archaeopterix",
+            "scale":"1.0"
         },
         {
             "name": "Arethyr",
@@ -54,7 +60,8 @@
             "race": "UNKNOWN",
             "role": "GOD",
             "released": ["ARETHYR"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/arethyr-figure"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/arethyr-figure",
+            "scale":"1.0"
         },
         {
             "name": "Argemedes",
@@ -62,7 +69,8 @@
             "race": "CYCLOPS",
             "role": "CHIEF OVERSEER",
             "released": ["WASTELAND"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/argemedes"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/argemedes",
+            "scale":"OGRE"
         },
         {
             "name": "Arrizak",
@@ -70,7 +78,8 @@
             "race": "HUMAN",
             "role": "SORCERER",
             "released": ["POXXUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/arrizak"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/arrizak",
+            "scale":"2.0"
         },
         {
             "name": "Artemyss Silverchord",
@@ -78,7 +87,8 @@
             "race": "FAERIE ELF",
             "role": "WARRIOR QUEEN",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/artemyss-silverchord"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/artemyss-silverchord",
+            "scale":"2.0"
         },
         {
             "name": "Artemyss Silverchord 2",
@@ -86,7 +96,8 @@
             "race": "FAERIE ELF",
             "role": "PRINCESS",
             "released": ["ILLYTHIA"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/artemyss-silverchord-2"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/artemyss-silverchord-2",
+            "scale":"2.0"
         },
         {
             "name": "Asterionn",
@@ -94,7 +105,8 @@
             "race": "MINOTAUR",
             "role": "PROTECTOR",
             "released": ["MYTHIC LEGIONS 1.0","ALL STARS 1"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/asterionn"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/asterionn",
+            "scale":"1.0"
         },
         {
             "name": "Attila Leossyr",
@@ -102,7 +114,8 @@
             "race": "HUMAN",
             "role": "WARRIOR",
             "released": ["MYTHIC LEGIONS 1.0","ALL STARS 2"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/attila-leossyr"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/attila-leossyr",
+            "scale":"1.0"
         },
         {
             "name": "Attila Leossyr 2",
@@ -110,7 +123,8 @@
             "race": "HUMAN",
             "role": "WARRIOR",
             "released": ["MYTHIC LEGIONS TACTICS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/attila-leossyr-2"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/attila-leossyr-2",
+            "scale":"1.0"
         },
         {
             "name": "Attlus the Conqueror",
@@ -118,7 +132,8 @@
             "race": "HUMAN",
             "role": "BARBARIAN KING",
             "released": ["MYTHIC LEGIONS 1.0","ALL STARS 2"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/attlus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/attlus",
+            "scale":"1.0"
         },
         {
             "name": "Azahazzar",
@@ -126,7 +141,8 @@
             "race": "DEMON",
             "role": "KING",
             "released": ["POXXUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/azahazzar"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/azahazzar",
+            "scale":"OGRE"
         },
         {
             "name": "Azhar",
@@ -134,7 +150,8 @@
             "race": "DEMON",
             "role": "SORCERER",
             "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 5+"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/azhar"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/azhar",
+            "scale":"1.0"
         },
         {
             "name": "Azza Spiritbender",
@@ -142,7 +159,8 @@
             "race": "UNKNOWN",
             "role": "NECROMANCER",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/azza-spiritbender"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/azza-spiritbender",
+            "scale":"2.0"
         },
         {
             "name": "B’alam",
@@ -150,7 +168,8 @@
             "race": "JAGUALLIAN",
             "role": "MAGE",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/balam"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/balam",
+            "scale":"1.0"
         },
         {
             "name": "Balius",
@@ -158,7 +177,8 @@
             "race": "HORSE",
             "role": "STEED",
             "released": ["ARETHYR"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/balius"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/balius",
+            "scale":"STEED"
         },
         {
             "name": "Barbarian",
@@ -166,7 +186,8 @@
             "race": "HUMAN",
             "role": "WARRIOR",
             "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 1"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/barbarian"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/barbarian",
+            "scale":"1.0"
         },
         {
             "name": "Barbarian Warrior",
@@ -174,7 +195,8 @@
             "race": "HUMAN - HALF-ORC",
             "role": "WARRIOR",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/barbarian-warrior"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/barbarian-warrior",
+            "scale":"2.0"
         },
         {
             "name": "Baron Volligar",
@@ -182,7 +204,8 @@
             "race": "VAMPIRE",
             "role": "WARLORD",
             "released": ["COVENANT OF SHADOWS", "ALL STARS 3"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/baron-volligar"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/baron-volligar",
+            "scale":"1.0"
         },
         {
             "name": "Baron Volligar 2",
@@ -190,7 +213,8 @@
             "race": "VAMPIRE",
             "role": "WARLORD",
             "released": ["ILLYTHIA"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/baron-volligar-2"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/baron-volligar-2",
+            "scale":"1.0"
         },
         {
             "name": "Belphegorr",
@@ -198,7 +222,8 @@
             "race": "DEMON",
             "role": "DARK PRINCE",
             "released": ["ARETHYR"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/belphegorr"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/belphegorr",
+            "scale":"1.0"
         },
         {
             "name": "Belualyth",
@@ -206,7 +231,8 @@
             "race": "GHOUL",
             "role": "BEASTMASTER",
             "released": ["NECRONOMINUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/belualyth"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/belualyth",
+            "scale":"2.0"
         },
         {
             "name": "Bishop",
@@ -214,7 +240,8 @@
             "race": "HORSE",
             "role": "STEED",
             "released": ["NECRONOMINUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/bishop"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/bishop",
+            "scale":"STEED"
         },
         {
             "name": "Black Knight",
@@ -222,7 +249,8 @@
             "race": "HUMAN",
             "role": "GUARD",
             "released": ["COLISEUM", "LEGION BUILDER REINFORCEMENTS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/black-knight"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/black-knight",
+            "scale":"1.0"
         },
         {
             "name": "Boarrior",
@@ -230,7 +258,8 @@
             "race": "BOARRIOR",
             "role": "SOLDIER",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/boarrior"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/boarrior",
+            "scale":"1.0"
         },
         {
             "name": "Bog Goblin",
@@ -238,7 +267,8 @@
             "race": "GREATER GOBLIN",
             "role": "ASSASSIN",
             "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 2"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/bog-goblin"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/bog-goblin",
+            "scale":"1.0"
         },
         {
             "name": "Bolthor the Tower",
@@ -246,7 +276,8 @@
             "race": "HALF-GIANT",
             "role": "HERO",
             "released": ["SIEGE AT BJORNGAR"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/bolthor-the-tower"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/bolthor-the-tower",
+            "scale":"OGRE"
         },
         {
             "name": "Boreus",
@@ -254,7 +285,8 @@
             "race": "HORSE",
             "role": "STEED",
             "released": ["ALL STARS 5+"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/boreus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/boreus",
+            "scale":"STEED"
         },
         {
             "name": "Bothar Shadowhorn",
@@ -262,7 +294,8 @@
             "race": "DWARF",
             "role": "FIGHTER",
             "released": ["MYTHIC LEGIONS 1.0"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/bothar-shadowhorn"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/bothar-shadowhorn",
+            "scale":"1.0"
         },
         {
             "name": "Bromdenn Ironjaw",
@@ -270,7 +303,8 @@
             "race": "DWARF",
             "role": "KING",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/king-bromdenn-ironjaw"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/king-bromdenn-ironjaw",
+            "scale":"1.0"
         },
         {
             "name": "Brontus",
@@ -278,7 +312,8 @@
             "race": "TROLL",
             "role": "FORMER GLADIATOR",
             "released": ["COLISEUM"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/brontus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/brontus",
+            "scale":"TROLL"
         },
         {
             "name": "Brontus 2",
@@ -286,7 +321,8 @@
             "race": "TROLL",
             "role": "FORMER GLADIATOR",
             "released": ["ALL STARS TROLLS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/brontus-2"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/brontus-2",
+            "scale":"TROLL"
         },
         {
             "name": "Bronze Dwarf",
@@ -294,7 +330,8 @@
             "race": "DWARF",
             "role": "SOLDIER",
             "released": ["MYTHIC LEGIONS 1.0", "LEGION BUILDER REINFORCEMENTS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/bronze-dwarf"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/bronze-dwarf",
+            "scale":"1.0"
         },
         {
             "name": "Brother Mandibulus",
@@ -302,7 +339,8 @@
             "race": "SKELETON",
             "role": "WARLORD",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/brother-mandibulus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/brother-mandibulus",
+            "scale":"1.0"
         },
         {
             "name": "Bryophytus",
@@ -310,7 +348,8 @@
             "race": "LICHEN ORC",
             "role": "PROTECTOR",
             "released": ["ALL-STARS 4"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/bryophytus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/bryophytus",
+            "scale":"1.0"
         },
         {
             "name": "Bubotros",
@@ -318,7 +357,8 @@
             "race": "AVIAN",
             "role": "WARRIOR",
             "released": ["EATHYRON'S DOZEN"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/bubotros"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/bubotros",
+            "scale":"1.0"
         },
         {
             "name": "Cador",
@@ -326,7 +366,8 @@
             "race": "HUMAN",
             "role": "BARBARIAN KNIGHT",
             "released": ["COVENANT OF SHADOWS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/cador"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/cador",
+            "scale":"1.0"
         },
         {
             "name": "Calavius",
@@ -334,7 +375,8 @@
             "race": "HUMAN",
             "role": "GLADIATOR",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/calavius"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/calavius",
+            "scale":"1.0"
         },
         {
             "name": "Carpathias",
@@ -342,7 +384,8 @@
             "race": "VAMPIRE",
             "role": "SWORDSMAN",
             "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 2"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/carpathias"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/carpathias",
+            "scale":"1.0"
         },
         {
             "name": "Cassia",
@@ -350,7 +393,8 @@
             "race": "HUMAN",
             "role": "WARRIOR",
             "released": ["WASTELAND"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/cassia"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/cassia",
+            "scale":"2.0"
         },
         {
             "name": "Cavern Dwarf",
@@ -358,7 +402,8 @@
             "race": "DWARF",
             "role": "SOLDIER",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/cavern-dwarf"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/cavern-dwarf",
+            "scale":"1.0"
         },
         {
             "name": "Clavian",
@@ -366,7 +411,8 @@
             "race": "SKELETON",
             "role": "RAIDER",
             "released": ["MYTHIC LEGIONS 1.0"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/clavian"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/clavian",
+            "scale":"1.0"
         },
         {
             "name": "Coliseum Orc",
@@ -374,7 +420,8 @@
             "race": "ORC",
             "role": "GLADIATOR",
             "released": ["COLISEUM"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/coliseum-orc"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/coliseum-orc",
+            "scale":"1.0"
         },
         {
             "name": "Colonel Domesticus",
@@ -382,7 +429,8 @@
             "race": "AVIAN",
             "role": "WARRIOR",
             "released": ["EATHYRON'S DOZEN"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/colonel-domesticus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/colonel-domesticus",
+            "scale":"1.0"
         },
         {
             "name": "Conabus",
@@ -390,7 +438,8 @@
             "race": "UNDEAD HORSE",
             "role": "STEED",
             "released": ["NECRONOMINUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/conabus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/conabus",
+            "scale":"STEED"
         },
         {
             "name": "Cowarros",
@@ -398,7 +447,8 @@
             "race": "JAGUALLIAN",
             "role": "WARRIOR",
             "released": ["SOUL SPILLER"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/cowarros"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/cowarros",
+            "scale":"1.0"
         },
         {
             "name": "Cyanicus",
@@ -406,7 +456,8 @@
             "race": "AVIAN",
             "role": "WARRIOR",
             "released": ["EATHYRON'S DOZEN"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/cyanicus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/cyanicus",
+            "scale":"1.0"
         },
         {
             "name": "Dark Forces Weapons",
@@ -414,7 +465,8 @@
             "race": "NA",
             "role": "WEAPONS",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/dark-forces-weapons"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dark-forces-weapons",
+            "scale":"NA"
         },
         {
             "name": "Decebalus",
@@ -422,7 +474,8 @@
             "race": "VOGYRR",
             "role": "BODYGUARD",
             "released": ["ILLYTHIA"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/decebalus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/decebalus",
+            "scale":"OGRE"
         },
         {
             "name": "Delphina of Eathyross",
@@ -430,7 +483,8 @@
             "race": "HUMAN",
             "role": "TEMPLAR KNIGHT",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/delphina-of-eathyross"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/delphina-of-eathyross",
+            "scale":"2.0"
         },
         {
             "name": "Deltigar the Destroyer",
@@ -438,7 +492,8 @@
             "race": "HUMAN",
             "role": "DEFENDER",
             "released": ["ALL STARS 2"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/deltigar-the-destroyer"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/deltigar-the-destroyer",
+            "scale":"1.0"
         },
         {
             "name": "Deluxe Barbarian LB",
@@ -446,7 +501,8 @@
             "race": "HUMAN",
             "role": "WARRIOR",
             "released": ["DELUXE LEGION BUILDERS 1"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-barb-lb"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-barb-lb",
+            "scale":"1.0"
         },
         {
             "name": "Deluxe Dark Templar LB",
@@ -454,7 +510,8 @@
             "race": "VARIOUS",
             "role": "SOLDIER",
             "released": ["DELUXE LEGION BUILDERS 1"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-dark-templar-lb"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-dark-templar-lb",
+            "scale":"1.0"
         },
         {
             "name": "Deluxe Dwarf LB",
@@ -462,7 +519,8 @@
             "race": "DWARF",
             "role": "SOLDIER",
             "released": ["DELUXE LEGION BUILDERS 1"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-dwarf-lb"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-dwarf-lb",
+            "scale":"1.0"
         },
         {
             "name": "Deluxe Female Elf Builder",
@@ -470,7 +528,8 @@
             "race": "ELF",
             "role": "TBD",
             "released": ["MYTHIC LEGIONS TACTICS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/deluxe-female-elf-builder"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/deluxe-female-elf-builder",
+            "scale":"2.0"
         },
         {
             "name": "Deluxe Female Orc Builder",
@@ -478,7 +537,8 @@
             "race": "ORC",
             "role": "TBD",
             "released": ["MYTHIC LEGIONS TACTICS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/deluxe-female-orc-builder"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/deluxe-female-orc-builder",
+            "scale":"2.0"
         },
         {
             "name": "Deluxe Gladiator LB",
@@ -486,7 +546,8 @@
             "race": "HUMAN",
             "role": "GLADIATOR",
             "released": ["DELUXE LEGION BUILDERS 1"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-glad-lb"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-glad-lb",
+            "scale":"1.0"
         },
         {
             "name": "Deluxe Goblin LB",
@@ -494,7 +555,8 @@
             "race": "GOBLIN",
             "role": "SOLDIER",
             "released": ["DELUXE LEGION BUILDERS 1"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-gob-lb"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-gob-lb",
+            "scale":"1.0"
         },
         {
             "name": "Deluxe Male Elf Builder",
@@ -502,7 +564,8 @@
             "race": "ELF",
             "role": "TBD",
             "released": ["MYTHIC LEGIONS TACTICS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/deluxe-male-elf-builder"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/deluxe-male-elf-builder",
+            "scale":"2.0"
         },
         {
             "name": "Deluxe Male Orc Builder",
@@ -510,7 +573,8 @@
             "race": "ORC",
             "role": "TBD",
             "released": ["MYTHIC LEGIONS TACTICS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/deluxe-male-orc-builder"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/deluxe-male-orc-builder",
+            "scale":"1.0"
         },
         {
             "name": "Deluxe Skeleton LB",
@@ -518,7 +582,8 @@
             "race": "SKELETON",
             "role": "SOLDIER",
             "released": ["DELUXE LEGION BUILDERS 1"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-skull-lb"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-skull-lb",
+            "scale":"1.0"
         },
         {
             "name": "Demon Wings",
@@ -526,7 +591,8 @@
             "race": "NA",
             "role": "NA",
             "released": ["ARETHYR"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/demon-wings"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/demon-wings",
+            "scale":"NA"
         },
         {
             "name": "Dorina Onoris",
@@ -534,7 +600,8 @@
             "race": "HUMAN",
             "role": "FOLK HERO",
             "released": ["ALL STARS 3"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/dorina-onoris"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dorina-onoris",
+            "scale":"2.0"
         },
         {
             "name": "Drayleeon",
@@ -542,7 +609,8 @@
             "race": "AVIAN",
             "role": "WARRIOR",
             "released": ["EATHYRON'S DOZEN"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/drayleeon"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/drayleeon",
+            "scale":"1.0"
         },
         {
             "name": "Duban",
@@ -550,7 +618,8 @@
             "race": "HUMAN",
             "role": "RANGER",
             "released": ["ALL STARS 5+"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/duban"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/duban",
+            "scale":"1.0"
         },
         {
             "name": "Dwarf Weapons",
@@ -558,7 +627,8 @@
             "race": "NA",
             "role": "WEAPONS",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/dwarf-weapons"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dwarf-weapons",
+            "scale":"NA"
         },
         {
             "name": "Eagalus",
@@ -566,7 +636,8 @@
             "race": "AVIAN",
             "role": "PATRIOT",
             "released": ["ALL STARS 2"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/eagalus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/eagalus",
+            "scale":"1.0"
         },
         {
             "name": "Eathyron",
@@ -574,7 +645,8 @@
             "race": "EAGLE",
             "role": "BATTLE GOD",
             "released": ["EATHYRON'S DOZEN"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/eathyron"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/eathyron",
+            "scale":"1.0"
         },
         {
             "name": "Elf",
@@ -582,7 +654,8 @@
             "race": "ELF - WHISPERLING",
             "role": "SOLDIER",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/elf"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/elf",
+            "scale":"2.0"
         },
         {
             "name": "Elf Ranger",
@@ -590,7 +663,8 @@
             "race": "ELF",
             "role": "RANGER",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/elf-ranger"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/elf-ranger",
+            "scale":"2.0"
         },
         {
             "name": "Elf Weapons",
@@ -598,7 +672,8 @@
             "race": "NA",
             "role": "WEAPONS",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/elf-weapons"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/elf-weapons",
+            "scale":"NA"
         },
         {
             "name": "Equaddron",
@@ -606,7 +681,8 @@
             "race": "UNKNOWN",
             "role": "UNKNOWN",
             "released": ["FOUR HORSEMEN 20TH ANNIVERSARY BUNDLE"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/equaddron"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/equaddron",
+            "scale":"OGRE"
         },
         {
             "name": "Evil Weapons",
@@ -614,7 +690,8 @@
             "race": "NA",
             "role": "WEAPONS",
             "released": ["MYTHIC LEGIONS 1.0"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/evil-weapons"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/evil-weapons",
+            "scale":"NA"
         },
         {
             "name": "Faunus",
@@ -622,7 +699,8 @@
             "race": "FOREST ELEMENTAL",
             "role": "COMMANDER",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/faunus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/faunus",
+            "scale":"1.0"
         },
         {
             "name": "Faustia",
@@ -630,7 +708,8 @@
             "race": "HUMAN",
             "role": "CLERIC",
             "released": ["SIEGE AT BJORNGAR"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/faustia"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/faustia",
+            "scale":"2.0"
         },
         {
             "name": "Forest Troll",
@@ -638,7 +717,8 @@
             "race": "TROLL",
             "role": "MONSTER",
             "released": ["MYTHIC LEGIONS 1.5"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/forest-troll"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/forest-troll",
+            "scale":"TROLL"
         },
         {
             "name": "Forest Troll 2",
@@ -646,7 +726,8 @@
             "race": "TROLL",
             "role": "MONSTER",
             "released": ["ALL-STARS 4"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/forest-troll-2"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/forest-troll-2",
+            "scale":"TROLL"
         },
         {
             "name": "Freyja of Deadhall",
@@ -654,7 +735,8 @@
             "race": "VALKYRIE",
             "role": "WARRIOR",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/freyja-of-deadhall"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/freyja-of-deadhall",
+            "scale":"2.0"
         },
         {
             "name": "Fury Clan Orc",
@@ -662,7 +744,8 @@
             "race": "ORC",
             "role": "ASSASSIN",
             "released": ["SOUL SPILLER"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/fury-clan-orc"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/fury-clan-orc",
+            "scale":"1.0"
         },
         {
             "name": "Gadriel",
@@ -670,7 +753,8 @@
             "race": "ANGEL",
             "role": "WARRIOR",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/gadriel"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gadriel",
+            "scale":"2.0"
         },
         {
             "name": "Goblin",
@@ -678,7 +762,8 @@
             "race": "GOBLIN",
             "role": "SOLDIER",
             "released": ["ADVENT OF DECAY", "LEGION BUILDER REINFORCEMENTS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/goblin"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/goblin",
+            "scale":"2.0"
         },
         {
             "name": "Gold Knight",
@@ -686,7 +771,8 @@
             "race": "HUMAN",
             "role": "KNIGHT",
             "released": ["MYTHIC LEGIONS 1.0"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/gold-knight"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gold-knight",
+            "scale":"1.0"
         },
         {
             "name": "Gold Skeleton",
@@ -694,7 +780,8 @@
             "race": "SKELETON",
             "role": "SOLDIER",
             "released": ["MYTHIC LEGIONS 1.0"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/gold-skeleton"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gold-skeleton",
+            "scale":"1.0"
         },
         {
             "name": "Gonxx",
@@ -702,7 +789,8 @@
             "race": "GOBLIN",
             "role": "COMMANDER",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/gonxx"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gonxx",
+            "scale":"1.0"
         },
         {
             "name": "Gorgo Aetherblade",
@@ -710,7 +798,8 @@
             "race": "UNKNOWN",
             "role": "WARMONGER",
             "released": ["MYTHIC LEGIONS 1.0"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/gorgo-aetherblade"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gorgo-aetherblade",
+            "scale":"1.0"
         },
         {
             "name": "Gorgo Aetherblade 2",
@@ -718,7 +807,8 @@
             "race": "UNKNOWN",
             "role": "WARMONGER",
             "released": ["MYTHIC LEGIONS TACTICS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/gorgo-aetherblade-2"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gorgo-aetherblade-2",
+            "scale":"1.0"
         },
         {
             "name": "Gorthokk",
@@ -726,7 +816,8 @@
             "race": "SHADOW ORC",
             "role": "STRATEGIST",
             "released": ["COVENANT OF SHADOWS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/gorthokk"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gorthokk",
+            "scale":"1.0"
         },
         {
             "name": "Gryshaa the Slytherer",
@@ -734,7 +825,8 @@
             "race": "UNKNOWN",
             "role": "ASSASSIN",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/gryshaa-the-slytherer"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gryshaa-the-slytherer",
+            "scale":"2.0"
         },
         {
             "name": "Gwendolynne Heavensbrand",
@@ -742,7 +834,8 @@
             "race": "HUMAN",
             "role": "PALADIN",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/gwendolynne-heavensbrand"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gwendolynne-heavensbrand",
+            "scale":"2.0"
         },
         {
             "name": "Hadriana",
@@ -750,7 +843,8 @@
             "race": "HUMAN",
             "role": "LEADER OF RED SHIELD",
             "released": ["ARETHYR"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/hadriana"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/hadriana",
+            "scale":"2.0"
         },
         {
             "name": "Hagnon",
@@ -758,7 +852,8 @@
             "race": "GHOST",
             "role": "FIGHTER",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/hagnon"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/hagnon",
+            "scale":"1.0"
         },
         {
             "name": "Half-Giant LB",
@@ -766,7 +861,8 @@
             "race": "HALF-GIANT",
             "role": "WARRIOR",
             "released": ["DELUXE LEGION BUILDERS 1"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-half-giant"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dlx-half-giant",
+            "scale":"OGRE"
         },
         {
             "name": "Halmyr Goldentooth",
@@ -774,7 +870,8 @@
             "race": "DWARF",
             "role": "WARRIOR, FORMER GLADIATOR",
             "released": ["COLISEUM"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/halmyr-goldentooth"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/halmyr-goldentooth",
+            "scale":"1.0"
         },
         {
             "name": "Hands and Feet",
@@ -782,7 +879,8 @@
             "race": "ORC AND HUMAN",
             "role": "NA",
             "released": ["ARETHYR"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/hands-and-feet"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/hands-and-feet",
+            "scale":"1.0"
         },
         {
             "name": "Hands and Feet 2",
@@ -790,7 +888,8 @@
             "race": "NA",
             "role": "NA",
             "released": ["ILLYTHIA"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/leather-hands-and-feet"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/leather-hands-and-feet",
+            "scale":"1.0"
         },
         {
             "name": "Hands Pack",
@@ -798,7 +897,8 @@
             "race": "NA",
             "role": "HANDS",
             "released": ["POXXUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/hands-pack"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/hands-pack",
+            "scale":"2.0"
         },
         {
             "name": "Heads Pack 1",
@@ -806,7 +906,8 @@
             "race": "VARIOUS",
             "role": "VARIOUS",
             "released": ["ALL STARS TROLLS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/heads-pack-1"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/heads-pack-1",
+            "scale":"VARIOUS"
         },
         {
             "name": "Helphyre Goblin",
@@ -814,7 +915,8 @@
             "race": "GOBLIN",
             "role": "SOLDIER",
             "released": ["ARETHYR"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/helphyre-goblin"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/helphyre-goblin",
+            "scale":"1.0"
         },
         {
             "name": "Heroic Weapons",
@@ -822,7 +924,8 @@
             "race": "NA",
             "role": "WEAPONS",
             "released": ["MYTHIC LEGIONS 1.0"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/heroic-weapons"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/heroic-weapons",
+            "scale":"NA"
         },
         {
             "name": "Herra Serpenspire",
@@ -830,7 +933,8 @@
             "race": "HUMAN",
             "role": "SORCERESS",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/herra-serpenspire"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/herra-serpenspire",
+            "scale":"2.0"
         },
         {
             "name": "Ice Troll",
@@ -838,7 +942,8 @@
             "race": "TROLL",
             "role": "MONSTER",
             "released": ["SOUL SPILLER"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/ice-troll"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/ice-troll",
+            "scale":"TROLL"
         },
         {
             "name": "Ice Troll 2",
@@ -846,7 +951,8 @@
             "race": "TROLL",
             "role": "MONSTER",
             "released": ["ALL STARS TROLLS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/ice-troll-2"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/ice-troll-2",
+            "scale":"TROLL"
         },
         {
             "name": "Ilgarr",
@@ -854,7 +960,8 @@
             "race": "SKELETON",
             "role": "VIKING",
             "released": ["MYTHIC LEGIONS 1.5", "ALL STARS 5+"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/ilgarr"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/ilgarr",
+            "scale":"1.0"
         },
         {
             "name": "Illythia",
@@ -862,7 +969,8 @@
             "race": "VAMPIRE",
             "role": "GODDESS",
             "released": ["ILLYTHIA"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/illythia"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/illythia",
+            "scale":"2.0"
         },
         {
             "name": "Iron Knight",
@@ -870,7 +978,8 @@
             "race": "HUMAN",
             "role": "KNIGHT",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/iron-knight"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/iron-knight",
+            "scale":"2.0"
         },
         {
             "name": "Jjuno the Crusher",
@@ -878,7 +987,8 @@
             "race": "HUMAN",
             "role": "BARBARIAN",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/jjuno-the-crusher"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/jjuno-the-crusher",
+            "scale":"2.0"
         },
         {
             "name": "Jorund Runeshaper",
@@ -886,7 +996,8 @@
             "race": "DWARF",
             "role": "MAGE",
             "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 2"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/jorund-runeshaper"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/jorund-runeshaper",
+            "scale":"1.0"
         },
         {
             "name": "Kalizirr",
@@ -894,7 +1005,8 @@
             "race": "DJINN",
             "role": "AEROMANCER",
             "released": ["POXXUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/kalizirr"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/kalizirr",
+            "scale":"BRUTE"
         },
         {
             "name": "Keltuss",
@@ -902,7 +1014,8 @@
             "race": "SKELETON",
             "role": "MAGE",
             "released": ["COLISEUM"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/keltuss"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/keltuss",
+            "scale":"1.0"
         },
         {
             "name": "King No’glin",
@@ -910,7 +1023,8 @@
             "race": "GOBLIN",
             "role": "KING",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/king-noglin"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/king-noglin",
+            "scale":"2.0"
         },
         {
             "name": "Kkurzog",
@@ -918,7 +1032,8 @@
             "race": "OGRE",
             "role": "INTERPRETER AND GENERAL",
             "released": ["SIEGE AT BJORNGAR"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/kkurzog"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/kkurzog",
+            "scale":"OGRE"
         },
         {
             "name": "Knight",
@@ -926,7 +1041,8 @@
             "race": "HUMAN",
             "role": "KNIGHT",
             "released": ["COVENANT OF SHADOWS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/knight"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/knight",
+            "scale":"1.0"
         },
         {
             "name": "Knight Builder",
@@ -934,7 +1050,8 @@
             "race": "HUMAN",
             "role": "KNIGHT",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/knight-builder2"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/knight-builder2",
+            "scale":"2.0"
         },
         {
             "name": "Knight Weapons",
@@ -942,7 +1059,8 @@
             "race": "NA",
             "role": "WEAPONS",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/knight-weapons"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/knight-weapons",
+            "scale":"NA"
         },
         {
             "name": "Knights of Eathyron Hands Pack",
@@ -950,7 +1068,8 @@
             "race": "NA",
             "role": "HANDS",
             "released": ["NECRONOMINUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/knights-of-eathyron-hands-pack"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/knights-of-eathyron-hands-pack",
+            "scale":"1.0"
         },
         {
             "name": "Knights of Eathyron Weapons Pack",
@@ -958,7 +1077,8 @@
             "race": "NA",
             "role": "WEAPONS",
             "released": ["NECRONOMINUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/knights-of-eathyron-weapons-pack"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/knights-of-eathyron-weapons-pack",
+            "scale":"NA"
         },
         {
             "name": "Knubnik",
@@ -966,7 +1086,8 @@
             "race": "GOBLIN",
             "role": "ASSASSIN",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/knubnik"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/knubnik",
+            "scale":"2.0"
         },
         {
             "name": "Kronnaw",
@@ -974,7 +1095,8 @@
             "race": "UNKNOWN",
             "role": "DESTROYER",
             "released": ["WASTELAND"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/kronnaw"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/kronnaw",
+            "scale":"1.0"
         },
         {
             "name": "Krotos",
@@ -982,7 +1104,8 @@
             "race": "SATYR",
             "role": "HEALER",
             "released": ["ILLYTHIA"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/krotos"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/krotos",
+            "scale":"1.0"
         },
         {
             "name": "Lady Avarona",
@@ -990,7 +1113,8 @@
             "race": "HUMAN",
             "role": "EVIL KNIGHT",
             "released": ["ALL STARS 5+"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/lady-avarona"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/lady-avarona",
+            "scale":"2.0"
         },
         {
             "name": "Lord Aydon",
@@ -998,7 +1122,8 @@
             "race": "WOOD ELF",
             "role": "ADVISOR",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/lord-aydon"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/lord-aydon",
+            "scale":"2.0"
         },
         {
             "name": "Lord Bardric",
@@ -1006,7 +1131,8 @@
             "race": "ELF",
             "role": "LORD",
             "released": ["ILLYTHIA"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/lord-bardric"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/lord-bardric",
+            "scale":"1.0"
         },
         {
             "name": "Lord Bushotee the Alpha",
@@ -1014,7 +1140,8 @@
             "race": "MAN",
             "role": "LORD AND COMMANDER OF THE FURIOUS FOUR",
             "released": ["LEGIONSCON 2022"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/lord-bushotee-the-alpha"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/lord-bushotee-the-alpha",
+            "scale":"1.0"
         },
         {
             "name": "Lord Draguul",
@@ -1022,7 +1149,8 @@
             "race": "VAMPIRE",
             "role": "WAR HERO",
             "released": ["ALL STARS 3"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/lord-draguul"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/lord-draguul",
+            "scale":"1.0"
         },
         {
             "name": "Lord Veteris",
@@ -1030,7 +1158,8 @@
             "race": "HUMAN",
             "role": "MERCENARY",
             "released": ["SOUL SPILLER"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/lord-veteris"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/lord-veteris",
+            "scale":"1.0"
         },
         {
             "name": "Lucretia",
@@ -1038,7 +1167,8 @@
             "race": "VAMPIRE",
             "role": "WARLORD",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/lucretia"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/lucretia",
+            "scale":"2.0"
         },
         {
             "name": "Magic Effects - Evil",
@@ -1046,7 +1176,8 @@
             "race": "NA",
             "role": "MAGIC!",
             "released": ["POXXUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/magic-effects-evil"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/magic-effects-evil",
+            "scale":"NA"
         },
         {
             "name": "Magic Effects - Heroic",
@@ -1054,7 +1185,8 @@
             "race": "NA",
             "role": "MAGIC!",
             "released": ["POXXUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/magic-effects-heroic"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/magic-effects-heroic",
+            "scale":"NA"
         },
         {
             "name": "Magnus",
@@ -1062,7 +1194,8 @@
             "race": "HUMAN",
             "role": "ADVISOR",
             "released": ["ARETHYR"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/magnus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/magnus",
+            "scale":"1.0"
         },
         {
             "name": "Malachi Cinderhorn",
@@ -1070,7 +1203,8 @@
             "race": "SHADOW ELF",
             "role": "KING",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/malachi-cinderhorn"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/malachi-cinderhorn",
+            "scale":"2.0"
         },
         {
             "name": "Malephar",
@@ -1078,7 +1212,8 @@
             "race": "LESSER DEMON",
             "role": "COMMANDER",
             "released": ["ARETHYR"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/malephar"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/malephar",
+            "scale":"2.0"
         },
         {
             "name": "Mallatard the Duck",
@@ -1086,7 +1221,8 @@
             "race": "AVIAN",
             "role": "WARRIOR",
             "released": ["EATHYRON'S DOZEN"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/mallatard-the-duck"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/mallatard-the-duck",
+            "scale":"1.0"
         },
         {
             "name": "Malleus",
@@ -1094,7 +1230,8 @@
             "race": "SKELETON",
             "role": "EMISSARY OF NECRONOMINUS",
             "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 3"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/malleus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/malleus",
+            "scale":"1.0"
         },
         {
             "name": "Malynna",
@@ -1102,7 +1239,8 @@
             "race": "UUBYR",
             "role": "TEMPTRESS",
             "released": ["SOUL SPILLER"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/malynna"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/malynna",
+            "scale":"2.0"
         },
         {
             "name": "Maxillius the Harvester",
@@ -1110,7 +1248,8 @@
             "race": "UNKNOWN",
             "role": "HERALD",
             "released": ["NECRONOMINUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/maxillius-the-harvester"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/maxillius-the-harvester",
+            "scale":"1.0"
         },
         {
             "name": "Mephitor",
@@ -1118,7 +1257,8 @@
             "race": "SWALE GOBLIN",
             "role": "SPY",
             "released": ["ALL-STARS 4"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/mephitor"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/mephitor",
+            "scale":"2.0"
         },
         {
             "name": "Morgolyth",
@@ -1126,7 +1266,8 @@
             "race": "SKELETON",
             "role": "HIGH PRIESTESS",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/morgolyth"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/morgolyth",
+            "scale":"2.0"
         },
         {
             "name": "Myria Goldenbranch",
@@ -1134,7 +1275,8 @@
             "race": "WHISPERLING",
             "role": "DEFENDER",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/myria-goldenbranch"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/myria-goldenbranch",
+            "scale":"2.0"
         },
         {
             "name": "Necronominus",
@@ -1142,7 +1284,8 @@
             "race": "SKELETON",
             "role": "GOD",
             "released": ["NECRONOMINUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/necronominus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/necronominus",
+            "scale":"1.0"
         },
         {
             "name": "Ogre",
@@ -1150,7 +1293,8 @@
             "race": "OGRE",
             "role": "SOLDIER",
             "released": ["SIEGE AT BJORNGAR"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/ogre"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/ogre",
+            "scale":"OGRE"
         },
         {
             "name": "Ogre-Scale Accessory Pack",
@@ -1158,7 +1302,8 @@
             "race": "NA",
             "role": "ACCESSORIES",
             "released": ["DELUXE LEGION BUILDERS 1"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/lb-1-8"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/lb-1-8",
+            "scale":"OGRE"
         },
         {
             "name": "Okeaetos",
@@ -1166,7 +1311,8 @@
             "race": "ARAKKIGHAST",
             "role": "ASSASSIN",
             "released": ["ALL STARS 5+"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/okeaetos"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/okeaetos",
+            "scale":"2.0"
         },
         {
             "name": "Orc",
@@ -1174,7 +1320,8 @@
             "race": "ORC",
             "role": "SOLDIER",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/orc"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/orc",
+            "scale":"1.0"
         },
         {
             "name": "Orc Legion Builder",
@@ -1182,7 +1329,8 @@
             "race": "ORC",
             "role": "SOLDIER",
             "released": ["MYTHIC LEGIONS 1.0", "LEGION BUILDER REINFORCEMENTS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/orc-legion-builder"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/orc-legion-builder",
+            "scale":"1.0"
         },
         {
             "name": "Orn Steelhide",
@@ -1190,7 +1338,8 @@
             "race": "DWARF",
             "role": "SOLDIER",
             "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 1"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/orn-steelhide"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/orn-steelhide",
+            "scale":"1.0"
         },
         {
             "name": "Osperus",
@@ -1198,7 +1347,8 @@
             "race": "AVIAN",
             "role": "WARRIOR",
             "released": ["EATHYRON'S DOZEN"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/osperus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/osperus",
+            "scale":"1.0"
         },
         {
             "name": "Otho",
@@ -1206,7 +1356,8 @@
             "race": "HUMAN",
             "role": "WARRIOR",
             "released": ["MYTHIC LEGIONS 1.0"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/otho"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/otho",
+            "scale":"1.0"
         },
         {
             "name": "Pelecus",
@@ -1214,7 +1365,8 @@
             "race": "AVIAN",
             "role": "WARRIOR",
             "released": ["EATHYRON'S DOZEN"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/pelecus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/pelecus",
+            "scale":"1.0"
         },
         {
             "name": "Pelvicus",
@@ -1222,7 +1374,8 @@
             "race": "SKELETON",
             "role": "UNKNOWN",
             "released": ["LEGIONSCON 2022"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/pelvicus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/pelvicus",
+            "scale":"1.0"
         },
         {
             "name": "Peteorionn",
@@ -1230,7 +1383,8 @@
             "race": "MINOTAUR",
             "role": "ENFORCER",
             "released": ["LEGIONSCON 2022"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/peteorionn"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/peteorionn",
+            "scale":"1.0"
         },
         {
             "name": "Phlogeus",
@@ -1238,7 +1392,8 @@
             "race": "HORSE",
             "role": "STEED",
             "released": ["POXXUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/phlogeus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/phlogeus",
+            "scale":"STEED"
         },
         {
             "name": "Phobus",
@@ -1246,7 +1401,8 @@
             "race": "HORSE",
             "role": "STEED",
             "released": ["ILLYTHIA"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/phobus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/phobus",
+            "scale":"STEED"
         },
         {
             "name": "Phoenicus",
@@ -1254,7 +1410,8 @@
             "race": "AVIAN",
             "role": "WARRIOR",
             "released": ["EATHYRON'S DOZEN"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/phoenicus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/phoenicus",
+            "scale":"1.0"
         },
         {
             "name": "Pixxus",
@@ -1262,7 +1419,8 @@
             "race": "SKELETON",
             "role": "SOLDIER",
             "released": ["MYTHIC LEGIONS 1.5", "ALL STARS 2"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/pixxus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/pixxus",
+            "scale":"1.0"
         },
         {
             "name": "Poxxus",
@@ -1270,7 +1428,8 @@
             "race": "LICH",
             "role": "GOD",
             "released": ["POXXUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/poxxus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/poxxus",
+            "scale":"1.0"
         },
         {
             "name": "Purrrplor",
@@ -1278,7 +1437,8 @@
             "race": "JAGUALLIAN",
             "role": "SWORDSMAN",
             "released": ["WASTELAND"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/purrrplor"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/purrrplor",
+            "scale":"1.0"
         },
         {
             "name": "Queen Urkzaa",
@@ -1286,7 +1446,8 @@
             "race": "ORC",
             "role": "QUEEN",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/queen-urkzaa"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/queen-urkzaa",
+            "scale":"2.0"
         },
         {
             "name": "Ragna Stormforger",
@@ -1294,7 +1455,8 @@
             "race": "DWARF",
             "role": "SOLDIER",
             "released": ["SOUL SPILLER"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/ragna-stormforger"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/ragna-stormforger",
+            "scale":"2.0"
         },
         {
             "name": "Rahmulus",
@@ -1302,7 +1464,8 @@
             "race": "HUMAN",
             "role": "WARRIOR, FORMER GLADIATOR",
             "released": ["COLISEUM", "ALL STARS 5+"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/rahmulus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/rahmulus",
+            "scale":"1.0"
         },
         {
             "name": "Ravaena",
@@ -1310,7 +1473,8 @@
             "race": "HUMAN",
             "role": "RELIC HUNTER",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/ravaena"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/ravaena",
+            "scale":"2.0"
         },
         {
             "name": "Raygorr",
@@ -1318,7 +1482,8 @@
             "race": "HUMAN",
             "role": "WARRIOR, FORMER GLADIATOR",
             "released": ["COLISEUM"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/raygorr"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/raygorr",
+            "scale":"1.0"
         },
         {
             "name": "Red Shield Soldier",
@@ -1326,7 +1491,8 @@
             "race": "HUMAN",
             "role": "SOLDIER",
             "released": ["ARETHYR"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/red-shield-soldier"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/red-shield-soldier",
+            "scale":"1.0"
         },
         {
             "name": "Samir Scrollwarder",
@@ -1334,7 +1500,8 @@
             "race": "HUMAN",
             "role": "WIZARD",
             "released": ["POXXUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/samir-scrollwarder"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/samir-scrollwarder",
+            "scale":"2.0"
         },
         {
             "name": "Scaphoid",
@@ -1342,7 +1509,8 @@
             "race": "POISON SKELETON",
             "role": "MAGIC USER",
             "released": ["COVENANT OF SHADOWS", "ALL-STARS 4"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/scaphoid"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/scaphoid",
+            "scale":"1.0"
         },
         {
             "name": "Scarletross",
@@ -1350,7 +1518,8 @@
             "race": "AVIAN",
             "role": "WARRIOR",
             "released": ["EATHYRON'S DOZEN"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/scarletross"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/scarletross",
+            "scale":"1.0"
         },
         {
             "name": "Shadow Elf",
@@ -1358,7 +1527,8 @@
             "race": "SHADOW ELF",
             "role": "WARRIOR",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/shadow-elf"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/shadow-elf",
+            "scale":"2.0"
         },
         {
             "name": "Shadow Elf Ranger",
@@ -1366,7 +1536,8 @@
             "race": "SHADOW ELF",
             "role": "RANGER",
             "released": ["SOUL SPILLER"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/shadow-elf-ranger"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/shadow-elf-ranger",
+            "scale":"2.0"
         },
         {
             "name": "Shadow Equaddron",
@@ -1374,7 +1545,8 @@
             "race": "UNKNOWN",
             "role": "UNKNOWN",
             "released": ["RELEASED AS A SINGLE FIGURE"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/shadow-equaddron"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/shadow-equaddron",
+            "scale":"OGRE"
         },
         {
             "name": "Silver Dwarf",
@@ -1382,7 +1554,8 @@
             "race": "DWARF",
             "role": "SOLDIER",
             "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 2"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/silver-dwarf"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/silver-dwarf",
+            "scale":"1.0"
         },
         {
             "name": "Silver Knight",
@@ -1390,7 +1563,8 @@
             "race": "HUMAN",
             "role": "KNIGHT",
             "released": ["MYTHIC LEGIONS 1.0"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/silver-knight-legion-builder"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/silver-knight-legion-builder",
+            "scale":"1.0"
         },
         {
             "name": "Silverhorn Sentry",
@@ -1398,7 +1572,8 @@
             "race": "FAUN",
             "role": "GUARD",
             "released": ["COVENANT OF SHADOWS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/silverhorn-sentry"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/silverhorn-sentry",
+            "scale":"1.0"
         },
         {
             "name": "Sir Adalric",
@@ -1406,7 +1581,8 @@
             "race": "HUMAN",
             "role": "CHAMPION",
             "released": ["NECRONOMINUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-adalric"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-adalric",
+            "scale":"1.0"
         },
         {
             "name": "Sir Elijah",
@@ -1414,7 +1590,8 @@
             "race": "HUMAN",
             "role": "MESSENGER",
             "released": ["NECRONOMINUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-elijah"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-elijah",
+            "scale":"1.0"
         },
         {
             "name": "Sir Galeron",
@@ -1422,7 +1599,8 @@
             "race": "HUMAN",
             "role": "WARRIOR",
             "released": ["MYTHIC LEGIONS 1.0"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-galeron"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-galeron",
+            "scale":"1.0"
         },
         {
             "name": "Sir Gideon Heavensbrand",
@@ -1430,7 +1608,8 @@
             "race": "HUMAN",
             "role": "CRUSADER",
             "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 1"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/gideon"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gideon",
+            "scale":"1.0"
         },
         {
             "name": "Sir Gideon Heavensbrand 2",
@@ -1438,7 +1617,8 @@
             "race": "HUMAN",
             "role": "CRUSADER",
             "released": ["NECRONOMINUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-gideon-heavensbrand-2"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-gideon-heavensbrand-2",
+            "scale":"1.0"
         },
         {
             "name": "Sir Girard",
@@ -1446,7 +1626,8 @@
             "race": "CHANGELING",
             "role": "COMMANDER OF THE DARK TEMPLARS",
             "released": ["LEGIONSCON 2021"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-girard"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-girard",
+            "scale":"1.0"
         },
         {
             "name": "Sir Godfrey",
@@ -1454,7 +1635,8 @@
             "race": "HUMAN",
             "role": "TEMPLAR KNIGHT",
             "released": ["MYTHIC LEGIONS 1.5"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-godfrey"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-godfrey",
+            "scale":"1.0"
         },
         {
             "name": "Sir Ignatius",
@@ -1462,7 +1644,8 @@
             "race": "HUMAN",
             "role": "KNIGHT",
             "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 1"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-ignatius"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-ignatius",
+            "scale":"1.0"
         },
         {
             "name": "Sir Owain",
@@ -1470,7 +1653,8 @@
             "race": "HUMAN",
             "role": "KNIGHT",
             "released": ["MYTHIC LEGIONS 1.0", "ALL-STARS 4"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-owain"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-owain",
+            "scale":"1.0"
         },
         {
             "name": "Sir Ucczajk",
@@ -1478,7 +1662,8 @@
             "race": "OGRE",
             "role": "PALADIN",
             "released": ["NECRONOMINUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-ucczajk"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-ucczajk",
+            "scale":"OGRE"
         },
         {
             "name": "Sir Valgard",
@@ -1486,7 +1671,8 @@
             "race": "DWARF",
             "role": "KNIGHT",
             "released": ["MYTHIC LEGIONS 1.0"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-valgard"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-valgard",
+            "scale":"1.0"
         },
         {
             "name": "Skapular the Cryptbreaker",
@@ -1494,7 +1680,8 @@
             "race": "SKELETON",
             "role": "MERCENARY",
             "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 1"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/skapular"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/skapular",
+            "scale":"1.0"
         },
         {
             "name": "Skeleton",
@@ -1502,7 +1689,8 @@
             "race": "SKELETON",
             "role": "SOLDIER",
             "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 2", "LEGION BUILDER REINFORCEMENTS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/skeleton"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/skeleton",
+            "scale":"1.0"
         },
         {
             "name": "Skeleton Soldier",
@@ -1510,7 +1698,8 @@
             "race": "SKELETON",
             "role": "SOLDIER",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/skeleton-soldier"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/skeleton-soldier",
+            "scale":"2.0"
         },
         {
             "name": "Skeletons Hands \u0026 Feet Pack",
@@ -1518,7 +1707,8 @@
             "race": "NA",
             "role": "NA",
             "released": ["NECRONOMINUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/skeletons-hands-feet-pack"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/skeletons-hands-feet-pack",
+            "scale":"1.0"
         },
         {
             "name": "Snagg",
@@ -1526,7 +1716,8 @@
             "race": "GOBLIN",
             "role": "THIEF",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/snagg"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/snagg",
+            "scale":"2.0"
         },
         {
             "name": "Steel Knight",
@@ -1534,7 +1725,8 @@
             "race": "HUMAN",
             "role": "KNIGHT",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/steel-knight"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/steel-knight",
+            "scale":"2.0"
         },
         {
             "name": "Stone Troll",
@@ -1542,7 +1734,8 @@
             "race": "TROLL",
             "role": "MONSTER",
             "released": ["MYTHIC LEGIONS 1.5"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/stone-troll"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/stone-troll",
+            "scale":"TROLL"
         },
         {
             "name": "Stone Troll 2",
@@ -1550,7 +1743,8 @@
             "race": "TROLL",
             "role": "MONSTER",
             "released": ["ALL STARS 3"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/stone-troll-2"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/stone-troll-2",
+            "scale":"TROLL"
         },
         {
             "name": "Swigg",
@@ -1558,7 +1752,8 @@
             "race": "GOBLIN",
             "role": "ALCHEMIST",
             "released": ["ALL STARS 5+"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/swigg"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/swigg",
+            "scale":"2.0"
         },
         {
             "name": "Templar Knight",
@@ -1566,7 +1761,8 @@
             "race": "HUMAN",
             "role": "TEMPLAR KNIGHT",
             "released": ["COVENANT OF SHADOWS", "ALL STARS 2"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/templar-knight"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/templar-knight",
+            "scale":"1.0"
         },
         {
             "name": "Thallyn Frostbow",
@@ -1574,7 +1770,8 @@
             "race": "FROST ELF",
             "role": "BOW CASTER",
             "released": ["SOUL SPILLER"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/thallyn-frostbow"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/thallyn-frostbow",
+            "scale":"2.0"
         },
         {
             "name": "Tharnog",
@@ -1582,7 +1779,8 @@
             "race": "ORC",
             "role": "SHAMAN",
             "released": ["POXXUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/tharnog"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/tharnog",
+            "scale":"BRUTE"
         },
         {
             "name": "The Turpiculi",
@@ -1590,7 +1788,8 @@
             "race": "TURPICULUS",
             "role": "MONSTER",
             "released": ["NECRONOMINUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/the-turpiculi"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/the-turpiculi",
+            "scale":"1.0"
         },
         {
             "name": "The Unknown One",
@@ -1598,7 +1797,8 @@
             "race": "UNKNOWN",
             "role": "UNKNOWN",
             "released": ["LEGIONSCON 2022"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/adhaeth-the-unknown-one"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/adhaeth-the-unknown-one",
+            "scale":"1.0"
         },
         {
             "name": "Thistlethorn",
@@ -1606,7 +1806,8 @@
             "race": "WOODLAND GOBLIN (FUZZMUNK)",
             "role": "RELIC KEEPER",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/thistlethorn"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/thistlethorn",
+            "scale":"2.0"
         },
         {
             "name": "Thord Ironjaw",
@@ -1614,7 +1815,8 @@
             "race": "DWARF",
             "role": "FIGHTER",
             "released": ["MYTHIC LEGIONS 1.0"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/thord-ironjaw"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/thord-ironjaw",
+            "scale":"1.0"
         },
         {
             "name": "Thraice Wraithhailer",
@@ -1622,7 +1824,8 @@
             "race": "UMANGEIST",
             "role": "SUMMONER",
             "released": ["POXXUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/thraice-wraithhailer"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/thraice-wraithhailer",
+            "scale":"2.0"
         },
         {
             "name": "Thumpp",
@@ -1630,7 +1833,8 @@
             "race": "GOBLIN",
             "role": "COMMANDER",
             "released": ["WASTELAND"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/thumpp"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/thumpp",
+            "scale":"2.0"
         },
         {
             "name": "Thwikk",
@@ -1638,7 +1842,8 @@
             "race": "GOBLIN",
             "role": "ARCHER",
             "released": ["SIEGE AT BJORNGAR"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/thwikk"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/thwikk",
+            "scale":"2.0"
         },
         {
             "name": "Tibius",
@@ -1646,7 +1851,8 @@
             "race": "SKELETON",
             "role": "WARRIOR",
             "released": ["MYTHIC LEGIONS 1.0", "ALL-STARS 4"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/tibius"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/tibius",
+            "scale":"1.0"
         },
         {
             "name": "Torgun Redfin",
@@ -1654,7 +1860,8 @@
             "race": "DWARF",
             "role": "WARRIOR",
             "released": ["WASTELAND"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/torgun-redfin"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/torgun-redfin",
+            "scale":"1.0"
         },
         {
             "name": "Torrion",
@@ -1662,7 +1869,8 @@
             "race": "MINOTAUR",
             "role": "MAGE",
             "released": ["COVENANT OF SHADOWS", "ALL STARS 3"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/torrion"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/torrion", 
+            "scale":"1.0"
         },
         {
             "name": "Toucarr",
@@ -1670,7 +1878,8 @@
             "race": "AVIAN",
             "role": "WARRIOR",
             "released": ["EATHYRON'S DOZEN"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/toucarr"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/toucarr",
+            "scale":"1.0"
         },
         {
             "name": "Trumpetus",
@@ -1678,7 +1887,8 @@
             "race": "AVIAN",
             "role": "WARRIOR",
             "released": ["EATHYRON'S DOZEN"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/trumpetus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/trumpetus",
+            "scale":"1.0"
         },
         {
             "name": "Undead Builder Pack",
@@ -1686,7 +1896,8 @@
             "race": "VARIOUS",
             "role": "SOLDIERS",
             "released": ["NECRONOMINUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/undead-builder-pack"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/undead-builder-pack",
+            "scale":"1.0"
         },
         {
             "name": "Unkann",
@@ -1694,7 +1905,8 @@
             "race": "ORC",
             "role": "WEAPON MASTER",
             "released": ["MYTHIC LEGIONS 1.5"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/unkann"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/unkann",
+            "scale":"1.0"
         },
         {
             "name": "Urkku",
@@ -1702,7 +1914,8 @@
             "race": "ORC",
             "role": "BRUTE",
             "released": ["MYTHIC LEGIONS 1.0"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/urkku"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/urkku",
+            "scale":"1.0"
         },
         {
             "name": "Urzokk",
@@ -1710,7 +1923,8 @@
             "race": "ORC",
             "role": "GENERAL",
             "released": ["MYTHIC LEGIONS 1.0"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/urzokk"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/urzokk",
+            "scale":"1.0"
         },
         {
             "name": "Uuwitt",
@@ -1718,7 +1932,8 @@
             "race": "ORC",
             "role": "HERBOLOGIST",
             "released": ["LEGIONSCON 2022"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/uuwitt"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/uuwitt",
+            "scale":"1.0"
         },
         {
             "name": "Vallak",
@@ -1726,7 +1941,8 @@
             "race": "VAMPIRE",
             "role": "FALCONER",
             "released": ["ILLYTHIA"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/vallak"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vallak",
+            "scale":"1.0"
         },
         {
             "name": "Vampire",
@@ -1734,7 +1950,8 @@
             "race": "VAMPIRE",
             "role": "SOLDIER",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/vampire"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vampire",
+            "scale":"2.0"
         },
         {
             "name": "Vampire Knight",
@@ -1742,7 +1959,8 @@
             "race": "VAMPIRE",
             "role": "KNIGHT",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/vampire-knight"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vampire-knight",
+            "scale":"2.0"
         },
         {
             "name": "Vampire Weapons",
@@ -1750,7 +1968,8 @@
             "race": "NA",
             "role": "WEAPONS",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/vampire-weapons"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vampire-weapons",
+            "scale":"NA"
         },
         {
             "name": "Vampire Wings",
@@ -1758,7 +1977,8 @@
             "race": "NA",
             "role": "NA",
             "released": ["ILLYTHIA"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/vampire-wings"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vampire-wings",
+            "scale":"NA"
         },
         {
             "name": "Vargg",
@@ -1766,7 +1986,8 @@
             "race": "VARGG",
             "role": "HUNTER",
             "released": ["ILLYTHIA"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/vargg"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vargg",
+            "scale":"1.0"
         },
         {
             "name": "Vitus",
@@ -1774,7 +1995,8 @@
             "race": "HUMAN",
             "role": "SOLDIER",
             "released": ["MYTHIC LEGIONS 1.0", "ALL-STARS 4"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/vitus"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vitus",
+            "scale":"1.0"
         },
         {
             "name": "Vorgus Vermillius",
@@ -1782,7 +2004,8 @@
             "race": "NOT APPLICABLE",
             "role": "ENCHANTED ARMOR",
             "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 2"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/vorgus-vermillius"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vorgus-vermillius",
+            "scale":"1.0"
         },
         {
             "name": "Vorthogg",
@@ -1790,7 +2013,8 @@
             "race": "ORC",
             "role": "WARLORD - TRAINER",
             "released": ["ARETHYR"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/vorthogg"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vorthogg",
+            "scale":"1.0"
         },
         {
             "name": "Weapons Pack",
@@ -1798,7 +2022,8 @@
             "race": "NA",
             "role": "WEAPONS",
             "released": ["POXXUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/weapons-pack"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/weapons-pack",
+            "scale":"NA"
         },
         {
             "name": "Weapons Pack 1",
@@ -1806,7 +2031,8 @@
             "race": "NA",
             "role": "WEAPONS",
             "released": ["MYTHIC LEGIONS 1.0"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/weapons-pack-1"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/weapons-pack-1",
+            "scale":"NA"
         },
         {
             "name": "Weapons Pack 2",
@@ -1814,7 +2040,8 @@
             "race": "NA",
             "role": "WEAPONS",
             "released": ["MYTHIC LEGIONS 1.0"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/weapons-pack-2"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/weapons-pack-2",
+            "scale":"NA"
         },
         {
             "name": "Weapons Pack 3",
@@ -1822,7 +2049,8 @@
             "race": "NA",
             "role": "WEAPONS",
             "released": ["MYTHIC LEGIONS 1.0"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/weapons-pack-3"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/weapons-pack-3",
+            "scale":"NA"
         },
         {
             "name": "Weapons Pack 4",
@@ -1830,7 +2058,8 @@
             "race": "NA",
             "role": "WEAPONS",
             "released": ["MYTHIC LEGIONS 1.0"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/weapons-pack-4"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/weapons-pack-4",
+            "scale":"NA"
         },
         {
             "name": "Xarria",
@@ -1838,7 +2067,8 @@
             "race": "DEMON",
             "role": "SPELLCASTER",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/xarria"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/xarria",
+            "scale":"2.0"
         },
         {
             "name": "Xylernian Guard",
@@ -1846,7 +2076,8 @@
             "race": "VARIOUS",
             "role": "GUARDIANS",
             "released": ["ALL STARS 5+"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/xylernian-guard"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/xylernian-guard",
+            "scale":"1.0"
         },
         {
             "name": "Xylona",
@@ -1854,7 +2085,8 @@
             "race": "ELDER FROST DEER",
             "role": "GOD",
             "released": ["ADVENT OF DECAY"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/xylona"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/xylona",
+            "scale":"2.0"
         },
         {
             "name": "Zazhar",
@@ -1862,7 +2094,8 @@
             "race": "DEMON",
             "role": "SORCERER",
             "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 3"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/zazhar"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/zazhar",
+            "scale":"1.0"
         },
         {
             "name": "Zende Amaanthyr",
@@ -1870,7 +2103,8 @@
             "race": "HUMAN",
             "role": "SPELLCASTER",
             "released": ["POXXUS"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/zende-amaanthyr"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/zende-amaanthyr",
+            "scale":"1.0"
         },
         {
             "name": "Zenithon",
@@ -1878,7 +2112,8 @@
             "race": "ORAPHIM",
             "role": "MESSENGER",
             "released": ["ALL STARS 5+"],
-            "url": "https://sourcehorsemen.com/mythic-legions/entry/zenithon"
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/zenithon",
+            "scale":"1.0"
         }
     ]
 }

@@ -30,6 +30,10 @@
         <a href="/release/" class="submenu-item"><i class="fa-solid fa-truck-arrow-right"></i> <span
             class="submenu-title">RELEASE</span></a>
       </div>
+      <div class="submenu">
+        <a href="/scale/" class="submenu-item"><i class="fa-solid fa-weight-scale"></i> <span
+            class="submenu-title">SCALE</span></a>
+      </div>
       <!-- <div class="search-container">
         <form action="/search" method="GET">
           <input type="text" placeholder="Search..." name="search" />
@@ -60,6 +64,15 @@
           <ul class="data-list">
             {{range $key, $value := .List2 }}
             <li><a href="/{{ $.Type }}/{{ $.Query }}/{{ $.List2Title }}/{{ $key }}">{{ $key }} <span class="badge">{{
+                  $value }}</span></a></li>
+            {{end}}
+          </ul>
+        </div>
+        <div class="card">
+          <h4 class="card-title">{{ .List4Title }}s: {{ len .List4 }}</h4>
+          <ul class="data-list">
+            {{range $key, $value := .List4 }}
+            <li><a href="/{{ $.Type }}/{{ $.Query }}/{{ $.List4Title }}/{{ $key }}">{{ $key }} <span class="badge">{{
                   $value }}</span></a></li>
             {{end}}
           </ul>

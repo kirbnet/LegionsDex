@@ -54,6 +54,7 @@ type Figure struct {
 	Role    string   `json:"role"`
 	Release []string `json:"released"`
 	Url     string   `json:"url"`
+	Scale   string   `json:"scale"`
 }
 
 //Data for the Home Page
@@ -96,6 +97,8 @@ type DetailPageData struct {
 	List2      map[string]int
 	List3Title string
 	List3      map[string]int
+	List4Title string
+	List4      map[string]int
 }
 
 //Parse JSON data in Figures and Checklist
@@ -125,6 +128,7 @@ func main() {
 	factionData(checklist)
 	roleData(checklist)
 	releaseData(checklist)
+	scaleData(checklist)
 
 	//Page Server
 	//If there is a preconfigured port
@@ -146,24 +150,33 @@ func main() {
 	router.HandleFunc("/role/{role}", roleHandler)
 	router.HandleFunc("/release/", releaseDirHandler)
 	router.HandleFunc("/release/{release}", releaseHandler)
+	router.HandleFunc("/scale/", scaleDirHandler)
+	router.HandleFunc("/scale/{scale}", scaleHandler)
 
 	//Handling Combinations of Requests, stopping at only 2 deep
 	router.HandleFunc("/race/{race}/faction/{faction}", drilldownHandler)
 	router.HandleFunc("/race/{race}/release/{release}", drilldownHandler)
 	router.HandleFunc("/race/{race}/role/{role}", drilldownHandler)
+	router.HandleFunc("/race/{race}/scale/{scale}", drilldownHandler)
 
 	router.HandleFunc("/release/{release}/faction/{faction}", drilldownHandler)
 	router.HandleFunc("/release/{release}/race/{race}", drilldownHandler)
 	router.HandleFunc("/release/{release}/role/{role}", drilldownHandler)
+	router.HandleFunc("/release/{release}/scale/{scale}", drilldownHandler)
 
 	router.HandleFunc("/role/{role}/faction/{faction}", drilldownHandler)
 	router.HandleFunc("/role/{role}/release/{release}", drilldownHandler)
 	router.HandleFunc("/role/{role}/race/{race}", drilldownHandler)
+	router.HandleFunc("/role/{role}/scale/{scale}", drilldownHandler)
 
 	router.HandleFunc("/faction/{faction}/race/{race}", drilldownHandler)
 	router.HandleFunc("/faction/{faction}/release/{release}", drilldownHandler)
 	router.HandleFunc("/faction/{faction}/role/{role}", drilldownHandler)
+	router.HandleFunc("/faction/{faction}/scale/{scale}", drilldownHandler)
 
+	router.HandleFunc("/scale/{scale}/race/{race}", drilldownHandler)
+	router.HandleFunc("/scale/{scale}/faction/{faction}", drilldownHandler)
+	router.HandleFunc("/scale/{scale}/role/{role}", drilldownHandler)
 	//Define Static Resources
 	fs := http.FileServer(http.Dir("./static"))
 	router.PathPrefix("/static").Handler(http.StripPrefix("/static/", fs))
@@ -171,7 +184,6 @@ func main() {
 	http.ListenAndServe(":"+port, router)
 }
 
-//SECTION: FUNCTIONS BY RACE
 //raceData is a map of the Races with a Count of total instances
 func raceData(lst Checklist) map[string]int {
 	races := make(map[string]int)
@@ -198,7 +210,6 @@ func checklistByRace(lst Checklist, race string) Checklist {
 	return sortChecklist(raceMembers)
 }
 
-//SECTION: FUNCTIONS BY FACTION
 //Gets the Factions with Count from a Checklist
 func factionData(lst Checklist) map[string]int {
 	factions := make(map[string]int)
@@ -282,6 +293,32 @@ func checklistByRelease(lst Checklist, release string) Checklist {
 	return sortChecklist(releaseMembers)
 }
 
+//Gets the Scales with count from a Checklist
+func scaleData(lst Checklist) map[string]int {
+	roles := make(map[string]int)
+	for i := range lst.Figures {
+		_, exists := roles[lst.Figures[i].Scale]
+		if exists {
+			roles[lst.Figures[i].Scale] += 1
+		} else {
+			roles[lst.Figures[i].Scale] = 1
+		}
+	}
+	return roles
+}
+
+//checklistByScale creates a new checklist limited to single Scale
+func checklistByScale(lst Checklist, scale string) Checklist {
+	var scaleMembers Checklist
+	//iterate through list of figures, and copy those that match
+	for _, figure := range lst.Figures {
+		if figure.Scale == scale {
+			scaleMembers.AddItem(figure)
+		}
+	}
+	return sortChecklist(scaleMembers)
+}
+
 //PAGE HANDLER FUNCTIONS
 //Main page and default handler.
 func homeHandler(w http.ResponseWriter, r *http.Request) {
@@ -289,6 +326,7 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 	factionsOf := factionData(checklist)
 	racesOf := raceData(checklist)
 	rolesOf := roleData(checklist)
+	//scalesOf := scaleData(checklist)
 	//FACTION FUN
 	lightSide := groupSearch(checklist, "faction", lightFactions)
 	darkSide := groupSearch(checklist, "faction", darkFactions)
@@ -349,11 +387,9 @@ func raceHandler(w http.ResponseWriter, r *http.Request) {
 	chk := checklistByRace(checklist, race)
 
 	rolesOfRace := roleData(chk)
-	//valuekeySortedRolesOfRace := SortMapByValueThenKey(rolesOfRace)
 	factionsOfRace := factionData(chk)
-	//valuekeySortedFactionsOfRace := SortMapByValueThenKey(factionsOfRace)
 	releasesOfRace := releaseData(chk)
-	//valuekeySortedReleasesOfRace := SortMapByValueThenKey(releasesOfRace)
+	scalesOfRace := scaleData(chk)
 
 	var pagedata DetailPageData
 	pagedata.Title = strings.ToTitle(race) + " Race"
@@ -367,6 +403,8 @@ func raceHandler(w http.ResponseWriter, r *http.Request) {
 	pagedata.List2 = factionsOfRace
 	pagedata.List3Title = "release"
 	pagedata.List3 = releasesOfRace
+	pagedata.List4Title = "scale"
+	pagedata.List4 = scalesOfRace
 
 	if err := detailtpl.Execute(w, pagedata); err != nil {
 		fmt.Println(err)
@@ -403,7 +441,7 @@ func racesHandler(w http.ResponseWriter, r *http.Request) {
 	factionsOfRace := factionData(chk)
 	//valuekeySortedFactionsOfRace := SortMapByValueThenKey(factionsOfRace)
 	releasesOfRace := releaseData(chk)
-	//valuekeySortedReleasesOfRace := SortMapByValueThenKey(releasesOfRace)
+	scalesOfRace := scaleData(chk)
 
 	var pagedata DetailPageData
 	pagedata.Title = strings.ToTitle(races) + " Race: " + strings.Join(group, ", ")
@@ -417,6 +455,8 @@ func racesHandler(w http.ResponseWriter, r *http.Request) {
 	pagedata.List2 = factionsOfRace
 	pagedata.List3Title = "release"
 	pagedata.List3 = releasesOfRace
+	pagedata.List4Title = "scale"
+	pagedata.List4 = scalesOfRace
 
 	if err := drilldowntpl.Execute(w, pagedata); err != nil {
 		fmt.Println(err)
@@ -446,11 +486,9 @@ func factionHandler(w http.ResponseWriter, r *http.Request) {
 	chk := checklistByFaction(checklist, faction)
 
 	rolesOfFaction := roleData(chk)
-	//valuekeySortedRolesOfRace := SortMapByValueThenKey(rolesOfRace)
 	racesOfFaction := raceData(chk)
-	//valuekeySortedFactionsOfRace := SortMapByValueThenKey(factionsOfRace)
 	releasesOfFaction := releaseData(chk)
-	//valuekeySortedReleasesOfRace := SortMapByValueThenKey(releasesOfRace)
+	scalesofFaction := scaleData(chk)
 
 	var pagedata DetailPageData
 	pagedata.Title = strings.ToTitle(faction) + " Faction"
@@ -464,6 +502,8 @@ func factionHandler(w http.ResponseWriter, r *http.Request) {
 	pagedata.List2 = racesOfFaction
 	pagedata.List3Title = "release"
 	pagedata.List3 = releasesOfFaction
+	pagedata.List4Title = "scale"
+	pagedata.List4 = scalesofFaction
 
 	if err := detailtpl.Execute(w, pagedata); err != nil {
 		fmt.Println(err)
@@ -489,11 +529,9 @@ func factionsHandler(w http.ResponseWriter, r *http.Request) {
 	//chk := checklistByFaction(checklist, faction)
 
 	rolesOfFaction := roleData(chk)
-	//valuekeySortedRolesOfRace := SortMapByValueThenKey(rolesOfRace)
 	racesOfFaction := raceData(chk)
-	//valuekeySortedFactionsOfRace := SortMapByValueThenKey(factionsOfRace)
 	releasesOfFaction := releaseData(chk)
-	//valuekeySortedReleasesOfRace := SortMapByValueThenKey(releasesOfRace)
+	scalesOfFaction := scaleData(chk)
 
 	var pagedata DetailPageData
 	pagedata.Title = strings.ToTitle(factions) + " Factions: " + strings.Join(group, ", ")
@@ -507,6 +545,8 @@ func factionsHandler(w http.ResponseWriter, r *http.Request) {
 	pagedata.List2 = racesOfFaction
 	pagedata.List3Title = "release"
 	pagedata.List3 = releasesOfFaction
+	pagedata.List4Title = "scale"
+	pagedata.List4 = scalesOfFaction
 
 	if err := drilldowntpl.Execute(w, pagedata); err != nil {
 		fmt.Println(err)
@@ -535,11 +575,9 @@ func roleHandler(w http.ResponseWriter, r *http.Request) {
 	chk := checklistByRole(checklist, role)
 
 	factionsOfRole := factionData(chk)
-	//valuekeySortedRolesOfRace := SortMapByValueThenKey(rolesOfRace)
 	racesOfRole := raceData(chk)
-	//valuekeySortedFactionsOfRace := SortMapByValueThenKey(factionsOfRace)
 	releasesOfRole := releaseData(chk)
-	//valuekeySortedReleasesOfRace := SortMapByValueThenKey(releasesOfRace)
+	scalesOfRole := scaleData(chk)
 
 	var pagedata DetailPageData
 	pagedata.Total = strconv.Itoa(len(chk.Figures))
@@ -553,6 +591,55 @@ func roleHandler(w http.ResponseWriter, r *http.Request) {
 	pagedata.List2 = factionsOfRole
 	pagedata.List3Title = "release"
 	pagedata.List3 = releasesOfRole
+	pagedata.List4Title = "scale"
+	pagedata.List4 = scalesOfRole
+
+	if err := detailtpl.Execute(w, pagedata); err != nil {
+		fmt.Println(err)
+	}
+}
+
+//Page listing all Scales
+func scaleDirHandler(w http.ResponseWriter, r *http.Request) {
+	//Get scales from data
+	scales := scaleData(checklist)
+	//Sort
+	valuekeySortedScales := SortMapByValueThenKey(scales)
+	//Present page
+	pagedata := &ListPageData{"scale", strconv.Itoa(len(scales)), scales, valuekeySortedScales}
+	if err := tpl.Execute(w, pagedata); err != nil {
+		fmt.Println(err)
+	}
+}
+
+//Page showing information about figure of a given Role
+func scaleHandler(w http.ResponseWriter, r *http.Request) {
+	//parse request data
+	reqvars := mux.Vars(r)
+	scale := reqvars["scale"]
+	//Get factions from data
+	chk := checklistByScale(checklist, scale)
+
+	factionsOfScale := factionData(chk)
+	racesOfScale := raceData(chk)
+	rolesOfScale := roleData(chk)
+	releasesOfScale := releaseData(chk)
+
+	var pagedata DetailPageData
+	pagedata.Total = strconv.Itoa(len(chk.Figures))
+	pagedata.Title = strings.ToTitle(scale) + " Scale"
+	pagedata.Type = "scale"
+	pagedata.Query = scale
+	pagedata.Checklist = chk
+	pagedata.List1Title = "race"
+	pagedata.List1 = racesOfScale
+	pagedata.List2Title = "role"
+	pagedata.List2 = rolesOfScale
+	pagedata.List3Title = "faction"
+	pagedata.List3 = factionsOfScale
+	pagedata.List4Title = "release"
+	pagedata.List4 = releasesOfScale
+
 	if err := detailtpl.Execute(w, pagedata); err != nil {
 		fmt.Println(err)
 	}
@@ -581,11 +668,9 @@ func releaseHandler(w http.ResponseWriter, r *http.Request) {
 
 	//TODO: Get other data sets
 	factionsOfRelease := factionData(chk)
-	//valuekeySortedRolesOfRace := SortMapByValueThenKey(rolesOfRace)
 	racesOfRelease := raceData(chk)
-	//valuekeySortedFactionsOfRace := SortMapByValueThenKey(factionsOfRace)
 	rolesOfRelease := roleData(chk)
-	//valuekeySortedReleasesOfRace := SortMapByValueThenKey(releasesOfRace)
+	scalesOfRelease := scaleData(chk)
 
 	var pagedata DetailPageData
 	pagedata.Title = strings.ToTitle(release) + " Release"
@@ -599,6 +684,9 @@ func releaseHandler(w http.ResponseWriter, r *http.Request) {
 	pagedata.List2 = rolesOfRelease
 	pagedata.List3Title = "faction"
 	pagedata.List3 = factionsOfRelease
+	pagedata.List4Title = "scale"
+	pagedata.List4 = scalesOfRelease
+
 	if err := detailtpl.Execute(w, pagedata); err != nil {
 		fmt.Println(err)
 	}
@@ -613,6 +701,7 @@ func drilldownHandler(w http.ResponseWriter, r *http.Request) {
 	race := reqvars["race"]
 	release := reqvars["release"]
 	role := reqvars["role"]
+	scale := reqvars["scale"]
 
 	//Create new checklists
 	chk := checklist
@@ -642,7 +731,12 @@ func drilldownHandler(w http.ResponseWriter, r *http.Request) {
 	} else {
 		remainingStats = append(remainingStats, "role")
 	}
-
+	if scale != "" {
+		chk = checklistByScale(chk, scale)
+		titlePart += strings.ToTitle(role) + " Scale; "
+	} else {
+		remainingStats = append(remainingStats, "scale")
+	}
 	releasesOf := releaseData(chk)
 	factionsOf := factionData(chk)
 	racesOf := raceData(chk)
@@ -657,8 +751,6 @@ func drilldownHandler(w http.ResponseWriter, r *http.Request) {
 
 	//TODO: Straighten out which tertiary lists are displayed
 
-	//pagedata.List1Title = "race"
-	//pagedata.List1 = racesOf
 	pagedata.List2Title = remainingStats[0]
 	switch remainingStats[0] {
 	case "role":
@@ -669,6 +761,8 @@ func drilldownHandler(w http.ResponseWriter, r *http.Request) {
 		pagedata.List2 = releasesOf
 	case "faction":
 		pagedata.List2 = factionsOf
+	case "scale":
+		pagedata.List2 = racesOf
 	}
 	pagedata.List3Title = remainingStats[1]
 	switch remainingStats[1] {
@@ -679,6 +773,8 @@ func drilldownHandler(w http.ResponseWriter, r *http.Request) {
 	case "release":
 		pagedata.List3 = releasesOf
 	case "faction":
+		pagedata.List3 = factionsOf
+	case "scale":
 		pagedata.List3 = factionsOf
 	}
 	if err := drilldowntpl.Execute(w, pagedata); err != nil {
