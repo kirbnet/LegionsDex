@@ -293,7 +293,7 @@
             "faction": "LEGION OF ARETHYR",
             "race": "DWARF",
             "role": "FIGHTER",
-            "released": ["MYTHIC LEGIONS 1.0"],
+            "released": ["MYTHIC LEGIONS 1.0","ALL STARS 6"],
             "url": "https://sourcehorsemen.com/mythic-legions/entry/bothar-shadowhorn",
             "scale":"1.0"
         },
@@ -410,7 +410,7 @@
             "faction": "CONGREGATION OF NECRONOMINUS",
             "race": "SKELETON",
             "role": "RAIDER",
-            "released": ["MYTHIC LEGIONS 1.0"],
+            "released": ["MYTHIC LEGIONS 1.0","ALL STARS 6"],
             "url": "https://sourcehorsemen.com/mythic-legions/entry/clavian",
             "scale":"1.0"
         },
@@ -815,7 +815,7 @@
             "faction": "LEGION OF ARETHYR",
             "race": "SHADOW ORC",
             "role": "STRATEGIST",
-            "released": ["COVENANT OF SHADOWS"],
+            "released": ["COVENANT OF SHADOWS","ALL STARS 6"],
             "url": "https://sourcehorsemen.com/mythic-legions/entry/gorthokk",
             "scale":"1.0"
         },
@@ -1643,7 +1643,7 @@
             "faction": "ORDER OF EATHYRON",
             "race": "HUMAN",
             "role": "KNIGHT",
-            "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 1"],
+            "released": ["MYTHIC LEGIONS 1.0", "ALL STARS 1", "ALL STARS 6"],
             "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-ignatius",
             "scale":"1.0"
         },
@@ -2113,6 +2113,123 @@
             "role": "MESSENGER",
             "released": ["ALL STARS 5+"],
             "url": "https://sourcehorsemen.com/mythic-legions/entry/zenithon",
+            "scale":"1.0"
+        },
+        {
+            "name": "Vorgus Vermillius 2",
+            "faction": "ILLYTHIA'S BROOD",
+            "race": "NOT APPLICABLE",
+            "role": "CURSED ARMOR",
+            "released": ["LEGIONSCON 2023"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vorgus-vermillius-2",
+            "scale":"1.0"
+        },
+        {
+            "name": "Lijae, of the Elite Elven Guard",
+            "faction": "XYLONA'S FLOCK",
+            "race": "ELF",
+            "role": "GUARD",
+            "released": ["2023 RETAILER APPRECIATION WAVE"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/lijae-of-the-elite-elven-guard",
+            "scale":"1.0"
+        },
+        {
+            "name": "Blue Hagnon",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "GHOST",
+            "role": "FIGHTER",
+            "released": ["2023 RETAILER APPRECIATION WAVE"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/blue-hagnon",
+            "scale":"1.0"
+        },
+        {
+            "name": "Belt Packs 1",
+            "faction": "NA",
+            "race": "NA",
+            "role": "BELTS",
+            "released": ["ALL STARS 6"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/belt-packs-1",
+            "scale":"1.0"
+        },
+        {
+            "name": "Berodach",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "UNKNOWN",
+            "role": "WARDEN OF THE LORD OF DEATH",
+            "released": ["ALL STARS 6"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/berodach",
+            "scale":"OGRE"
+        },
+        {
+            "name": "Bone Wings",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "NA",
+            "role": "NA",
+            "released": ["ALL STARS 6"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/bone-wings",
+            "scale":"1.0"
+        },
+        {
+            "name": "Deacon",
+            "faction": "ORDER OF EATHYRON",
+            "race": "HORSE",
+            "role": "STEED",
+            "released": ["ALL STARS 6"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/deacon",
+            "scale":"STEED"
+        },
+        {
+            "name": "Sir Andrew",
+            "faction": "ORDER OF EATHYRON",
+            "race": "HUMAN",
+            "role": "PYROMANCER",
+            "released": ["ALL STARS 6"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-andrew",
+            "scale":"1.0"
+        },
+        {
+            "name": "Sir Enoch",
+            "faction": "ORDER OF EATHYRON",
+            "race": "HUMAN",
+            "role": "COMMANDER OF THE TEMPLAR EMISSARIES",
+            "released": ["ALL STARS 6"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/sir-enoch",
+            "scale":"1.0"
+        },
+        {
+            "name": "Skalli Bonesplitter",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "DWARVEN SKELETON",
+            "role": "MARAUDER",
+            "released": ["ALL STARS 6"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/skalli-bonesplitter",
+            "scale":"1.0"
+        },
+        {
+            "name": "Skeleton Raider",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "SKELETON",
+            "role": "RAIDER",
+            "released": ["ALL STARS 6"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/skeleton-raider",
+            "scale":"1.0"
+        },
+        {
+            "name": "Thorasis the First Risen",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "SKELETON",
+            "role": "ARCH GENERAL OF THE CONGREGATION",
+            "released": ["ALL STARS 6"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/thorasis-the-first-risen",
+            "scale":"1.0"
+        },
+        {
+            "name": "Undead Heads Pack",
+            "faction": "CONGREGATION OF NECRONOMINUS",
+            "race": "SKELETONS AND ZOMBIES",
+            "role": "UNDEAD ARMY",
+            "released": ["ALL STARS 6"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/undead-heads-pack",
             "scale":"1.0"
         }
     ]
