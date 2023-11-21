@@ -15,38 +15,38 @@ import (
 	"github.com/gorilla/mux"
 )
 
-//Define Global Variables
+// Define Global Variables
 var checklist Checklist
 
-//Misc Globals
+// Misc Globals
 var lightFactions []string = []string{"ARMY OF LEODYSSEUS", "ORDER OF EATHYRON", "CONVOCATION OF BASSYLIA", "XYLONA'S FLOCK"}
 var darkFactions []string = []string{"LEGION OF ARETHYR", "CONGREGATION OF NECRONOMINUS", "ILLYTHIA'S BROOD", "CIRCLE OF POXXUS"}
 var splinterFactions []string = []string{"SONS OF THE RED STAR", "HOUSE OF THE NOBLE BEAR"}
 var goblinRaces []string = []string{"GOBLIN", "GREATER GOBLIN", "SWALE GOBLIN", "WOODLAND GOBLIN (FUZZMUNK)"}
 var orcRaces []string = []string{"ORC", "HUMAN - HALF-ORC", "LICHEN ORC", "ORAPHIM", "ORC AND HUMAN", "SHADOW ORC", "UUBYR"}
 var elfRaces []string = []string{"ELF", "SHADOW ELF", "FAERIE ELF", "ELF - WHISPERLING", "FROST ELF", "WHISPERLING", "WOOD ELF"}
-var dwarfRaces []string = []string{"DWARF"}
+var dwarfRaces []string = []string{"DWARF", "DWARVES", "DWARVEN SKELETON"}
 var vampireRaces []string = []string{"VAMPIRE", "UUBYR", "VARGG", "VOGYRR"}
 var undeadRaces []string = []string{"SKELETON", "ARAKKIGHAST", "GHOST", "GHOUL", "LICH", "POISON SKELETON", "TURPICULUS", "UMANGEIST", "UNDEAD HORSE"}
-var anthroRaces []string = []string{"AVIAN", "BOARRIOR", "CENTAUR", "DRAGOSYR", "EAGLE", "FAUN", "ELDER FROST DEER", "JAGUALLIAN", "MINOTAUR", "MOOSE", "SATYR", "SWALE GOBLIN", "WOODLAND GOBLIN (FUZZMUNK)"}
+var anthroRaces []string = []string{"AVIAN", "BOARRIOR", "CENTAUR", "DRAGOSYR", "EAGLE", "FAUN", "ELDER FROST DEER", "JAGUALLIAN", "MINOTAUR", "MOOSE", "NORTHLANDS MINOTAUR", "SATYR", "SKORRIAN", "SWALE GOBLIN", "WOODLAND GOBLIN (FUZZMUNK)"}
 
-//Templates
+// Templates
 var tpl = template.Must(template.ParseFiles("static/index.html"))
 var hometpl = template.Must(template.ParseFiles("static/home.html"))
 var detailtpl = template.Must(template.ParseFiles("static/detail.html"))
 var drilldowntpl = template.Must(template.ParseFiles("static/drilldown.html"))
 
-//Struct just to hold figures
+// Struct just to hold figures
 type Checklist struct {
 	Figures []Figure `json:"figures"`
 }
 
-//Add a Figure to the Checklist
+// Add a Figure to the Checklist
 func (checklist *Checklist) AddItem(figure Figure) {
 	checklist.Figures = append(checklist.Figures, figure)
 }
 
-//Figure Data
+// Figure Data
 type Figure struct {
 	Name    string   `json:"name"`
 	Faction string   `json:"faction"`
@@ -57,7 +57,7 @@ type Figure struct {
 	Scale   string   `json:"scale"`
 }
 
-//Data for the Home Page
+// Data for the Home Page
 type HomePageData struct {
 	RaceTotal     int
 	RoleTotal     int
@@ -76,7 +76,7 @@ type HomePageData struct {
 	AnthroTotal   int
 }
 
-//Generic data for a main page list
+// Generic data for a main page list
 type ListPageData struct {
 	Type       string
 	Total      string
@@ -84,7 +84,7 @@ type ListPageData struct {
 	SortedList []string
 }
 
-//Data for a single search term, Lists1-3 should correspond to other data types
+// Data for a single search term, Lists1-3 should correspond to other data types
 type DetailPageData struct {
 	Title      string
 	Type       string
@@ -101,7 +101,7 @@ type DetailPageData struct {
 	List4      map[string]int
 }
 
-//Parse JSON data in Figures and Checklist
+// Parse JSON data in Figures and Checklist
 func loadDatabase() {
 	db, err := ioutil.ReadFile("figurechecklist.json")
 	if err != nil {
@@ -113,7 +113,7 @@ func loadDatabase() {
 	}
 }
 
-//Sort a Checklist by Figure names
+// Sort a Checklist by Figure names
 func sortChecklist(lst Checklist) Checklist {
 	sortedChecklist := lst
 	sort.Slice(sortedChecklist.Figures, func(i, j int) bool {
@@ -184,7 +184,7 @@ func main() {
 	http.ListenAndServe(":"+port, router)
 }
 
-//raceData is a map of the Races with a Count of total instances
+// raceData is a map of the Races with a Count of total instances
 func raceData(lst Checklist) map[string]int {
 	races := make(map[string]int)
 	for i := range lst.Figures {
@@ -198,7 +198,7 @@ func raceData(lst Checklist) map[string]int {
 	return races
 }
 
-//checklistByRace creates a new checklist limited to single Race
+// checklistByRace creates a new checklist limited to single Race
 func checklistByRace(lst Checklist, race string) Checklist {
 	var raceMembers Checklist
 	//iterate through list of figures, and copy those that match
@@ -210,7 +210,7 @@ func checklistByRace(lst Checklist, race string) Checklist {
 	return sortChecklist(raceMembers)
 }
 
-//Gets the Factions with Count from a Checklist
+// Gets the Factions with Count from a Checklist
 func factionData(lst Checklist) map[string]int {
 	factions := make(map[string]int)
 	for i := range lst.Figures {
@@ -224,7 +224,7 @@ func factionData(lst Checklist) map[string]int {
 	return factions
 }
 
-//checklistByFaction creates a new checklist limited to single Race
+// checklistByFaction creates a new checklist limited to single Race
 func checklistByFaction(lst Checklist, faction string) Checklist {
 	var factionMembers Checklist
 	//iterate through list of figures, and copy those that match
@@ -236,7 +236,7 @@ func checklistByFaction(lst Checklist, faction string) Checklist {
 	return sortChecklist(factionMembers)
 }
 
-//Gets the Roles with count from a Checklist
+// Gets the Roles with count from a Checklist
 func roleData(lst Checklist) map[string]int {
 	roles := make(map[string]int)
 	for i := range lst.Figures {
@@ -250,7 +250,7 @@ func roleData(lst Checklist) map[string]int {
 	return roles
 }
 
-//checklistByRole creates a new checklist limited to single Role
+// checklistByRole creates a new checklist limited to single Role
 func checklistByRole(lst Checklist, role string) Checklist {
 	var roleMembers Checklist
 	//iterate through list of figures, and copy those that match
@@ -262,7 +262,7 @@ func checklistByRole(lst Checklist, role string) Checklist {
 	return sortChecklist(roleMembers)
 }
 
-//Gets the Releases and Count from a Checklist
+// Gets the Releases and Count from a Checklist
 func releaseData(lst Checklist) map[string]int {
 	releases := make(map[string]int)
 	for i := range lst.Figures {
@@ -278,7 +278,7 @@ func releaseData(lst Checklist) map[string]int {
 	return releases
 }
 
-//checklistByRelease creates a new checklist limited to single Release
+// checklistByRelease creates a new checklist limited to single Release
 func checklistByRelease(lst Checklist, release string) Checklist {
 	var releaseMembers Checklist
 	//iterate through list of figures, and copy those that match
@@ -293,7 +293,7 @@ func checklistByRelease(lst Checklist, release string) Checklist {
 	return sortChecklist(releaseMembers)
 }
 
-//Gets the Scales with count from a Checklist
+// Gets the Scales with count from a Checklist
 func scaleData(lst Checklist) map[string]int {
 	roles := make(map[string]int)
 	for i := range lst.Figures {
@@ -307,7 +307,7 @@ func scaleData(lst Checklist) map[string]int {
 	return roles
 }
 
-//checklistByScale creates a new checklist limited to single Scale
+// checklistByScale creates a new checklist limited to single Scale
 func checklistByScale(lst Checklist, scale string) Checklist {
 	var scaleMembers Checklist
 	//iterate through list of figures, and copy those that match
@@ -319,8 +319,8 @@ func checklistByScale(lst Checklist, scale string) Checklist {
 	return sortChecklist(scaleMembers)
 }
 
-//PAGE HANDLER FUNCTIONS
-//Main page and default handler.
+// PAGE HANDLER FUNCTIONS
+// Main page and default handler.
 func homeHandler(w http.ResponseWriter, r *http.Request) {
 	releasesOf := releaseData(checklist)
 	factionsOf := factionData(checklist)
@@ -362,8 +362,8 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-//SECTION: FUNCTIONS BY RACE
-//Page listing directory of Races
+// SECTION: FUNCTIONS BY RACE
+// Page listing directory of Races
 func raceDirHandler(w http.ResponseWriter, r *http.Request) {
 	//Get races from data
 	races := raceData(checklist)
@@ -378,7 +378,7 @@ func raceDirHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-//Page listing figures and other data of a specified Race
+// Page listing figures and other data of a specified Race
 func raceHandler(w http.ResponseWriter, r *http.Request) {
 	//parse request data
 	reqvars := mux.Vars(r)
@@ -411,7 +411,7 @@ func raceHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-//Page displaying information about figures from several pre-specified Races
+// Page displaying information about figures from several pre-specified Races
 func racesHandler(w http.ResponseWriter, r *http.Request) {
 	//parse request data
 	reqvars := mux.Vars(r)
@@ -463,8 +463,8 @@ func racesHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-//SECTION: FUNCTIONS BY FACTION
-//Page listing Factions
+// SECTION: FUNCTIONS BY FACTION
+// Page listing Factions
 func factionDirHandler(w http.ResponseWriter, r *http.Request) {
 	//Get factions from data
 	factions := factionData(checklist)
@@ -477,7 +477,7 @@ func factionDirHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-//Page displaying data for Figures of a Faction
+// Page displaying data for Figures of a Faction
 func factionHandler(w http.ResponseWriter, r *http.Request) {
 	//parse request data
 	reqvars := mux.Vars(r)
@@ -510,7 +510,7 @@ func factionHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-//Page displaying information of several pre-specified Factions
+// Page displaying information of several pre-specified Factions
 func factionsHandler(w http.ResponseWriter, r *http.Request) {
 	//parse request data
 	reqvars := mux.Vars(r)
@@ -553,7 +553,7 @@ func factionsHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-//Page listing all Roles
+// Page listing all Roles
 func roleDirHandler(w http.ResponseWriter, r *http.Request) {
 	//Get roles from data
 	roles := roleData(checklist)
@@ -566,7 +566,7 @@ func roleDirHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-//Page showing information about figure of a given Role
+// Page showing information about figure of a given Role
 func roleHandler(w http.ResponseWriter, r *http.Request) {
 	//parse request data
 	reqvars := mux.Vars(r)
@@ -599,7 +599,7 @@ func roleHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-//Page listing all Scales
+// Page listing all Scales
 func scaleDirHandler(w http.ResponseWriter, r *http.Request) {
 	//Get scales from data
 	scales := scaleData(checklist)
@@ -612,7 +612,7 @@ func scaleDirHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-//Page showing information about figure of a given Role
+// Page showing information about figure of a given Role
 func scaleHandler(w http.ResponseWriter, r *http.Request) {
 	//parse request data
 	reqvars := mux.Vars(r)
@@ -645,7 +645,7 @@ func scaleHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-//Page listing all Releases
+// Page listing all Releases
 func releaseDirHandler(w http.ResponseWriter, r *http.Request) {
 	//Get releases from data
 	releases := releaseData(checklist)
@@ -658,7 +658,7 @@ func releaseDirHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-//Page showing Figure data for a Release
+// Page showing Figure data for a Release
 func releaseHandler(w http.ResponseWriter, r *http.Request) {
 	//parse request data
 	reqvars := mux.Vars(r)
@@ -692,7 +692,7 @@ func releaseHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-//DRILLDOWN: Searching by 2 parameters
+// DRILLDOWN: Searching by 2 parameters
 func drilldownHandler(w http.ResponseWriter, r *http.Request) {
 	var remainingStats []string
 	//parse request data
@@ -782,7 +782,7 @@ func drilldownHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-//Generic Checklist Search for a group of something
+// Generic Checklist Search for a group of something
 func groupSearch(chk Checklist, searchType string, matches []string) Checklist {
 	var newMembers Checklist
 	//iterate through list of figures, and copy those that match
@@ -813,8 +813,8 @@ func groupSearch(chk Checklist, searchType string, matches []string) Checklist {
 	return sortChecklist(newMembers)
 }
 
-//GENERIC SUPPORT FUNCTIONS
-//Sorting by keys, returning the ordered slice
+// GENERIC SUPPORT FUNCTIONS
+// Sorting by keys, returning the ordered slice
 func SortMapByKeys(m map[string]int) []string {
 	//First, make a slice of just the keys, which can be sorted
 	keys := make([]string, 0, len(m))
@@ -830,7 +830,7 @@ func SortMapByKeys(m map[string]int) []string {
 	return keys
 }
 
-//Sorting by value, returning an ordered slice
+// Sorting by value, returning an ordered slice
 func SortMapByValue(m map[string]int) []string {
 	//First, make a slice of just the keys, which can be sorted
 	keys := make([]string, 0, len(m))
@@ -846,7 +846,7 @@ func SortMapByValue(m map[string]int) []string {
 	return keys
 }
 
-//Sorts a map by the value, then key, returning an ordered slice
+// Sorts a map by the value, then key, returning an ordered slice
 func SortMapByValueThenKey(m map[string]int) []string {
 	//First, make a slice of just the keys, which can be sorted
 	keys := make([]string, 0, len(m))

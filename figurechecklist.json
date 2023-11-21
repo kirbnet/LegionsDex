@@ -1571,7 +1571,7 @@
             "faction": "XYLONA'S FLOCK",
             "race": "FAUN",
             "role": "GUARD",
-            "released": ["COVENANT OF SHADOWS"],
+            "released": ["COVENANT OF SHADOWS", "LEGION BUILDER REINFORCEMENTS 2"],
             "url": "https://sourcehorsemen.com/mythic-legions/entry/silverhorn-sentry",
             "scale":"1.0"
         },
@@ -2231,6 +2231,195 @@
             "released": ["ALL STARS 6"],
             "url": "https://sourcehorsemen.com/mythic-legions/entry/undead-heads-pack",
             "scale":"1.0"
+        },
+        {
+            "name": "Cavern Dwarf 2",
+            "faction": "LEGION OF ARETHYR",
+            "race": "DWARF",
+            "role": "SOLDIER",
+            "released": ["LEGION BUILDER REINFORCEMENTS 2"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/cavern-dwarf-2",
+            "scale": "1.0"
+        },
+        {
+            "name": "Gold Knight 2",
+            "faction": "ARMY OF LEODYSSEUS",
+            "race": "HUMAN",
+            "role": "GUARDIAN",
+            "released": ["LEGION BUILDER REINFORCEMENTS 2"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/gold-knight-2",
+            "scale": "1.0"
+        },
+        {
+            "name": "Ogre 2",
+            "faction": "LEGION OF ARETHYR",
+            "race": "OGRE",
+            "role": "SOLDIER",
+            "released": ["LEGION BUILDER REINFORCEMENTS 2"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/ogre-2",
+            "scale": "OGRE"
+        },
+        {
+            "name": "Shadow Orc Grunt",
+            "faction": "LEGION OF ARETHYR",
+            "race": "SHADOW ORC",
+            "role": "SOLDIER",
+            "released": ["LEGION BUILDER REINFORCEMENTS 2"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/shadow-orc-grunt",
+            "scale":"1.0"
+        },
+        {
+            "name": "Templar Relic Guard",
+            "faction": "ORDER OF EATHYRON",
+            "race": "HUMAN",
+            "role": "GUARDIAN",
+            "released": ["LEGION BUILDER REINFORCEMENTS 2"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/templar-relic-guard",
+            "scale": "1.0"
+        },
+        {
+            "name": "Vampire Phalanx",
+            "faction": "ILLYTHIA'S BROOD",
+            "race": "VAMPIRE",
+            "role": "GUARDIAN",
+            "released": ["LEGION BUILDER REINFORCEMENTS 2"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/vampire-phalanx",
+            "scale": "1.0"
+        },
+        {
+            "name": "Attlus the Conqueror 2",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "HUMAN",
+            "role": "BARBARIAN KING",
+            "released": ["RISING SONS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/attlus-the-conqueror-2",
+            "scale": "1.0"
+        },
+        {
+            "name": "Barbarian Weapons",
+            "faction": "NA",
+            "race": "NA",
+            "role": "WEAPONS",
+            "released": ["RISING SONS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/barbarian-weapons",
+            "scale": "NA"
+        },
+        {
+            "name": "Bodvar",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "BEAR",
+            "role": "MOUNT",
+            "released": ["RISING SONS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/bodvar",
+            "scale": "STEED"
+        },
+        {
+            "name": "Broddr of Bjorngar",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "HUMAN",
+            "role": "WARRIOR, GUIDE",
+            "released": ["RISING SONS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/broddr-of-bjorngar",
+            "scale": "1.0"
+        },
+        {
+            "name": "Diis Paatar",
+            "faction": "SONS OF THE RED STAR",
+            "race": "SKORRIAN",
+            "role": "ASSASSIN",
+            "released": ["RISING SONS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/diis-paatar",
+            "scale": "2.0"
+        },
+        {
+            "name": "Dwarf Weapons 2",
+            "faction": "NA",
+            "race": "NA",
+            "role": "WEAPONS",
+            "released": ["RISING SONS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/dwarf-weapons-2",
+            "scale": "NA"
+        },
+        {
+            "name": "Exiles from Under the Mountain",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "DWARVES",
+            "role": "VARIED",
+            "released": ["RISING SONS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/exiles-from-under-the-mountain",
+            "scale": "1.0"
+        },
+        {
+            "name": "Manisha Cinderhorn",
+            "faction": "SONS OF THE RED STAR",
+            "race": "SHADOW ELF",
+            "role": "MERCENARY",
+            "released": ["RISING SONS"],
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/manisha-cinderhorn",
+            "scale": "2.0"
+        },
+        {
+            "name": "Névé",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "FROST ELF",
+            "released": ["RISING SONS"],
+            "role": "WARRIOR, FORMER GLADIATOR",
+            "scale": "1.0",
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/neve"
+        },
+        {
+            "name": "Regarionn",
+            "faction": "HOUSE OF THE NOBLE BEAR",
+            "race": "NORTHLANDS MINOTAUR",
+            "released": ["RISING SONS"],
+            "role": "SURVIVALIST",
+            "scale": "OGRE",
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/regarionn"
+        },
+        {
+            "name": "Skapular the Cryptbreaker 2",
+            "faction":"SONS OF THE RED STAR",
+            "race": "SKELETON",
+            "released": ["RISING SONS"],
+            "role": "MERCENARY LEADER",
+            "scale": "1.0",
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/skapular-the-cryptbreaker-2"
+        },
+        {
+            "name": "Uumbra",
+            "faction": "SONS OF THE RED STAR",
+            "race": "UNICORN",
+            "released": ["RISING SONS"],
+            "role": "STEED",
+            "scale": "STEED",
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/uumbra"
+        },
+        {
+            "name": "Yoshanai Kari",
+            "faction": "SONS OF THE RED STAR",
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/yoshanai-kari",
+            "race": "YŌKAINARI",
+            "role": "SWORDMASTER",
+            "released": ["RISING SONS"],
+            "scale": "1.0"
+        },
+        {
+            "name": "Wal-torr The Mad",
+            "faction": "THE CABAL",
+            "race": "SKELETON",
+            "role": "AMBASSADOR",
+            "released": ["LEGIONSCON 2023"],
+            "scale": "1.0",
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/wal-torr-the-mad"
+        },
+        {
+            "name": "Valiant Knight",
+            "faction": "ALL FOUR FACTIONS IN THE LEGIONS OF LIGHT",
+            "race": "VARIED",
+            "released": ["LEGIONSCON 2023"],
+            "role": "KNIGHT",
+            "scale":"1.0",
+            "url": "https://sourcehorsemen.com/mythic-legions/entry/valiant-knight"
         }
     ]
 }
