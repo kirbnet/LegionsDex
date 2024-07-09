@@ -2420,6 +2420,114 @@
             "role": "KNIGHT",
             "scale":"1.0",
             "url": "https://sourcehorsemen.com/mythic-legions/entry/valiant-knight"
+        },
+        {
+            "name":"Gasspparr the Unamused",
+            "faction":"CONVOCATION OF BASSYLIA",
+            "race":"HALF-ORC",
+            "released":["LEGIONSCON 2024"],
+            "role":"MONK",
+            "scale":"1.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/gasspparr-the-unamused"
+        },
+        {
+            "name":"Gawrychh the Unpredictable",
+            "faction":"CONVOCATION OF BASSYLIA",
+            "race":"HALF-ORC",
+            "role":"BLADEMASTER",
+            "released":["LEGIONSCON 2024"],
+            "scale":"1.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/gawrychh-the-unpredictable"
+        },
+        {
+            "name":"Undead of Vikenfell",
+            "faction":"CONGREGATION OF NECRONOMINUS",
+            "race":"SKELETON",
+            "released":["2024 RETAILER APPRECIATION WAVE"],
+            "role":"SOLDIER",
+            "scale":"2.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/undead-of-vikenfell"
+        },
+        {
+            "name":"Azza Spiritbender 2",
+            "faction":"CONVOCATION OF BASSYLIA",
+            "race":"SHAEYDE",
+            "released":["ASHES OF AGBENDOR"],
+            "role":"NECROMANCER",
+            "scale":"2.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/azza-spiritbender-2"
+        },
+        {
+            "name":"Frost Ogre",
+            "faction":"ILLYTHIA'S BROOD",
+            "race":"FROST OGRE",
+            "released":["ASHES OF AGBENDOR"],
+            "role":"GUARDIAN",
+            "scale":"OGRE",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/frost-ogre"
+        },
+        {
+            "name":"Gold Skeleton 2",
+            "faction":"CONGREGATION OF NECRONOMINUS",
+            "race":"UNDEAD ANGEL",
+            "released":["ASHES OF AGBENDOR"],
+            "role":"WARRIOR",
+            "scale":"1.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/gold-skeleton-2"
+        },
+        {
+            "name":"Iosef of the Golden Spear",
+            "faction":"ORDER OF EATHYRON",
+            "race":"ANGEL",
+            "released":["ASHES OF AGBENDOR"],
+            "role":"COMMANDER",
+            "scale":"1.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/iosef-of-the-golden-spear"
+        },
+        {
+            "name":"K'ai Pacha",
+            "faction":"XYLONA'S FLOCK",
+            "race":"JAGUALLIAN",
+            "released":["ASHES OF AGBENDOR"],
+            "role":"THIEF",
+            "scale":"1.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/kai-pacha"
+        },
+        {
+            "name":"Shadow Centaur",
+            "faction":"CIRCLE OF POXXUS",
+            "race":"SHADOW CENTAUR",
+            "released":["ASHES OF AGBENDOR"],
+            "role":"HUNTER",
+            "scale":"STEED",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/shadow-centaur"
+        },
+        {
+            "name":"The Blue Shield",
+            "faction":"ARMY OF LEODYSSEUS",
+            "race":"VARIOUS",
+            "released":["ASHES OF AGBENDOR"],
+            "role":"KNIGHTS",
+            "scale":"1.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/the-blue-shield"
+        },
+        {
+            "name":"The Malignancy of Gobhollow",
+            "faction":"LEGION OF ARETHYR",
+            "race":"GOBLINS",
+            "released":["ASHES OF AGBENDOR"],
+            "role":"SOLDIERS",
+            "scale":"VARIOUS",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/the-malignancy-of-gobhollow"
+        },
+        {
+            "name":"Xue",
+            "faction":"CONVOCATION OF BASSYLIA",
+            "race":"HUMAN",
+            "released":["ASHES OF AGBENDOR"],
+            "role":"MASTER OF RECORDS",
+            "scale":"2.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/xue"
         }
     ]
 }
