@@ -22,12 +22,12 @@ var checklist Checklist
 var lightFactions []string = []string{"ARMY OF LEODYSSEUS", "ORDER OF EATHYRON", "CONVOCATION OF BASSYLIA", "XYLONA'S FLOCK"}
 var darkFactions []string = []string{"LEGION OF ARETHYR", "CONGREGATION OF NECRONOMINUS", "ILLYTHIA'S BROOD", "CIRCLE OF POXXUS"}
 var splinterFactions []string = []string{"SONS OF THE RED STAR", "HOUSE OF THE NOBLE BEAR"}
-var goblinRaces []string = []string{"GOBLIN", "GREATER GOBLIN", "SWALE GOBLIN", "WOODLAND GOBLIN (FUZZMUNK)"}
+var goblinRaces []string = []string{"GOBLIN", "GREATER GOBLIN", "SWALE GOBLIN", "WOODLAND GOBLIN (FUZZMUNK)", "GOBLINS"}
 var orcRaces []string = []string{"ORC", "HUMAN - HALF-ORC", "LICHEN ORC", "ORAPHIM", "ORC AND HUMAN", "SHADOW ORC", "UUBYR"}
 var elfRaces []string = []string{"ELF", "SHADOW ELF", "FAERIE ELF", "ELF - WHISPERLING", "FROST ELF", "WHISPERLING", "WOOD ELF"}
 var dwarfRaces []string = []string{"DWARF", "DWARVES", "DWARVEN SKELETON"}
 var vampireRaces []string = []string{"VAMPIRE", "UUBYR", "VARGG", "VOGYRR"}
-var undeadRaces []string = []string{"SKELETON", "ARAKKIGHAST", "GHOST", "GHOUL", "LICH", "POISON SKELETON", "TURPICULUS", "UMANGEIST", "UNDEAD HORSE"}
+var undeadRaces []string = []string{"SKELETON", "ARAKKIGHAST", "GHOST", "GHOUL", "LICH", "POISON SKELETON", "TURPICULUS", "UMANGEIST", "UNDEAD HORSE", "UNDEAD ANGEL"}
 var anthroRaces []string = []string{"AVIAN", "BOARRIOR", "CENTAUR", "DRAGOSYR", "EAGLE", "FAUN", "ELDER FROST DEER", "JAGUALLIAN", "MINOTAUR", "MOOSE", "NORTHLANDS MINOTAUR", "SATYR", "SKORRIAN", "SWALE GOBLIN", "WOODLAND GOBLIN (FUZZMUNK)"}
 
 // Templates
