@@ -2528,6 +2528,87 @@
             "role":"MASTER OF RECORDS",
             "scale":"2.0",
             "url":"https://sourcehorsemen.com/mythic-legions/entry/xue"
+        },
+        {
+            "name":"Arraya the Talon Bearer",
+            "faction":"SECT OF ARREZIUS",
+            "race":"UNKNOWN",
+            "released":["REIGN OF THE BEASTS"],
+            "role":"CULTIST",
+            "scale":"2.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/arraya-the-talon-bearer"
+        },
+        {
+            "name":"Bassylia",
+            "faction":"CONVOCATION OF BASSYLIA",
+            "race":"COATL",
+            "released":["REIGN OF THE BEASTS"],
+            "role":"SORCERESS GODDESS",
+            "scale":"2.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/bassylia"
+        },
+        {
+            "name":"J’hennam",
+            "faction":"CIRCLE OF POXXUS",
+            "race":"IFRIT",
+            "released":["REIGN OF THE BEASTS"],
+            "role":"BERSERKER",
+            "scale":"BRUTE",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/jhennam"
+        },
+        {
+            "name":"Leodysseus",
+            "faction":"ARMY OF LEODYSSEUS",
+            "race":"LYON",
+            "released":["REIGN OF THE BEASTS"],
+            "role":"BATTLE GOD",
+            "scale":"OGRE",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/leodysseus"
+        },
+        {
+            "name":"Mwindajji the Cackler",
+            "faction":"LEGION OF ARETHYR",
+            "race":"GNOLE",
+            "released":["REIGN OF THE BEASTS"],
+            "role":"HUNTER",
+            "scale":"3.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/mwindajji-the-cackler"
+        },
+        {
+            "name":"Serpenspire Royal Guard",
+            "faction":"CONVOCATION OF BASSYLIA",
+            "race":"COATL",
+            "released":["REIGN OF THE BEASTS"],
+            "role":"SOLDIER",
+            "scale":"1.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/serpenspire-royal-guard"
+        },
+        {
+            "name":"The Golden Pride of Leandorr",
+            "faction":"ARMY OF LEODYSSEUS",
+            "race":"VARIOUS",
+            "released":["REIGN OF THE BEASTS"],
+            "role":"SOLDIERS",
+            "scale":"3.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/the-golden-pride-of-leandorr"
+        },
+        {
+            "name":"Ninian Infantry",
+            "faction":"CONVOCATION OF BASSYLIA",
+            "race":"COATL",
+            "released":["LEGIONSCON 2024"],
+            "role":"SOLDIER",
+            "scale":"1.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/ninian-infantry"
+        },
+        {
+            "name":"Skeleton Legion Builder 2",
+            "faction":"CONGREGATION OF NECRONOMINUS",
+            "race":"SKELETON",
+            "released":["SPECIAL RELEASE 2024"],
+            "role":"SOLDIER",
+            "scale":"1.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/skeleton-legion-builder-2"
         }
     ]
 }
