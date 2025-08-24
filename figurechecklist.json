@@ -2609,6 +2609,177 @@
             "role":"SOLDIER",
             "scale":"1.0",
             "url":"https://sourcehorsemen.com/mythic-legions/entry/skeleton-legion-builder-2"
+        },
+        {
+            "name":"Ashen Skeleton",
+            "faction":"NA",
+            "race":"SKELETON",
+            "released":["BEYITHIRR CAMPAIGN"],
+            "role":"UNDEAD",
+            "scale":"1.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/ashen-skeleton"
+        },
+        {
+            "name":"Ashen Zombie",
+            "faction":"NA",
+            "race":"ZOMBIE",
+            "released":["BEYITHIRR CAMPAIGN"],
+            "role":"UNDEAD",
+            "scale":"1.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/ashen-zombie"
+        },
+        {
+            "name":"Beyithirr",
+            "faction":"ORDER OF BEYITHIRR",
+            "race":"DRAGON",
+            "released":["BEYITHIRR CAMPAIGN"],
+            "role":"ONE OF THE 5 PILLARS OF THE WORLD",
+            "scale":"DRAGON",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/beyithirr"
+        },
+        {
+            "name":"Beyithirr’s Fury",
+            "faction":"ORDER OF BEYITHIRR",
+            "race":"HUMAN",
+            "released":["BEYITHIRR CAMPAIGN"],
+            "role":"SOLDIERS",
+            "scale":"1.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/beyithirrs-fury"
+        },
+        {
+            "name":"Burning Knight",
+            "faction":"NA",
+            "race":"HUMAN",
+            "released":["BEYITHIRR CAMPAIGN"],
+            "role":"KNIGHT",
+            "scale":"1.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/burning-knight"
+        },
+        {
+            "name":"Sir Benegarr",
+            "faction":"ORDER OF BEYITHIRR",
+            "race":"HUMAN",
+            "released":["BEYITHIRR CAMPAIGN"],
+            "role":"CHAMPION",
+            "scale":"1.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/sir-benegarr"
+        },
+        {
+            "name":"Burris Birgerstori",
+            "faction":"UNSWORD NORTH FOLK",
+            "race":"BURROW GNOME",
+            "released":["HORROR OF EINSAMALL"],
+            "role":"MAYOR OF EINSAMALL / INNKEEPER",
+            "scale":"IMP",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/burris-birgerstori"
+        },
+        {
+            "name":"Bylur Frostfurr",
+            "faction":"UNSWORD NORTH FOLK",
+            "race":"VULPYNE",
+            "role":"TRACKER",
+            "released":["HORROR OF EINSAMALL"],
+            "scale":"IMP",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/bylur-frostfurr"
+        },
+        {
+            "name":"Commander Igraine",
+            "faction":"ORDER OF EATHYRON",
+            "race":"HUMAN",
+            "role":"COMMANDER",
+            "released":["HORROR OF EINSAMALL"],
+            "scale":"2.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/commander-igraine"
+        },
+        {
+            "name":"Einsamall Inn Accessory Set",
+            "faction":"NA",
+            "race":"NA",
+            "role":"ACCESSORIES",
+            "released":["HORROR OF EINSAMALL"],
+            "scale":"NA",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/einsamall-inn-accessory-set"
+        },
+        {
+            "name":"Garmyr",
+            "faction":"UNKNOWN",
+            "race":"FENRIRKYNN",
+            "role":"MONSTER",
+            "released":["HORROR OF EINSAMALL"],
+            "scale":"OGRE",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/garmyr"
+        },
+        {
+            "name":"Halvard of Frothvar",
+            "faction":"HOUSE OF THE NOBLE BEAR",
+            "race":"HUMAN",
+            "role":"SOLDIER",
+            "released":["HORROR OF EINSAMALL"],
+            "scale":"1.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/halvard-of-frothvar"
+        },
+        {
+            "name":"Isbjorn",
+            "faction":"UNSWORD NORTH FOLK",
+            "race":"POLAR BEAR",
+            "role":"BEAST",
+            "released":["HORROR OF EINSAMALL"],
+            "scale":"STEED",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/isbjorn"
+        },
+        {
+            "name":"J’akull Ironbones",
+            "faction":"UNSWORD NORTH FOLK",
+            "race":"TUNDRA ORC",
+            "role":"HUNTER",
+            "released":["HORROR OF EINSAMALL"],
+            "scale":"BRUTE",
+            "url":"sourcehorsemen.com/mythic-legions/entry/jakull-ironbones"
+        },
+        {
+            "name":"Heroic Paladin / Cleric",
+            "race":"HUMAN",
+            "faction":"ORDER OF EATHYRON (PALADIN) and CONVOCATION OF BASSYLIA (CLERIC)",
+            "role":"PALADIN/CLERIC",
+            "released":["SDCC 2025", "MYTHIC LEGIONS RPG KICKSTARTER"],
+            "scale":"1.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/heroic-paladin-cleric"
+        },
+        {
+            "name":"The Churel",
+            "race":"UNKNOWN",
+            "faction":"NA",
+            "role":"KEEPER OF THE CROSSROADS",
+            "released":["LEGIONSCON 2025"],
+            "scale":"2.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/the-churel"
+        },
+        {
+            "name":"The Nymph",
+            "race":"UNKNOWN",
+            "faction":"NA",
+            "role":"KEEPER OF THE CROSSROADS",
+            "released":["LEGIONSCON 2025"],
+            "scale":"2.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/the-nymph"
+        },
+        {
+            "name":"The Revenant",
+            "race":"UNKNOWN",
+            "faction":"NA",
+            "role":"KEEPER OF THE CROSSROADS",
+            "released":["LEGIONSCON 2025"],
+            "scale":"1.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/the-revenant"
+        },
+        {
+            "name":"The Warrior",
+            "race":"UNKNOWN",
+            "faction":"NA",
+            "role":"KEEPER OF THE CROSSROADS",
+            "released":["LEGIONSCON 2025"],
+            "scale":"1.0",
+            "url":"https://sourcehorsemen.com/mythic-legions/entry/the-warrior"
         }
     ]
 }
